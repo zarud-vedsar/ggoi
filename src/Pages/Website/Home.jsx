@@ -1,30 +1,44 @@
 import React from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Autoplay, EffectFade } from 'swiper/modules';
+import { FaFacebookF } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa";
+import { AiOutlineYoutube } from "react-icons/ai";
+import { IoIosArrowBack } from "react-icons/io";
+import { IoIosArrowForward } from "react-icons/io";
+import banner1 from "../../Components/Website/assets/images/logo/banner/banner-1.jpeg";
+import banner2 from "../../Components/Website/assets/images/logo/banner/banner2.jpeg";
+import banner3 from "../../Components/Website/assets/images/logo/banner/banner3.jpeg";
+import "../../Components/Website/assets/css/home.css";
+import { FaArrowRight } from "react-icons/fa6";
+import { HiOutlineAcademicCap } from "react-icons/hi2";
+import { FaUniversity } from "react-icons/fa";
 
 function Home() {
   return (
-    <>
     <>
   {/* banner area */}
   <div className="banner v__5">
     <div className="banner__left__side__content">
       <div className="banner__left__side__content__social">
         <span>Follow-</span>
-        <a href="#">
-          <i className="fa-brands fa-facebook" />
+        <a href="#" className='doz-home-ico1'>
+          <FaFacebookF style={{fontSize: "25px", color: "#fff"}}/>
         </a>
-        <a href="#">
-          <i className="fa-brands fa-instagram" />
+        <a href="#" className='doz-home-ico2'>
+          <FaInstagram style={{fontSize: "25px", color: "#fff"}}/>
         </a>
-        <a href="#">
-          <i className="fa-brands fa-linkedin" />
+        <a href="#" className='doz-home-ico3'>
+          <FaLinkedinIn style={{fontSize: "25px", color: "#fff"}}/>
         </a>
-        <a href="#">
-          <i className="fa-brands fa-youtube" />
+        <a href="#" className='doz-home-ico4'>
+          <AiOutlineYoutube style={{fontSize: "25px", color: "#fff"}}/>
         </a>
       </div>
       <div className="banner__left__side__content__hour">
-        <span className="time">10:30 AM - 02:45 pM</span>
-        <span className="day">mON - fRI</span>
+        {/* <span className="time">10:30 AM - 02:45 pM</span>
+        <span className="day">mON - fRI</span> */}
       </div>
     </div>
     <div className="container">
@@ -35,11 +49,11 @@ function Home() {
               <div className="banner__content__top">
                 <div className="banner__content__left">
                   <h5 className="banner__sub__heading">
-                    <img src="assets/images/icon/e-cap-small.svg" alt="" />{" "}
-                    knowledge meets innovation
+                    <HiOutlineAcademicCap style={{fontSize: "50px"}}/>
+                    Welcome to Ghanshyam Group of Institutions
                   </h5>
                   <h1 className="banner__heading__title">
-                    Empowering Rural India Through Quality Education Since 2002
+                    Affiliated to AKTU, BTE & Allahabad State University Approved by AICTE, PCI, New Delhi
                   </h1>
                 </div>
                 <div className="banner__content__right">
@@ -52,7 +66,7 @@ function Home() {
                   >
                     View Our Program
                     <span>
-                      <i className="fa-sharp fa-regular fa-arrow-right" />
+                      <FaArrowRight style={{fontSize: "20px"}}/>
                     </span>
                   </a>
                 </div>
@@ -60,7 +74,7 @@ function Home() {
               <div className="banner__content__bottom">
                 <div className="banner__content__bottom__left">
                   <div className="rts__circle v__3">
-                    <svg className="spinner" viewBox="0 0 100 100">
+                    <svg className="spinner doz-ico-svg" viewBox="0 0 100 100">
                       <defs>
                         <path
                           id="circle"
@@ -69,62 +83,54 @@ function Home() {
                       </defs>
                       <text>
                         <textPath xlinkHref="#circle">
-                          Unipix University * Estd. 1971 * Explore Future *
+                          Ghanshyam Group of Institutions · Estd. 2002 · Empowering Rural India
                         </textPath>
                       </text>
                     </svg>
-                    <div className="rts__circle--icon save-from-hidden">
-                      <a
-                        href="https://www.youtube.com/watch?v=7ahgosTZJHg"
-                        className="video-play  rts-video-btn popup-video"
-                      >
-                        <i className="fa-sharp fa-solid fa-play" />
-                      </a>
+                    <div className="circle-icon-wrapper">
+                      <FaUniversity />
                     </div>
                   </div>
                 </div>
                 <div className="banner__content__bottom__right o-hidden">
-                  <div
-                    className="swiper  swiper-data"
-                    data-swiper='{
-                                      "slidesPerView":1,
-                                      "effect": "fade",
-                                      "loop": true,
-                                      "speed": 1000,
-                                      "navigation":{
-                                          "nextEl":".rts__next",
-                                          "prevEl":".rts__prev"
-                                      },
-                                      "autoplay":{
-                                          "delay":"7000"
-                                      }}'
+                  <Swiper
+                    modules={[Navigation, Autoplay, EffectFade]}
+                    slidesPerView={1}
+                    effect="fade"
+                    loop={true}
+                    speed={1000}
+                    autoplay={{ delay: 7000 }}
+                    navigation={{
+                      nextEl: '.rts__next',
+                      prevEl: '.rts__prev',
+                    }}
+                    className="swiper-data"
                   >
-                    <div className="swiper-wrapper">
-                      <div className="swiper-slide">
-                        <div className="banner__content__slide__item">
-                          <img
-                            src="assets/images/banner/slider__5.jpg"
-                            alt=""
-                          />
-                        </div>
+                    <SwiperSlide>
+                      <div className="banner__content__slide__item">
+                        <img src={banner1} alt="Banner Slide 1" />
                       </div>
-                      <div className="swiper-slide">
-                        <div className="banner__content__slide__item">
-                          <img
-                            src="assets/images/banner/slider__5-2.jpg"
-                            alt=""
-                          />
-                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                      <div className="banner__content__slide__item">
+                        <img src={banner2} alt="Banner Slide 2" />
                       </div>
-                      <div className="swiper-slide">
-                        <div className="banner__content__slide__item">
-                          <img
-                            src="assets/images/banner/slider__5-3.jpg"
-                            alt=""
-                          />
-                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                      <div className="banner__content__slide__item">
+                        <img src={banner3} alt="Banner Slide 3" />
                       </div>
-                    </div>
+                    </SwiperSlide>
+                  </Swiper>
+
+                  {/* Navigation buttons */}
+                  <div className="rts__prev doz-pre-banner">
+                    <IoIosArrowBack style={{fontSize: "35px", color: "#890C25"}}/>
+                  </div>
+                  <div className="rts__next doz-next-banner">
+                   <IoIosArrowForward style={{fontSize: "35px", color: "#890C25"}}/>
                   </div>
                 </div>
               </div>
@@ -133,20 +139,10 @@ function Home() {
         </div>
       </div>
     </div>
-    <div className="rts__slider--arrow v__2">
-      <div className="slider__btn rts__prev">
-        <i className="fa-light fa-arrow-left" />
-      </div>
-      <div className="slider__btn rts__next">
-        <i className="fa-light fa-arrow-right" />
-      </div>
     </div>
-  </div>
   {/* banner area end */}
-</>
-
-    </>
+ </>
   )
 }
 
-export default Home
+export default Home;

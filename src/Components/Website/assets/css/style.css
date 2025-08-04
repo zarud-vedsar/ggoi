@@ -14961,7 +14961,7 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
 }
 
 /* ====== Circle =========*/
-.rts__circle svg {
+.rts__circle .doz-ico-svg {
   height: 156px;
   width: 156px;
   position: relative;
@@ -15006,7 +15006,7 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
   position: relative;
 }
 .rts__circle.v__3 text textPath {
-  font-size: 11.5px;
+  font-size: 8px;
   fill: var(--rt-heading);
   font-family: var(--font-secondary);
   font-weight: 400;
@@ -18121,9 +18121,11 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
   top: -45px;
 }
 .banner.v__5 .banner__content {
-  padding-top: 120px;
-  padding-bottom: 80px;
+  padding-top: 30px;
+  padding-bottom: 70px;
 }
+
+
 @media screen and (max-width: 992px) {
   .banner.v__5 .banner__content {
     padding-top: 80px;
@@ -18133,7 +18135,7 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 @media screen and (max-width: 1200px) {
   .banner.v__5 .banner__content__top {
@@ -18154,19 +18156,19 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
   font-weight: 500;
 }
 .banner.v__5 .banner__content__top .banner__content__left .banner__heading__title {
-  font-size: 76px;
-  line-height: 85px;
+  font-size: 50px;
+  line-height: 55px;
 }
 @media screen and (max-width: 768px) {
   .banner.v__5 .banner__content__top .banner__content__left .banner__heading__title {
-    font-size: 65px;
-    line-height: 70px;
+    font-size: 40px;
+    line-height: 45px;
   }
 }
 @media screen and (max-width: 576px) {
   .banner.v__5 .banner__content__top .banner__content__left .banner__heading__title {
-    font-size: 45px;
-    line-height: 55px;
+    font-size: 30px;
+    line-height: 35px;
   }
 }
 .banner.v__5 .banner__content__top .banner__content__right {
@@ -18205,10 +18207,10 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
 }
 .banner.v__5 .banner__content__bottom__right img {
   border-radius: 10px;
-  max-height: 400px;
+  max-height: 500px;
   min-height: 400px;
   width: 100%;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 .grid-line {

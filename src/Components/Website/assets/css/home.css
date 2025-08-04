@@ -1,0 +1,63 @@
+ .doz-pre-banner{
+    position: absolute;
+    top: 70%;
+    left: 14%;
+    z-index: 50;
+    border: 1px solid #890C25;
+    padding: 5px;
+    border-radius: 50px;
+ }
+  .doz-next-banner{
+    position: absolute;
+    top: 70%;
+    right: -43px;
+    z-index: 50;
+    border: 1px solid #890C25;
+    padding: 5px;
+    border-radius: 50px;
+ }
+ .doz-home-ico4{
+    background-color: #FF0000;
+    border-radius: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate( 180deg);
+ }
+ .doz-home-ico3{
+    background-color: #0077B5;
+    border-radius: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate( 180deg);
+ }
+ .doz-home-ico2{
+    /* background-color: #0077B5; */
+    background: linear-gradient(45deg, #833AB4, #E1306C, #FCAF45);
+    border-radius: 50px;
+    padding: 5px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+     transform: rotate( 180deg);
+ }
+ .doz-home-ico1{
+    background-color: #1877F2;
+    border-radius: 50px;
+    padding: 5px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+     transform: rotate( 180deg);
+ }
+.circle-icon-wrapper{
+    position: absolute;
+    top: 40%;
+    left: 44%;
+    height: 20px !important;
+    width: 20px !important;
+
+}
