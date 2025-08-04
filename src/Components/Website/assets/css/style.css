@@ -1,18 +1,3 @@
-/*=== Scss File indexing Here===========
-
-1. variables
-2.typography
-3.spacing
-4.reset
-5.forms
-6.mixins
-7.shortcode
-8.animations
-9.text-animation'
-
-========================================*/
-/* Default  */
-@import url("vendor/canela-font.html");
 @import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&amp;display=swap");
@@ -26076,4 +26061,3 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
   z-index: 999;
   top: 0;
 }
-/*# sourceMappingURL=../maps/style.css.map */

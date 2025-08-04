@@ -1,10 +1,9 @@
 import React, { lazy, Suspense } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 
 // Lazy load all admin-related pages
 const AdminPaths = {
-  Dashboard: lazy(() => import('../Pages/Admin/Dashboard')),       // Main admin dashboard
-  PageNotFound: lazy(() => import('../Pages/PageNotFound.jsx'))   // 404 fallback for admin routes
+  Dashboard: lazy(() => import('../Pages/Admin/Dashboard'))
 };
 
 function Admin() {
@@ -16,7 +15,7 @@ function Admin() {
         <Route path="/" element={<AdminPaths.Dashboard />} />
 
         {/* Catch-all route for /admin/* if no path matches */}
-        <Route path="*" element={<AdminPaths.PageNotFound />} />
+        <Route path="*" element={<Navigate to='/page-not-found' />} />
       </Routes>
     </Suspense>
   );
