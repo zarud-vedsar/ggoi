@@ -1,0 +1,59 @@
+ .doz-our-card{
+    border: none;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    padding: 20px;
+ }
+ .skill-courses-list p {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.agriculture-course-list p {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.skills-list p {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.iti-trades-list p {
+  display: flex;
+  align-items: center;
+ gap: 15px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.pharmacy-course-list p {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.pg-course-list p {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+.course-list p {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
