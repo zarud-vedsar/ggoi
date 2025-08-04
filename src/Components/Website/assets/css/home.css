@@ -1,6 +1,6 @@
  .doz-pre-banner{
     position: absolute;
-    top: 70%;
+    bottom: 30%;
     left: 14%;
     z-index: 50;
     border: 1px solid #890C25;
@@ -9,8 +9,8 @@
  }
   .doz-next-banner{
     position: absolute;
-    top: 70%;
-    right: -43px;
+    bottom: 30%;
+    right: -3%;
     z-index: 50;
     border: 1px solid #890C25;
     padding: 5px;
@@ -56,8 +56,103 @@
 .circle-icon-wrapper{
     position: absolute;
     top: 40%;
-    left: 44%;
-    height: 20px !important;
-    width: 20px !important;
-
+    left: 40%;
+    height: 30px !important;
+    width: 30px !important;
+    /* animation: rotate 10s linear infinite; */
+}
+@media screen and (min-width: 0px) and (max-width: 1380px) {
+    .doz-next-banner{
+    position: absolute;
+    bottom: 30%;
+    right: -1%;
+    z-index: 50;
+    border: 1px solid #890C25;
+    padding: 5px;
+    border-radius: 50px;
+ }
+}
+@media screen and (min-width: 1150px) and (max-width: 1200px) {
+    .doz-pre-banner{
+    position: absolute;
+    bottom: 23%;
+    left: 14%;
+    z-index: 50;
+    border: 1px solid #890C25;
+    padding: 5px;
+    border-radius: 50px;
+ }
+  .doz-next-banner{
+    position: absolute;
+    bottom: 23%;
+    right: 15%;
+    z-index: 50;
+    border: 1px solid #890C25;
+    padding: 5px;
+    border-radius: 50px;
+ }
+}
+@media screen and (min-width: 950px) and (max-width: 1149px) {
+    .doz-pre-banner{
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    z-index: 50;
+    border: 1px solid #890C25;
+    padding: 5px;
+    border-radius: 50px;
+ }
+  .doz-next-banner{
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
+    z-index: 50;
+    border: 1px solid #890C25;
+    padding: 5px;
+    border-radius: 50px;
+ }
+}
+@media screen and (min-width: 768px) and (max-width: 949px) {
+    .doz-pre-banner{
+    position: absolute;
+    bottom: 0;
+    left: 42%;
+    z-index: 50;
+    border: 1px solid #890C25;
+    padding: 5px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+ }
+  .doz-next-banner{
+    position: absolute;
+    bottom: 0;
+    right: 42%;
+    z-index: 50;
+    border: 1px solid #890C25;
+    padding: 5px;
+    border-radius: 50px;
+     margin-bottom: 20px;
+ }
+}
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .doz-pre-banner{
+    position: absolute;
+    bottom: 0;
+    left: 36%;
+    z-index: 50;
+    border: 1px solid #890C25;
+    padding: 5px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+ }
+  .doz-next-banner{
+    position: absolute;
+    bottom: 0;
+    right: 36%;
+    z-index: 50;
+    border: 1px solid #890C25;
+    padding: 5px;
+    border-radius: 50px;
+     margin-bottom: 20px;
+ }
 }

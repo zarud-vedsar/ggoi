@@ -15006,7 +15006,7 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
   position: relative;
 }
 .rts__circle.v__3 text textPath {
-  font-size: 8px;
+  font-size: 13px;
   fill: var(--rt-heading);
   font-family: var(--font-secondary);
   font-weight: 400;
@@ -18128,7 +18128,7 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
 
 @media screen and (max-width: 992px) {
   .banner.v__5 .banner__content {
-    padding-top: 80px;
+    padding-top: 30px;
   }
 }
 .banner.v__5 .banner__content__top {

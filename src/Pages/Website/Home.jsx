@@ -83,12 +83,12 @@ function Home() {
                       </defs>
                       <text>
                         <textPath xlinkHref="#circle">
-                          Ghanshyam Group of Institutions · Estd. 2002 · Empowering Rural India
+                          Ghanshyam Group of Institutions, Prayagraj
                         </textPath>
                       </text>
                     </svg>
                     <div className="circle-icon-wrapper">
-                      <FaUniversity />
+                      <FaUniversity style={{color: "#890C25", fontSize: "30px"}}/>
                     </div>
                   </div>
                 </div>
