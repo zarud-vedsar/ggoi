@@ -84,7 +84,7 @@ function Home() {
                       </defs>
                       <text>
                         <textPath xlinkHref="#circle">
-                          Ghanshyam Group of Institutions, Prayagraj
+                          &nbsp;Ghanshyam Group of Institutions * Prayagraj *
                         </textPath>
                       </text>
                     </svg>
