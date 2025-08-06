@@ -21,7 +21,7 @@ const AcademicsAndFaculty = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12 " data-aos="fade-up" data-aos-delay="200">
-                        <h2 className='text-white text-center mb-5'>Events & Extra Curriculars</h2>
+                        <h2 className='text-white text-center mb-5'>Academics & Faculty</h2>
                     </div>
                     {eventList.map((event, index) => (
                         <div className="col-sm-6 col-md-6 col-lg-4 mb-5 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="300">
