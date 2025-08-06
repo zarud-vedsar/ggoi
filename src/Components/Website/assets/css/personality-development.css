@@ -1,0 +1,8 @@
+.personality-development-section .list{
+    list-style: none;
+    padding: 0px;
+}
+.personality-development-section .list li img{
+   width: 25px;
+   margin-right: 5px;
+}

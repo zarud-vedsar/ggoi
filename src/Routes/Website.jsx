@@ -10,6 +10,7 @@ import '../Components/Website/assets/css/vendor/metismenu.css';
 import '../Components/Website/assets/css/plugins/nice-select.css';
 import '../Components/Website/assets/css/plugins/jquery-ui.css';
 import '../Components/Website/assets/css/style.css';
+import '../Components/Website/assets/css/am-style.css';
 import Navbar from '../Components/Website/Navbar.jsx';
 
 // Lazy load website pages
