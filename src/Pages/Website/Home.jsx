@@ -15,6 +15,9 @@ import { FaArrowRight } from "react-icons/fa6";
 import { HiOutlineAcademicCap } from "react-icons/hi2";
 import { FaUniversity } from "react-icons/fa";
 import OurProgram from './OurProgram';
+import InstitutesList from './InstitutesList';
+import CampusFacilities from './CampusFacilities';
+import PersonalityDevelopment from './PersonalityDevelopment';
 
 function Home() {
   return (
@@ -143,6 +146,9 @@ function Home() {
     </div>
   {/* banner area end */}
   <OurProgram />
+  <InstitutesList />
+  <CampusFacilities/>
+  <PersonalityDevelopment/>
  </>
   )
 }

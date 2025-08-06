@@ -1,0 +1,34 @@
+.institutes-section .swiper img {
+    border-radius: 10px;
+}
+
+.institutes-section .swiper .college-name {
+    font-weight: 600;
+}
+
+.institutes-section .swiper-button-prev:after,
+.swiper-button-next:after {
+    background: #fff;
+    height: 40px;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    font-size: 25px;
+    color: #890c25;
+
+}
+
+.institutes-section .swiper-card {
+    width: 100%;
+    display: flex;
+    padding: 0px 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.institutes-section .swiper-button-prev, .swiper-button-next{
+    top:36% !important
+}
