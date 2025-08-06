@@ -9,6 +9,7 @@ const PATHS = {
 };
 
 function App() {
+   
   return (
     // Wrap with Suspense to show fallback while lazy components load
     <Suspense fallback={<div>Loading...</div>}>

@@ -18,6 +18,10 @@ import OurProgram from './OurProgram';
 import InstitutesList from './InstitutesList';
 import CampusFacilities from './CampusFacilities';
 import PersonalityDevelopment from './PersonalityDevelopment';
+import HomePageGallery from './HomePageGallery';
+import EventsAndExtraCurriculars from './EventsAndExtraCurriculars';
+import Breadcrum from '../../Components/Website/breadcrum';
+import PlacementCell from './PlacementCell';
 
 function Home() {
   return (
@@ -149,6 +153,9 @@ function Home() {
   <InstitutesList />
   <CampusFacilities/>
   <PersonalityDevelopment/>
+  <HomePageGallery/>
+  <EventsAndExtraCurriculars/>
+  <PlacementCell/>
  </>
   )
 }

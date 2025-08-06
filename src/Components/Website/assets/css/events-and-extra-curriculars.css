@@ -1,0 +1,21 @@
+.events-and-extra-curriculars-section .am-card {
+    width: 90%;
+
+}
+
+.events-and-extra-curriculars-section .am-card img {
+    border-radius: 5px;
+    height: 200px;
+
+}
+
+.events-and-extra-curriculars-section .am-card {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.events-and-extra-curriculars-section .event-name {
+    font-weight: 700;
+    color: #890c25 !important;
+
+}

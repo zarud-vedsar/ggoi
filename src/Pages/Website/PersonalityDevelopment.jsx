@@ -1,16 +1,16 @@
 import '../../Components/Website/assets/css/personality-development.css';
 const PersonalityDevelopment = () => {
     return (
-        <section className="py-5  personality-development-section" style={{ background: '#F5F5F5' }} data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
+        <section className="py-5  personality-development-section" style={{ background: '#F5F5F5' }}>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-12">
+                    <div className="col-md-12" data-aos="fade-up" data-aos-delay="200">
                         <h2 className="mb-5"> Personality Development</h2>
 
                     </div>
 
                 </div>
-                <div className="col-6">
+                <div className="col-6" data-aos="fade-up" data-aos-delay="300">
                     <p className="am-f18">To develop communication skills and confidence among students, the following are
                         conducted</p>
                     <ul className='list'>

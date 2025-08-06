@@ -12,7 +12,8 @@ import '../Components/Website/assets/css/plugins/jquery-ui.css';
 import '../Components/Website/assets/css/style.css';
 import '../Components/Website/assets/css/am-style.css';
 import Navbar from '../Components/Website/Navbar.jsx';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 // Lazy load website pages
 const WebsitePaths = {
   Home: lazy(() => import('../Pages/Website/Home')),
@@ -38,7 +39,12 @@ function Website() {
 
     loadScripts();
   }, []);
-
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: true,
+    });
+  }, []);
   return (
     <Suspense fallback={<div>Loading Website...</div>}>
       <Navbar />

@@ -1,0 +1,34 @@
+.home-gallery-section .swiper img {
+    border-radius: 10px;
+}
+
+.home-gallery-section .swiper .college-name {
+    font-weight: 600;
+}
+
+.home-gallery-section .swiper-button-prev:after,
+.home-gallery-section .swiper-button-next:after {
+    background: #fff;
+    height: 40px;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    font-size: 25px;
+    color: #890c25;
+
+}
+
+.home-gallery-section .swiper-card {
+    width: 100%;
+    display: flex;
+    padding: 0px 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.home-gallery-section .swiper-button-prev, .home-gallery-section .swiper-button-next{
+    top:36% !important
+}

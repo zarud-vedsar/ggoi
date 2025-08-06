@@ -1,34 +1,67 @@
-.institutes-section .swiper img {
-    border-radius: 10px;
-}
-
-.institutes-section .swiper .college-name {
-    font-weight: 600;
-}
-
-.institutes-section .swiper-button-prev:after,
-.swiper-button-next:after {
-    background: #fff;
-    height: 40px;
-    display: grid;
-    place-content: center;
-    border-radius: 50%;
-    aspect-ratio: 1 / 1;
-    font-size: 25px;
-    color: #890c25;
-
-}
-
-.institutes-section .swiper-card {
+.institutes-section .am-card img {
     width: 100%;
+
+}
+
+.institutes-section .am-card .image-wrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.institutes-section .am-card .image-wrapper:hover::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #5b565657;
+}
+
+.institutes-section .view-more-btn-arrow {
+    height: 40px;
+    display: inline;
+    vertical-align: middle;
+
+}
+
+.institutes-section .View-more-btn {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+    white-space: nowrap;
+
+    transition: all 0.5s ease-in-out;
+
+}
+
+.institutes-section .am-card .image-wrapper:hover .View-more-btn {
+    top: 50%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.institutes-section .View-more-btn a {
+    color: #fff;
+
+}
+
+.institutes-section .am-card .college-name {
+    font-weight: 300;
+    line-height: 38px;
+}
+
+
+
+.institutes-section .am-card {
     display: flex;
     padding: 0px 20px;
     justify-content: center;
     flex-direction: column;
-}
-
-
-
-.institutes-section .swiper-button-prev, .swiper-button-next{
-    top:36% !important
+    margin-bottom: 30px;
 }
