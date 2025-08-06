@@ -10,7 +10,7 @@ const PersonalityDevelopment = () => {
                     </div>
 
                 </div>
-                <div className="col-6" data-aos="fade-up" data-aos-delay="300">
+                <div className="col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <p className="am-f18">To develop communication skills and confidence among students, the following are
                         conducted</p>
                     <ul className='list'>

@@ -1,0 +1,60 @@
+.academics-and-faculty-section {
+    background-image: url('website/img/infrastructureImg.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 0;
+}
+
+.academics-and-faculty-section::before {
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.academics-and-faculty-section .am-card {
+    width: 90%;
+    background-color: #00000047;
+    border: 2px solid #ffc829;
+    border-radius: 8px 50px 50px 8px;
+    overflow: hidden;
+    position: relative;
+    height: 90px;
+    padding: 0;
+}
+
+.academics-and-faculty-section .am-card .img-container {
+    border: 3px solid #ffc829;
+    border-radius: 50%;
+    padding: 15px;
+    height: 100%;
+aspect-ratio: 1 / 1;
+        transition: all 0.8s ease-in-out;
+        position: absolute;
+right: 0px;
+top: 0px;
+}
+.academics-and-faculty-section .am-card:hover .img-container {
+    transform: rotateY(180deg);
+}
+
+.academics-and-faculty-section .am-card .event-name-container {
+   padding: 10px;
+   display: grid;
+   place-content: center;
+   width: calc(100% - 90px);
+}
+
+
+
+.academics-and-faculty-section .event-name {
+    font-weight: 500;
+
+}

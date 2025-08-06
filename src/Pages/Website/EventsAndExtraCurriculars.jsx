@@ -24,8 +24,8 @@ const EventsAndExtraCurriculars = () => {
                         <h2 >Events & Extra Curriculars</h2>
                     </div>
                     {eventList.map((event, index) => (
-                        <div className="col-md-4 mb-5" data-aos="fade-up" data-aos-delay="300">
-                            <div className='am-card mx-auto'>
+                        <div className="col-sm-6 col-md-4 col-lg-3 mb-5 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="300">
+                            <div className='am-card d-flex flex-column justify-content-center align-items-center'>
                                 <img src={event.img} alt="" className='mb-4 ' />
                                 <p className='event-name am-f22 text-dark'>{event.name}</p>
                             </div>

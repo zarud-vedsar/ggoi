@@ -6,7 +6,7 @@
 .events-and-extra-curriculars-section .am-card img {
     border-radius: 5px;
     height: 200px;
-
+    width: max-content;
 }
 
 .events-and-extra-curriculars-section .am-card {

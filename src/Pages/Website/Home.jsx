@@ -22,6 +22,8 @@ import HomePageGallery from './HomePageGallery';
 import EventsAndExtraCurriculars from './EventsAndExtraCurriculars';
 import Breadcrum from '../../Components/Website/breadcrum';
 import PlacementCell from './PlacementCell';
+import CareerExcellence from './CareerExcellence';
+import AcademicsAndFaculty from './AcademicsAndFaculty';
 
 function Home() {
   return (
@@ -150,9 +152,11 @@ function Home() {
     </div>
   {/* banner area end */}
   <OurProgram />
+  <CareerExcellence/>
   <InstitutesList />
   <CampusFacilities/>
   <PersonalityDevelopment/>
+  <AcademicsAndFaculty/>
   <HomePageGallery/>
   <EventsAndExtraCurriculars/>
   <PlacementCell/>

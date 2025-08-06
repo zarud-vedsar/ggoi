@@ -57,3 +57,21 @@
   font-weight: 500;
   color: #333;
 }
+
+
+.our-program-section .nav{
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  border-bottom:1px solid #717171;
+}
+.our-program .nav-pills .nav-link{
+border-radius:0px;
+}
+.our-program-section .nav-item{
+  margin-bottom: 0px;
+}
+.our-program-section .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  background-color: transparent;
+  color: #26354D;
+  border-bottom:2px solid #26354D !important;
+}
