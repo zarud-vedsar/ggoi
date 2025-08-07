@@ -15,7 +15,7 @@ const MagicFadeCard = ({ images, delay=0 }) => {
         return () => clearTimeout(timer);
     }, [])
     return (
-        <div className="shoe-card">
+        <div className="magic-card">
             <Swiper
                 ref={swiperRef}
                 modules={[Autoplay, EffectFade]}
