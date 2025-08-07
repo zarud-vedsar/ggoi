@@ -24,6 +24,7 @@ import Breadcrum from '../../Components/Website/breadcrum';
 import PlacementCell from './PlacementCell';
 import CareerExcellence from './CareerExcellence';
 import AcademicsAndFaculty from './AcademicsAndFaculty';
+import { WelcomeNoteToNewStudent } from './WelcomeNoteToNewStudent';
 
 function Home() {
   return (
@@ -155,6 +156,7 @@ function Home() {
   <CareerExcellence/>
   <InstitutesList />
   <CampusFacilities/>
+  <WelcomeNoteToNewStudent/>
   <PersonalityDevelopment/>
   <AcademicsAndFaculty/>
   <HomePageGallery/>

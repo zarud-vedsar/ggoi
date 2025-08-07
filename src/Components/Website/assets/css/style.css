@@ -86,7 +86,7 @@ body {
   color: var(--rt-body);
   font-weight: var(--f-regular);
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   body {

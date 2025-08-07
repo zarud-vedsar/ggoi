@@ -23,11 +23,11 @@ const logos = [
 
 const HomePageGallery = () => {
     return (
-        <section className="py-5 home-gallery-section" style={{ background: '#890c25' }} >
+        <section className="py-5 home-gallery-section"  >
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
-                        <h2 className="mb-5 text-white" data-aos="fade-up" data-aos-delay="200">Gallery</h2>
+                        <h2 className="mb-5 " data-aos="fade-up" data-aos-delay="200">Gallery</h2>
                     </div>
                     <div className="col-12 swiper" data-aos="fade-up" data-aos-delay="300">
                         <div className="pb-5  bg-transparent">
@@ -61,7 +61,7 @@ const HomePageGallery = () => {
                                                     alt={`Logo ${index + 1}`}
                                                     className="object-contain"
                                                 />
-                                                <p className="college-name mt-3 am-f22 text-white">{logo?.name}</p>
+                                                <p className="college-name mt-3 am-f22 text-dark">{logo?.name}</p>
 
                                             </div>
                                         </a>

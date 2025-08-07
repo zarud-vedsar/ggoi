@@ -18,11 +18,11 @@ const logos = [
 
 const InstitutesList = () => {
     return (
-        <section className="py-5 institutes-section" style={{ background: '#890c25' }} >
+        <section className="py-5 institutes-section"  >
             <div className="container">
                 <div className="row">
                     <div className="col-md-12" data-aos="fade-up" data-aos-delay="200">
-                        <h2 className="mb-5 text-white">Institutes Under Ghanshyam Group</h2>
+                        <h2 className="mb-5 text-dark">Institutes Under Ghanshyam Group</h2>
                     </div>
 
 
@@ -41,7 +41,7 @@ const InstitutesList = () => {
                                         <img src="website/img/arrow.svg" alt="" className="view-more-btn-arrow" />
                                     </div>
                                 </div>
-                                <p className="college-name text-center am-f25 text-white">{logo?.name}</p>
+                                <p className="college-name text-center am-f25 text-dark">{logo?.name}</p>
 
                             </div>
 

@@ -8,14 +8,14 @@
 
 .home-gallery-section .swiper-button-prev:after,
 .home-gallery-section .swiper-button-next:after {
-    background: #fff;
+    background: #890c25;
     height: 40px;
     display: grid;
     place-content: center;
     border-radius: 50%;
     aspect-ratio: 1 / 1;
     font-size: 25px;
-    color: #890c25;
+    color: #fff;
 
 }
 
