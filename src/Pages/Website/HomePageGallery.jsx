@@ -23,7 +23,7 @@ const logos = [
 
 const HomePageGallery = () => {
     return (
-        <section className="py-5 home-gallery-section"  >
+        <section className="py-5 home-gallery-section" style={{backgroundColor:"#f5f5f5"}} >
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">

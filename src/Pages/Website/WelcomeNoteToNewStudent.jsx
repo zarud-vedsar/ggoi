@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../Components/Website/assets/css/welcome-note-new-student.css'
-export const WelcomeNoteToNewStudent = () => {
+ const WelcomeNoteToNewStudent = () => {
     return (
         <section className='welcome-note-new-student-section'>
             <div class="campus v__3 pt--120 pb--60">
@@ -21,7 +21,7 @@ export const WelcomeNoteToNewStudent = () => {
 
                                     </p><p class="campus__right--text--description" style={{ maxWidth: "none" }}> You will spend the best years of your life on our campus, under our close guidance.
                                         We expect you to make the most of the available facilities and contribute to enhancing the dignity of the college environment.
-
+ 
                                     </p><p class="campus__right--text--description am-f18" style={{ maxWidth: "none" }}><strong>  We wish you a bright and successful future.      </strong>                      </p>
                                 </div>
                             </div>
@@ -42,3 +42,4 @@ export const WelcomeNoteToNewStudent = () => {
         </section>
     )
 }
+export default WelcomeNoteToNewStudent;

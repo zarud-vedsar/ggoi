@@ -54,7 +54,7 @@ import { PiTextAaBold } from 'react-icons/pi';
 function OurProgram() {
   return (
     <>
-      <section className="py-5 our-program-section">
+      <section className="py-5 our-program-section" style={{backgroundColor:"#f5f5f5"}}>
         <div className="container">
           <h2 className="section-heading">Our Programs</h2>
           <p>Empowering Students Across Every Discipline </p>
@@ -62,37 +62,37 @@ function OurProgram() {
             <div className="row">
               <div className="col-md-12">
                 <ul className="nav nav-pills mb-3 d-flex justify-content-between" id="pills-tab" role="tablist">
-                  <li className="nav-item" role="presentation">
+                  <li className="nav-item am-f22" role="presentation">
                     <button className="nav-link active" id="pills-ug-tab" data-bs-toggle="pill" data-bs-target="#pills-ug" type="button"
                       role="tab" aria-controls="pills-ug" aria-selected="true">
                       Undergraduate Programs
                     </button>
                   </li>
-                  <li className="nav-item" role="presentation">
+                  <li className="nav-item am-f22" role="presentation">
                     <button className="nav-link" id="pills-pg-tab" data-bs-toggle="pill" data-bs-target="#pills-pg" type="button"
                       role="tab" aria-controls="pills-pg" aria-selected="false">
                       Postgraduate Programs
                     </button>
                   </li>
-                  <li className="nav-item" role="presentation">
+                  <li className="nav-item am-f22" role="presentation">
                     <button className="nav-link" id="pills-pg-diploma-tab" data-bs-toggle="pill" data-bs-target="#pills-pg-diploma" type="button"
                       role="tab" aria-controls="pills-pg-diploma" aria-selected="false">
                       PG Diploma Programs
                     </button>
                   </li>
-                  <li className="nav-item" role="presentation">
+                  <li className="nav-item am-f22" role="presentation">
                     <button className="nav-link" id="pills-diploma-tab" data-bs-toggle="pill" data-bs-target="#pills-diploma" type="button"
                       role="tab" aria-controls="pills-diploma" aria-selected="false">
                       Diploma Programs
                     </button>
                   </li>
-                  <li className="nav-item" role="presentation">
+                  <li className="nav-item am-f22" role="presentation">
                     <button className="nav-link" id="pills-certificate-tab" data-bs-toggle="pill" data-bs-target="#pills-certificate" type="button"
                       role="tab" aria-controls="pills-certificate" aria-selected="false">
                       Certificate Programs
                     </button>
                   </li>
-                  <li className="nav-item" role="presentation">
+                  <li className="nav-item am-f22" role="presentation">
                     <button className="nav-link" id="pills-awareness-tab" data-bs-toggle="pill" data-bs-target="#pills-awareness" type="button"
                       role="tab" aria-controls="pills-awareness" aria-selected="false">
                       Awareness Programs
