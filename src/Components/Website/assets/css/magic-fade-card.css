@@ -8,16 +8,15 @@
 
 }
 
-.magic-card .shoe-img {
-  width: -webkit-fill-available;
-  height: -webkit-fill-available;
+.magic-card .magic-image{
+  width: 100%;
+  height: 100%;
   animation: riseIn 1s ease;
 }
 
 .magic-card .swiper-slide {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  
+  height: -webkit-fill-available;
 }
 
 @keyframes riseIn {
