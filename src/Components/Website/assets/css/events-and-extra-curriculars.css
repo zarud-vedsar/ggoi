@@ -4,17 +4,23 @@
 }
 
 .events-and-extra-curriculars-section .am-card img {
-    border-radius: 5px;
     height: 200px;
-    width: max-content;
+    width: 100%;
+    width: -webkit-fill-available;
 }
 
 .events-and-extra-curriculars-section .am-card {
-    border-radius: 5px;
     overflow: hidden;
+    width: 100%;
 }
 
 .events-and-extra-curriculars-section .event-name {
-    font-weight: 600;
-
+    position: absolute;
+    background-color: #000000;
+    bottom: 0px;
+    opacity: 0.7;
+    padding: 2px;
+    width: 100%;
 }
+
+

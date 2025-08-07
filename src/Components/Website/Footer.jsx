@@ -11,7 +11,7 @@ import { FaPhone } from "react-icons/fa6";
 const Footer = () => {
     return (
         <>
-            <footer className="footer-area black-bg-color">
+            <footer className="footer-section black-bg-color">
                 <div className="container">
                     <div className="row pt-70 pb-70 justify-content-center">
                         <div className="col-lg-3 col-sm-6">
