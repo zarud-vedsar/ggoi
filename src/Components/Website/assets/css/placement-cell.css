@@ -1,3 +1,5 @@
+
+
 .placement-cell-section {
     background-image: url(website/img/studentgroup.jpg);
     background-position: top;
@@ -127,4 +129,17 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+@media only screen and (max-width:768px){
+.high-package-campus-placement{
+    height: 355px;
+    
+}
+.placement-cell-section .numberOfPlacement {
+    left: 54%;
+}
+.placement-cell-section .highestPackage {
+    left: 6%;
+}
 }

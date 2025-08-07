@@ -15,7 +15,7 @@ const PlacementCell = () => {
             <div className="container">
                 <div className="row mb-4">
                     <div className="col-md-12" data-aos="fade-up" data-aos-delay="200">
-                        <h2 className="mb-6 text-white" >Top Recruiters</h2>
+                        <h2 className="mb-6 text-white text-center" >Top Recruiters</h2>
 
                     </div>
 

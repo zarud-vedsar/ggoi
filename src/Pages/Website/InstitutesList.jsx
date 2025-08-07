@@ -22,7 +22,7 @@ const InstitutesList = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12" data-aos="fade-up" data-aos-delay="200">
-                        <h2 className="mb-5 text-dark">Institutes Under Ghanshyam Group</h2>
+                        <h2 className="mb-5 text-dark text-center">Institutes Under Ghanshyam Group</h2>
                     </div>
 
 

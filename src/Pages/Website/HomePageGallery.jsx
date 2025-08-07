@@ -27,7 +27,7 @@ const HomePageGallery = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
-                        <h2 className="mb-5 " data-aos="fade-up" data-aos-delay="200">Gallery</h2>
+                        <h2 className="mb-5 text-center" data-aos="fade-up" data-aos-delay="200">Gallery</h2>
                     </div>
                     <div className="col-12 swiper" data-aos="fade-up" data-aos-delay="300">
                         <div className="pb-5  bg-transparent">
