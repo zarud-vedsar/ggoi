@@ -67,11 +67,31 @@
 .our-program .nav-pills .nav-link{
 border-radius:0px;
 }
-.our-program-section .nav-item{
+.doz-our-con .our-program-section .nav-item{
   margin-bottom: 0px;
+   margin: 0px 10px !important;
 }
 .our-program-section .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
   background-color: transparent;
   color: #26354D;
   border-bottom:2px solid #26354D !important;
+}
+.our-program-section .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  white-space: nowrap;
+   padding: 20px 20px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   border-radius: 15px;
+}
+.doz-our-con .nav-pills .nav-link{
+  white-space: nowrap;
+    padding: 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+}
+.doz-our-con ul li{
+margin-left: 15px;
+
+}
+.doz-our-program{
+  font-size: 20px;
 }

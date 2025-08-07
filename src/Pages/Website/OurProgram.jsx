@@ -51,51 +51,62 @@ import { GiLotus } from 'react-icons/gi';
 
 import { MdDesignServices } from 'react-icons/md';
 import { PiTextAaBold } from 'react-icons/pi';
+import { FaGraduationCap } from 'react-icons/fa';
+import { FaCertificate } from 'react-icons/fa';
+import { HiOutlineDocumentText } from 'react-icons/hi';
+import { FaMedal } from 'react-icons/fa';
+import { FaLightbulb } from 'react-icons/fa';
 function OurProgram() {
   return (
     <>
       <section className="py-5 our-program-section" style={{backgroundColor:"#f5f5f5"}}>
-        <div className="container">
+        <div className="container doz-our-con">
           <h2 className="section-heading">Our Programs</h2>
           <p>Empowering Students Across Every Discipline </p>
           <div className="container">
             <div className="row">
               <div className="col-md-12">
                 <ul className="nav nav-pills mb-3 d-flex justify-content-between" id="pills-tab" role="tablist">
-                  <li className="nav-item am-f22" role="presentation">
+                  <li className="nav-item " role="presentation">
                     <button className="nav-link active" id="pills-ug-tab" data-bs-toggle="pill" data-bs-target="#pills-ug" type="button"
                       role="tab" aria-controls="pills-ug" aria-selected="true">
-                      Undergraduate Programs
+                      <FaGraduationCap style={{ marginRight: '8px', color: '#4E944F', fontSize: '50px' }} />
+                     <p className="doz-our-program"> Undergraduate Programs</p>
                     </button>
                   </li>
-                  <li className="nav-item am-f22" role="presentation">
+                  <li className="nav-item" role="presentation">
                     <button className="nav-link" id="pills-pg-tab" data-bs-toggle="pill" data-bs-target="#pills-pg" type="button"
                       role="tab" aria-controls="pills-pg" aria-selected="false">
-                      Postgraduate Programs
+                         <FaUserGraduate style={{ marginRight: '8px', color: '#6C3483', fontSize: '50px'}} />
+                      <p className="doz-our-program"> Postgraduate Programs </p>
                     </button>
                   </li>
-                  <li className="nav-item am-f22" role="presentation">
+                  <li className="nav-item" role="presentation">
                     <button className="nav-link" id="pills-pg-diploma-tab" data-bs-toggle="pill" data-bs-target="#pills-pg-diploma" type="button"
                       role="tab" aria-controls="pills-pg-diploma" aria-selected="false">
-                      PG Diploma Programs
+                        <FaCertificate style={{ marginRight: '8px', color: '#CA6F1E', fontSize: '50px'}} />
+                        <p className="doz-our-program"> PG Diploma Programs </p>
                     </button>
                   </li>
-                  <li className="nav-item am-f22" role="presentation">
+                  <li className="nav-item" role="presentation">
                     <button className="nav-link" id="pills-diploma-tab" data-bs-toggle="pill" data-bs-target="#pills-diploma" type="button"
                       role="tab" aria-controls="pills-diploma" aria-selected="false">
-                      Diploma Programs
+                        <HiOutlineDocumentText style={{ marginRight: '8px', color: '#117864', fontSize: '50px'}} />
+                        <p className="doz-our-program"> Diploma Programs</p>
                     </button>
                   </li>
-                  <li className="nav-item am-f22" role="presentation">
+                  <li className="nav-item" role="presentation">
                     <button className="nav-link" id="pills-certificate-tab" data-bs-toggle="pill" data-bs-target="#pills-certificate" type="button"
                       role="tab" aria-controls="pills-certificate" aria-selected="false">
-                      Certificate Programs
+                        <FaMedal style={{ marginRight: '8px', color: '#7D6608', fontSize: '50px'}} />
+                        <p className="doz-our-program"> Certificate Programs</p>
                     </button>
                   </li>
-                  <li className="nav-item am-f22" role="presentation">
+                  <li className="nav-item" role="presentation">
                     <button className="nav-link" id="pills-awareness-tab" data-bs-toggle="pill" data-bs-target="#pills-awareness" type="button"
                       role="tab" aria-controls="pills-awareness" aria-selected="false">
-                      Awareness Programs
+                        <FaLightbulb style={{ marginRight: '8px', color: '#B9770E', fontSize: '50px' }} />
+                        <p className="doz-our-program"> Awareness Programs</p>
                     </button>
                   </li>
                 </ul>
