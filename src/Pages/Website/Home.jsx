@@ -25,6 +25,7 @@ import PlacementCell from './PlacementCell';
 import CareerExcellence from './CareerExcellence';
 import AcademicsAndFaculty from './AcademicsAndFaculty';
 import WelcomeNoteToNewStudent from './WelcomeNoteToNewStudent';
+import Footer from '../../Components/Website/Footer';
 
 function Home() {
   return (
@@ -159,9 +160,12 @@ function Home() {
       <WelcomeNoteToNewStudent />
       <AcademicsAndFaculty />
       <PersonalityDevelopment />
+      <PlacementCell />
+
       <HomePageGallery />
       <EventsAndExtraCurriculars />
-      <PlacementCell />
+
+      <Footer />
     </>
   )
 }
