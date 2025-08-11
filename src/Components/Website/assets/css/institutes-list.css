@@ -61,7 +61,6 @@
 .institutes-section .am-card {
     display: flex;
     padding: 0px 20px;
-    justify-content: center;
     flex-direction: column;
     margin-bottom: 30px;
 }
