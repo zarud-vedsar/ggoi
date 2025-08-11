@@ -26,6 +26,7 @@ import CareerExcellence from './CareerExcellence';
 import AcademicsAndFaculty from './AcademicsAndFaculty';
 import WelcomeNoteToNewStudent from './WelcomeNoteToNewStudent';
 import Footer from '../../Components/Website/Footer';
+import OurAffiliations from './OurAffiliations';
 
 function Home() {
   return (
@@ -156,6 +157,7 @@ function Home() {
       <OurProgram />
       <CareerExcellence />
       <InstitutesList />
+      <OurAffiliations/>
       <CampusFacilities />
       <WelcomeNoteToNewStudent />
       <AcademicsAndFaculty />

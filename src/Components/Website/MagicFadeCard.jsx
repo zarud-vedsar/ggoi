@@ -6,14 +6,14 @@ import '../Website/assets/css/magic-fade-card.css';
 import { useEffect, useRef } from "react";
 const MagicFadeCard = ({ images, delay=0 }) => {
     const swiperRef = useRef();
-    // useEffect(() => {
-    //     const timer = setTimeout(() => {
-    //         if (swiperRef.current && swiperRef.current?.swiper) {
-    //             swiperRef.current?.swiper.autoplay.start();
-    //         }
-    //     }, delay);
-    //     return () => clearTimeout(timer);
-    // }, [])
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            if (swiperRef.current && swiperRef.current?.swiper) {
+                swiperRef.current?.swiper.autoplay.start();
+            }
+        }, delay);
+        return () => clearTimeout(timer);
+    }, [])
     return (
         <div className="magic-card">
             <Swiper

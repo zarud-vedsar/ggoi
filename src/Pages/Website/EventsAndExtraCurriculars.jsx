@@ -123,7 +123,7 @@ const EventsAndExtraCurriculars = () => {
                     {eventList.map((event, index) => (
                         <div className="col-sm-6 col-md-4 col-lg-3 my-2 px-2 " key={index} data-aos="fade-up" data-aos-delay="300">
                             <div className='am-card  position-relative'>
-                                <MagicFadeCard images={event?.images} delay={3000 + (index * 400)} />
+                                <MagicFadeCard images={event?.images} delay={3000 + (index * 300)} />
 
                                 <div className='event-name'>
                                     <p className=' am-f22 text-white'>{event.name}</p>
