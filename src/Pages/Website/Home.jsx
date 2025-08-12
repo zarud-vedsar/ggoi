@@ -27,6 +27,7 @@ import AcademicsAndFaculty from './AcademicsAndFaculty';
 import WelcomeNoteToNewStudent from './WelcomeNoteToNewStudent';
 import Footer from '../../Components/Website/Footer';
 import OurAffiliations from './OurAffiliations';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -74,7 +75,7 @@ function Home() {
                         Welcome to Ghanshyam Group of Institutions, Prayagraj – a leading educational trust dedicated to providing world-class education in rural and semi-urban regions of Uttar Pradesh. With over 10,000+ students, 9 campuses, and 850+ dedicated faculty, our mission is to nurture socially responsible and industry-ready professionals.
                       </p>
                       <a
-                        href="program-single.html"
+                        href="/#our-programs"
                         className="rts-nbg-btn btn-arrow"
                       >
                         View Our Program
