@@ -161,10 +161,11 @@ function Home() {
       <CampusFacilities />
       <WelcomeNoteToNewStudent />
       <AcademicsAndFaculty />
-      <PersonalityDevelopment />
       <PlacementCell />
 
       <HomePageGallery />
+            <PersonalityDevelopment />
+
       <EventsAndExtraCurriculars />
 
       <Footer />

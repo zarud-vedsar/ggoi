@@ -25,7 +25,7 @@ const OurAffiliations = () => {
 
     
     return (
-        <section className="py-5 our-affiliation-section" style={{ background: '#F5F5F5' }} >
+        <section className="py-5 our-affiliation-section" >
             <div className="container">
                 <div className="row">
                     <div className="col-md-12" data-aos="fade-up" data-aos-delay="200">

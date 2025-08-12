@@ -54,7 +54,7 @@ const CampusFacilities = () => {
         }
     ];
     return (
-        <section className="py-5 campus-facilities-section"  >
+        <section className="py-5 campus-facilities-section"   style={{backgroundColor:"#f5f5f5"}} >
             <div className="container">
                 <div className="row">
                     <div className="col-md-12" data-aos="fade-up" data-aos-delay="200">

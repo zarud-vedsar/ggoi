@@ -30,7 +30,7 @@ const InstitutesList = () => {
         return () => window.removeEventListener("mousemove", moveHandler);
     }, []);
     return (
-        <section className="py-5 institutes-section " onMouseEnter={(() => setModifyCursor(true))} onMouseLeave={(() => setModifyCursor(false))} >
+        <section className="py-5 institutes-section " style={{backgroundColor:"#f5f5f5"}} onMouseEnter={(() => setModifyCursor(true))} onMouseLeave={(() => setModifyCursor(false))} >
             <div className="container" >
               
 
@@ -41,10 +41,10 @@ const InstitutesList = () => {
 
 
                     {logos.map((logo, index) => (
-                        <div className="col-12 col-md-6 col-lg-4 am-card" key={index}  data-aos="fade-up" data-aos-delay="200">
+                        <div className="col-12 col-md-6 col-lg-4 mb-5" key={index}  data-aos="fade-up" data-aos-delay="200">
 
-                            <div className="am-card">
-                                <div className="image-wrapper">
+                            <div className="am-card h-100 ">
+                                <div className="image-wrapper ">
                                     <img
                                         src={logo.img}
                                         alt={`Logo ${index + 1}`}

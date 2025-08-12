@@ -6,7 +6,7 @@
 .institutes-section .am-card .image-wrapper {
     position: relative;
     overflow: hidden;
-    border-radius: 5px;
+    border-radius: 12px ;
     margin-bottom: 20px;
 }
 
@@ -60,9 +60,14 @@
 
 .institutes-section .am-card {
     display: flex;
-    padding: 0px 5px;
     flex-direction: column;
     margin-bottom: 15px;
+    background-color: #fff;
+    padding: 0px;
+    border-radius: 12px ;
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
 }
 
 
