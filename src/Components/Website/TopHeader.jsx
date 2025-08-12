@@ -4,6 +4,7 @@ import { useLocation } from "react-router-dom";
 import { FaHandPointer } from "react-icons/fa6";
 import { MdHideImage } from "react-icons/md";
 import { IoAccessibility } from "react-icons/io5";
+import { FaFont } from "react-icons/fa";
 
 const languages = [
   { code: "en", label: "English" },
