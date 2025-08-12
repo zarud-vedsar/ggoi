@@ -108,8 +108,8 @@ const Footer = () => {
                     </div>
                 </div>
             </footer>
-            <div class="copy-right-area">
-                <div class="container">
+            <div className="copy-right-area">
+                <div className="container">
                     <p className='text-white'>© 2025 Ghanshyam Group of Institutions. Developed by <a href="https://vedsar.com/" target="_blank" rel="noopener noreferrer">Vedsar India Pvt. Ltd.</a></p>
                 </div>
             </div>

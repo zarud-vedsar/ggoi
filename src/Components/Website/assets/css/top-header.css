@@ -1,0 +1,382 @@
+body {
+    position: relative;
+    top: 0 !important;
+    cursor: default;
+
+}
+
+.big-cursor {
+    cursor: url(website/img/hand-pointer-solid-full.svg), auto;
+}
+
+.goog-te-combo {
+    appearance: none;
+    /* Remove default styling */
+    -webkit-appearance: none;
+    /* For Safari */
+    -moz-appearance: none;
+    /* For Firefox */
+    background-color: #fff !important;
+    /* Background color */
+    border: 1px solid #fff !important;
+    /* Border color */
+    border-radius: 4px;
+    /* Rounded corners */
+    padding: 10px;
+    /* Padding */
+    font-size: 16px;
+    /* Font size */
+    cursor: pointer;
+    /* Pointer on hover */
+    width: 100%;
+    /* Full width */
+}
+
+/* Hover effect */
+.goog-te-combo:hover {
+    border-color: #888;
+    /* Change border color on hover */
+}
+
+/* Focus effect */
+.goog-te-combo:focus {
+    outline: none;
+    /* Remove outline */
+    border-color: #007bff;
+    /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    /* Glow effect */
+}
+
+.skiptranslate {
+    content: "";
+}
+
+.skiptranslate iframe {
+    display: none;
+}
+
+
+.goog-te-gadget .goog-te-combo {
+    min-width: 160px !important;
+    height: 40px !important;
+    border-radius: 20px !important;
+    text-align: center;
+}
+
+.skiptranslate.goog-te-gadget span,
+iframe.goog-te-banner-frame.skiptranslate {
+    display: none;
+}
+
+.change-font-size-btn {
+    position: relative;
+}
+
+.font-size-options {
+    display: none;
+}
+
+.change-font-size-btn:hover .font-size-options,
+.change-font-size-btn:hover .font-size-options {
+    display: block;
+    position: absolute;
+    top: 100%;
+    background: rgb(255, 255, 255);
+
+    right: 0;
+    z-index: 1002;
+    padding: 10px 0px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.goog-te-gadget .goog-te-combo {
+    min-width: 160px !important;
+    height: 40px !important;
+    border-radius: 20px !important;
+    text-align: center;
+}
+
+.skiptranslate.goog-te-gadget span,
+iframe.goog-te-banner-frame.skiptranslate {
+    display: none;
+}
+
+.head-translate {
+
+    color: white;
+}
+
+/* Container for custom select */
+.custom-select {
+    position: relative;
+    width: fit-content;
+    height: 23px;
+    padding-right: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+/* Hide original Google Translate select */
+.goog-te-combo {
+    display: none !important;
+}
+
+/* Selected item */
+.select-selected {
+    color: #fff;
+    padding: 3px 30px 0 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    position: relative;
+    border: 1px solid #fff;
+}
+
+/* Arrow indicator */
+.select-selected:after {
+    content: "";
+    position: absolute;
+    top: 60%;
+    right: 10px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+    /* Creates an upward-pointing triangle */
+    transform: translateY(-50%);
+}
+
+/* Active state arrow */
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent white transparent;
+}
+
+/* Dropdown container */
+.select-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Two items per row */
+    gap: 8px;
+    position: absolute;
+    background-color: white;
+    width: 240px;
+    height: 400px;
+    overflow-y: auto;
+    top: 100%;
+    right: 0;
+    z-index: 9999;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Hide items initially */
+.select-hide {
+    display: none;
+}
+
+/* Card-style language options */
+.select-items div {
+    padding: 8px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+    font-size: 14px;
+}
+
+/* Background colors for each option */
+.select-items div:nth-child(1) {
+    background-color: rgb(255, 200, 185);
+    /* Lighter shade of text color */
+    color: rgb(254, 152, 129);
+}
+
+/* English */
+.select-items div:nth-child(2) {
+    background-color: rgb(179, 226, 255);
+    color: #33c1ff;
+}
+
+/* Hindi */
+.select-items div:nth-child(3) {
+    background-color: rgb(179, 255, 197);
+    color: #33ff57;
+}
+
+/* Bengali */
+.select-items div:nth-child(4) {
+    background-color: rgb(255, 226, 179);
+    color: #ffc133;
+}
+
+/* Telugu */
+.select-items div:nth-child(5) {
+    background-color: rgb(255, 179, 211);
+    color: #ff33a1;
+}
+
+/* Tamil */
+.select-items div:nth-child(6) {
+    background-color: rgb(202, 179, 255);
+    color: #8d33ff;
+}
+
+/* Marathi */
+.select-items div:nth-child(7) {
+    background-color: rgb(179, 255, 235);
+    color: #33ffd1;
+}
+
+/* Malayalam */
+.select-items div:nth-child(8) {
+    background-color: rgb(255, 204, 179);
+    color: #ff8c33;
+}
+
+.select-items div:nth-child(9) {
+    background-color: #ffe0e0;
+    color: #c62828;
+}
+
+.select-items div:nth-child(10) {
+    background-color: #fff0b3;
+    color: #ff6f00;
+}
+
+.select-items div:nth-child(11) {
+    background-color: #d0f0c0;
+    color: #2e7d32;
+}
+
+.select-items div:nth-child(12) {
+    background-color: #e0f7fa;
+    color: #00838f;
+}
+
+.select-items div:nth-child(13) {
+    background-color: #e1bee7;
+    color: #6a1b9a;
+}
+
+.select-items div:nth-child(14) {
+    background-color: #f8bbd0;
+    color: #ad1457;
+}
+
+.select-items div:nth-child(15) {
+    background-color: #c8e6c9;
+    color: #1b5e20;
+}
+
+.select-items div:nth-child(16) {
+    background-color: #ffecb3;
+    color: #ff8f00;
+}
+
+.select-items div:nth-child(17) {
+    background-color: #d1c4e9;
+    color: #512da8;
+}
+
+.select-items div:nth-child(18) {
+    background-color: #b3e5fc;
+    color: #0277bd;
+}
+
+.select-items div:nth-child(19) {
+    background-color: #f0f4c3;
+    color: #9e9d24;
+}
+
+.select-items div:nth-child(20) {
+    background-color: #d7ccc8;
+    color: #4e342e;
+}
+
+.select-items div:nth-child(21) {
+    background-color: #cfd8dc;
+    color: #37474f;
+}
+
+/* Punjabi */
+
+/* Hover effect */
+.select-items div:hover,
+.same-as-selected {
+    opacity: 0.8;
+}
+
+.am-left-border {
+    border-left: 1px solid white;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.am-left-border-ctm-sel {
+    border-left: 1px solid white;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+.am-font-mani-icon {
+    height: 23px;
+    display: flex;
+    align-items: center;
+    padding: 15px 15px;
+}
+
+.am-font-mani-icon:hover {
+    background-color: #f4f4f4;
+}
+
+.am-font-scale-btn {
+    color: #616161;
+    background-color: #c6eaff;
+    width: 80px;
+    padding: 10px 5px ;
+}
+.am-font-scale-btn p{
+   line-height: 18px;
+}
+
+.am-font-scale-btn:hover {
+    background-color: #4097cb;
+}
+
+.am-font-scale-btn.active {
+    background-color: #4097cb;
+    border: none;
+}
+
+.am-header-item {
+    padding: 0px 25px 0px 15px;
+}
+
+.skip-btn {
+    border: 1px solid #ffffffff !important;
+    color: #f5f5f5;
+    font-size: 14px;
+}
+
+.header-container {
+    background: #36558e
+}
+
+.am-accessbilty-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+}
+
+.top-header-section .dropdown-menu {
+    z-index: 9999;
+}
+
+
+.input:focus, input:active, button:focus, button:active, select:focus, select:active, textarea:focus, textarea:active{
+border-color:transparent !important
+}

@@ -1,11 +1,13 @@
 import React from 'react'
 import logo from "./assets/images/logo/logo.png";
 import { Link } from 'react-router-dom';
+import TopHeader from './TopHeader';
 function Navbar() {
   return (
     <>
     <>
   {/* header area start */}
+  <TopHeader/>
   <header className="header v__5  header__sticky">
     <div className="container-fluid">
       <div className="row">
@@ -175,28 +177,7 @@ function Navbar() {
             </div>
             <div className="header__right">
               <div className="header__right--item">
-                <div id="langSwitcher" className="lang__trigger">
-                  <span className="selected__lang">English</span>
-                  <i className="fa-light fa-globe" />
-                  <div className="translate__lang">
-                    <ul>
-                      <li>
-                        <a href="#" className="active">
-                          English
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">French</a>
-                      </li>
-                      <li>
-                        <a href="#">Spanish</a>
-                      </li>
-                      <li>
-                        <a href="#">Romanian</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+               
                 <div id="search-btn" className="search__trigger">
                   <i className="fa-sharp fa-light fa-magnifying-glass" />
                 </div>

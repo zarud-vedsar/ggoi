@@ -18,7 +18,7 @@ function App() {
         <Route path="/admin/*" element={<PATHS.AdminRoute />} />
 
         {/* Website route (catch all public routes like /, /about, etc.) */}
-        <Route path="/*" element={<PATHS.WebsiteRoute />} />
+        <Route path="/*" element={<div id="google_translate_element"> <PATHS.WebsiteRoute /> </div>} />
 
         {/* Direct route for 404 display */}
         <Route path="/page-not-found" element={<PATHS.PageNotFound />} />
