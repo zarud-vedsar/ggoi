@@ -70,42 +70,42 @@ function OurProgram() {
                   <li className="nav-item mb-0 " role="presentation">
                     <button className="nav-link active" id="pills-ug-tab" data-bs-toggle="pill" data-bs-target="#pills-ug" type="button"
                       role="tab" aria-controls="pills-ug" aria-selected="true">
-                      <FaGraduationCap style={{ marginRight: '2px', color: '#313131ff', fontSize: '20px' }} />
+                      <FaGraduationCap style={{ marginRight: '2px', color: '#26354D', fontSize: '20px' }} />
                        Undergraduate Programs
                     </button>
                   </li>
                   <li className="nav-item mb-0" role="presentation">
                     <button className="nav-link" id="pills-pg-tab" data-bs-toggle="pill" data-bs-target="#pills-pg" type="button"
                       role="tab" aria-controls="pills-pg" aria-selected="false">
-                         <FaUserGraduate style={{ marginRight: '2px', color: '#313131ff', fontSize: '20px'}} />
+                         <FaUserGraduate style={{ marginRight: '2px', color: '#26354D', fontSize: '18px'}} />
                          Postgraduate Programs
                     </button>
                   </li>
                   <li className="nav-item mb-0" role="presentation">
                     <button className="nav-link" id="pills-pg-diploma-tab" data-bs-toggle="pill" data-bs-target="#pills-pg-diploma" type="button"
                       role="tab" aria-controls="pills-pg-diploma" aria-selected="false">
-                        <FaCertificate style={{ marginRight: '2px', color: '#313131ff', fontSize: '20px'}} />
+                        <FaCertificate style={{ marginRight: '2px', color: '#26354D', fontSize: '18px'}} />
                          PG Diploma Programs
                     </button>
                   </li>
                   <li className="nav-item mb-0" role="presentation">
                     <button className="nav-link" id="pills-diploma-tab" data-bs-toggle="pill" data-bs-target="#pills-diploma" type="button"
                       role="tab" aria-controls="pills-diploma" aria-selected="false">
-                        <HiOutlineDocumentText style={{ marginRight: '2px', color: '#313131ff', fontSize: '20px'}} />
+                        <HiOutlineDocumentText style={{ marginRight: '2px', color: '#26354D', fontSize: '20px'}} />
                          Diploma Programs
                     </button>
                   </li>
                   <li className="nav-item mb-0" role="presentation">
                     <button className="nav-link" id="pills-certificate-tab" data-bs-toggle="pill" data-bs-target="#pills-certificate" type="button"
                       role="tab" aria-controls="pills-certificate" aria-selected="false">
-                        <FaMedal style={{ marginRight: '2px', color: '#313131ff', fontSize: '20px'}} />
+                        <FaMedal style={{ marginRight: '2px', color: '#26354D', fontSize: '20px'}} />
                          Certificate Programs
                     </button>
                   </li>
                   <li className="nav-item mb-0s" role="presentation">
                     <button className="nav-link" id="pills-awareness-tab" data-bs-toggle="pill" data-bs-target="#pills-awareness" type="button"
                       role="tab" aria-controls="pills-awareness" aria-selected="false">
-                        <FaLightbulb style={{ marginRight: '2px', color: '#313131ff', fontSize: '20px' }} />
+                        <FaLightbulb style={{ marginRight: '2px', color: '#26354D', fontSize: '20px' }} />
                          Awareness Programs
                     </button>
                   </li>
@@ -626,69 +626,461 @@ function OurProgram() {
                   </div>
                 </div>
                   <div className="tab-pane fade" id="pills-diploma" role="tabpanel" aria-labelledby="pills-diploma-tab" tabindex="0" >
-                    <div className="card doz-our-card">
-                      <div className="card-body">
-                        <div className="pharmacy-course-list">
-                          <p><FaPills style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Diploma in Agriculture (PAG)</p>
-                          <p><FaIndustry style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Diploma in Agri Business Management (DABAM)</p>
-                          <p><FaHeartbeat style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Diploma in Health Education and Nutrition (DHEN)</p>
-                          <p><FaSeedling style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Diploma in Rural Development (DRD)</p>
-                          <p><GiFruitBowl style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Diploma in Dietetics and Nutrition (DCDN)</p>
-                          <p><FaChild style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Diploma in Early Childhood Care and Education (DECE)</p>
-                          <p><GiClothes style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Diploma in Fashion Designing (DFD)</p>
-                          <p><GiRolledCloth style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Diploma in Textile Designing (DTD)</p>
-                          <p><FaCameraRetro style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Diploma in Photography (DIP)</p>
-                          <p><FaHome style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Diploma in Home Arts (DHA)</p>
-                          <p><FaLanguage style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Diploma in Urdu (DUR)</p>
-                          <p><FaSpa style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Diploma in Yoga (DYO)</p>
-                          <p><FaLaptopCode style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Diploma in Web Technology (DWT)</p>
-                          <p><GiMilkCarton style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Diploma in Dairy Technology (DDT)</p>
-
-                        </div>
+                   <div className="col-12">
+                     <div className="row">
+                       <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icon1 doz-PG">
+                                   <FaPills style={{ fontSize: "20px", color: "#ffffff" ,flexShrink:"0"}} /> 
+                                </div>
+                                 <h5 className="doz-our-head">Diploma</h5>
+                                  <p>Agriculture (PAG)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icon2 doz-PG">
+                                   <FaIndustry style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />  
+                                </div>
+                                 <h5 className="doz-our-head">Diploma</h5>
+                                  <p>Agri Business Management (DABAM)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icon3 doz-PG">
+                                    <FaHeartbeat style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} /> 
+                                </div>
+                                 <h5 className="doz-our-head">Diploma</h5>
+                                  <p>Health Education and Nutrition (DHEN)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icon4 doz-PG">
+                                    <FaSeedling style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} /> 
+                                </div>
+                                 <h5 className="doz-our-head">Diploma</h5>
+                                  <p>Rural Development (DRD)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icon5 doz-PG">
+                                   <GiFruitBowl style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} /> 
+                                </div>
+                                 <h5 className="doz-our-head">Diploma</h5>
+                                  <p>Dietetics and Nutrition (DCDN)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icon6 doz-PG">
+                                    <FaChild style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">Diploma</h5>
+                                  <p>Early Childhood Care and Education (DECE)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icon7 doz-PG">
+                                   <GiClothes style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} /> 
+                                </div>
+                                 <h5 className="doz-our-head">Diploma</h5>
+                                  <p>Fashion Designing (DFD)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icon8 doz-PG">
+                                   <GiRolledCloth style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />  
+                                </div>
+                                 <h5 className="doz-our-head">Diploma</h5>
+                                  <p>Textile Designing (DTD)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icon9 doz-PG">
+                                  <FaCameraRetro style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />  
+                                </div>
+                                 <h5 className="doz-our-head">Diploma</h5>
+                                  <p>Photography (DIP)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icon10 doz-PG">
+                                    <FaHome style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />  
+                                </div>
+                                 <h5 className="doz-our-head">Diploma</h5>
+                                  <p>Home Arts (DHA)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icon11 doz-PG">
+                                    <FaLanguage style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">Diploma</h5>
+                                  <p>Urdu (DUR)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icon12 doz-PG">
+                                    <FaSpa style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">Diploma</h5>
+                                  <p>Yoga (DYO)</p>
+                              </div>
+                          </div>
+                       </div>
+                       <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icon13 doz-PG">
+                                    <FaLaptopCode style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">Diploma</h5>
+                                  <p>Web Technology (DWT)</p>
+                              </div>
+                          </div>
+                       </div>
+                       <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icon14 doz-PG">
+                                    <GiMilkCarton style={{ fontSize: "20px", color: "#ffffff" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">Diploma</h5>
+                                  <p>Dairy Technology (DDT)</p>
+                              </div>
+                          </div>
+                       </div>
                       </div>
                     </div>
                   </div>
                   <div className="tab-pane fade" id="pills-certificate" role="tabpanel" aria-labelledby="pills-certificate-tab" tabindex="0" >
-                    <div className="card doz-our-card">
-                      <div className="card-body">
-                        <div className="iti-trades-list">
-                          <p><FaBolt style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Certificate Course in Single Subject – Arts (CCSS)</p>
-                          <p><FaWrench style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Certificate Course in Single Subject – Science (CCSSSC)</p>
-                          <p><FaTools style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Certificate in Post Harvest Technology and Value Addition (CPHT&VA)</p>
-                          <p><FaLeaf style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Certificate in Cultivation of Medicinal and Aromatic Plants (CCMAP)</p>
-                          <p><FaHorseHead style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Certificate in Livestock Production System (CLPS)</p>
-                          <p><FaChild style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Certificate in Child Care and Nutrition (CCCN)</p>
-                          <p><FaAppleAlt style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Certificate in Nutrition and Food (CNF)</p>
-                          <p><FaBalanceScale style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Certificate in Human Rights (CHR)</p>
-                          <p><FaRecycle style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Certificate in Environmental Studies (CES)</p>
-                          <p><FaFemale style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Certificate in Women Empowerment and Development (CWED)</p>
-                          <p><FaSpa style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Certificate Course in Yoga</p>
-                          <p><FaNewspaper style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Certificate in Rural Journalism and Mass Communication (CRJMC)</p>
-                        </div>
+                   <div className="col-12">
+                     <div className="row">
+                       <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icon1-color doz-PG">
+                                    <FaBolt style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">Certificate</h5>
+                                  <p>Single Subject – Arts (CCSS)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icon2-color doz-PG">
+                                    <FaWrench style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">Certificate</h5>
+                                  <p>Single Subject – Science (CCSSSC)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icon3-color doz-PG">
+                                    <FaTools style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">Certificate</h5>
+                                  <p>Post Harvest Technology and Value Addition (CPHT&VA)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icon4-color doz-PG">
+                                    <FaLeaf style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">Certificate</h5>
+                                  <p>Cultivation of Medicinal and Aromatic Plants (CCMAP)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icon5-color doz-PG">
+                                    <FaHorseHead style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">Certificate</h5>
+                                  <p>Livestock Production System (CLPS)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icon6-color doz-PG">
+                                    <FaChild style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">Certificate</h5>
+                                  <p>Child Care and Nutrition (CCCN)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icon7-color doz-PG">
+                                   <FaAppleAlt style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">Certificate</h5>
+                                  <p>Nutrition and Food (CNF)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icon8-color doz-PG">
+                                    <FaBalanceScale style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">Certificate</h5>
+                                  <p>Human Rights (CHR)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icon9-color doz-PG">
+                                    <FaRecycle style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">Certificate</h5>
+                                  <p>Environmental Studies (CES)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icon10-color doz-PG">
+                                    <FaFemale style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">Certificate</h5>
+                                  <p>Women Empowerment and Development (CWED)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icon11-color doz-PG">
+                                    <FaSpa style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">Certificate</h5>
+                                  <p>Yoga</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icon12-color doz-PG">
+                                    <FaNewspaper style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">Certificate</h5>
+                                  <p>Rural Journalism and Mass Communication (CRJMC)</p>
+                              </div>
+                          </div>
+                       </div>
                       </div>
                     </div>
                   </div>
                   <div className="tab-pane fade" id="pills-awareness" role="tabpanel" aria-labelledby="pills-pg-tab" tabindex="0" >
-                    <div className="card doz-our-card">
-                      <div className="card-body">
-                        <div className="skill-courses-list">
-                          <p><FaLaptopCode style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Awareness Programme in Panchayati Raj (APPR)</p>
-                          <p><FaKeyboard style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Awareness Programme in Yoga (APY)</p>
-                          <p><FaShoppingCart style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Awareness Programme in Dairy Farming (APDF)</p>
-                          <p><FaChild style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Awareness Programme in Child Care and Nutrition (APCCN)</p>
-                          <p><FaAppleAlt style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Awareness Programme in Child Nutrition and Food (APNF)</p>
-                          <p><FaGavel style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Awareness Programme in Good Governance in New Delhi (APGGNI)</p>
-                          <p><FaEye style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Awareness Programme in Kumbh Darshan (APKD)</p>
-                          <p><FaHandsHelping style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Awareness Programme on Antyodaya (APAY)</p>
-                          <p><FaUsers style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Awareness Programme on Ekatma Manavwad (APAM)</p>
-                          <p><FaChartLine style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Awareness Programme on Share Market and Mutual Funds</p>
-                          <p><FaLandmark style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Awareness Programme on Insurance and Banking Services</p>
-                          <p><FaFlag style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Awareness Programme on J&K (APJK)</p>
-                          <p><FaUniversity style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Awareness Programme in Citizenship Amendment Act (CAA)</p>
-                          <p><FaVirus style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> Awareness Programme on COVID-19 (APCO-19)</p>
-                        </div>
-                      </div>
-                    </div>
+                    <div className="col-12">
+                     <div className="row">
+                       <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-color1 doz-PG">
+                                    <FaLaptopCode style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} /> 
+                                </div>
+                                 <h5 className="doz-our-head">Awareness Programme</h5>
+                                  <p>Panchayati Raj (APPR)</p>
+                              </div>
+                            </div>
+                         </div>
+                          <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-color2 doz-PG">
+                                    <FaKeyboard style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">Awareness Programme</h5>
+                                  <p>Yoga (APY)</p>
+                              </div>
+                            </div>
+                         </div>
+                         <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-color3 doz-PG">
+                                   <FaShoppingCart style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} /> 
+                                </div>
+                                 <h5 className="doz-our-head">Awareness Programme</h5>
+                                  <p>Dairy Farming (APDF)</p>
+                              </div>
+                            </div>
+                         </div> <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-color4 doz-PG">
+                                   <FaChild style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} /> 
+                                </div>
+                                 <h5 className="doz-our-head">Awareness Programme</h5>
+                                  <p>Child Care and Nutrition (APCCN)</p>
+                              </div>
+                            </div>
+                         </div>
+                           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-color5 doz-PG">
+                                    <FaAppleAlt style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">Awareness Programme</h5>
+                                  <p>Child Nutrition and Food (APNF)</p>
+                              </div>
+                            </div>
+                         </div>
+                            <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-color6 doz-PG">
+                                    <FaGavel style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />   
+                                </div>
+                                 <h5 className="doz-our-head">Awareness Programme</h5>
+                                  <p>Good Governance in New Delhi (APGGNI)</p>
+                              </div>
+                            </div>
+                         </div>
+                           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-color7 doz-PG">
+                                    <FaEye style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">Awareness Programme</h5>
+                                  <p>Kumbh Darshan (APKD)</p>
+                              </div>
+                            </div>
+                         </div>
+                          <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-color8 doz-PG">
+                                    <FaHandsHelping style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">Awareness Programme</h5>
+                                  <p>Antyodaya (APAY)</p>
+                              </div>
+                            </div>
+                         </div>
+                         <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-color9 doz-PG">
+                                    <FaUsers style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">Awareness Programme</h5>
+                                  <p>Ekatma Manavwad (APAM)</p>
+                              </div>
+                            </div>
+                         </div>
+                         <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-color10 doz-PG">
+                                   <FaChartLine style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} /> 
+                                </div>
+                                 <h5 className="doz-our-head">Awareness Programme</h5>
+                                  <p>Share Market and Mutual Funds</p>
+                              </div>
+                            </div>
+                         </div>
+                         <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-color11 doz-PG">
+                                     <FaLandmark style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} /> 
+                                </div>
+                                 <h5 className="doz-our-head">Awareness Programme</h5>
+                                  <p>Insurance and Banking Services</p>
+                              </div>
+                            </div>
+                         </div>
+                         <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-color12 doz-PG">
+                                    <FaFlag style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">Awareness Programme</h5>
+                                  <p>J&K (APJK)</p>
+                              </div>
+                            </div>
+                         </div>
+                         <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-color13 doz-PG">
+                                    <FaUniversity style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">Awareness Programme</h5>
+                                  <p>Citizenship Amendment Act (CAA)</p>
+                              </div>
+                            </div>
+                         </div>
+                         <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-color14 doz-PG">
+                                    <FaVirus style={{ fontSize: "20px", color: "#fff" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">Awareness Programme</h5>
+                                  <p>COVID-19 (APCO-19)</p>
+                              </div>
+                            </div>
+                         </div>
+                       </div>
+                     </div>
                   </div>
                 </div>
               </div>
