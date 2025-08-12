@@ -66,140 +66,565 @@ function OurProgram() {
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <ul className="nav nav-pills mb-3 d-flex justify-content-between" id="pills-tab" role="tablist">
-                  <li className="nav-item " role="presentation">
+                <ul className="nav nav-pills doz-ul-sec mb-3 d-flex justify-content-between" id="pills-tab" role="tablist">
+                  <li className="nav-item mb-0 " role="presentation">
                     <button className="nav-link active" id="pills-ug-tab" data-bs-toggle="pill" data-bs-target="#pills-ug" type="button"
                       role="tab" aria-controls="pills-ug" aria-selected="true">
-                      <FaGraduationCap style={{ marginRight: '8px', color: '#4E944F', fontSize: '50px' }} />
-                     <p className="doz-our-program"> Undergraduate Programs</p>
+                      <FaGraduationCap style={{ marginRight: '2px', color: '#313131ff', fontSize: '20px' }} />
+                       Undergraduate Programs
                     </button>
                   </li>
-                  <li className="nav-item" role="presentation">
+                  <li className="nav-item mb-0" role="presentation">
                     <button className="nav-link" id="pills-pg-tab" data-bs-toggle="pill" data-bs-target="#pills-pg" type="button"
                       role="tab" aria-controls="pills-pg" aria-selected="false">
-                         <FaUserGraduate style={{ marginRight: '8px', color: '#6C3483', fontSize: '50px'}} />
-                      <p className="doz-our-program"> Postgraduate Programs </p>
+                         <FaUserGraduate style={{ marginRight: '2px', color: '#313131ff', fontSize: '20px'}} />
+                         Postgraduate Programs
                     </button>
                   </li>
-                  <li className="nav-item" role="presentation">
+                  <li className="nav-item mb-0" role="presentation">
                     <button className="nav-link" id="pills-pg-diploma-tab" data-bs-toggle="pill" data-bs-target="#pills-pg-diploma" type="button"
                       role="tab" aria-controls="pills-pg-diploma" aria-selected="false">
-                        <FaCertificate style={{ marginRight: '8px', color: '#CA6F1E', fontSize: '50px'}} />
-                        <p className="doz-our-program"> PG Diploma Programs </p>
+                        <FaCertificate style={{ marginRight: '2px', color: '#313131ff', fontSize: '20px'}} />
+                         PG Diploma Programs
                     </button>
                   </li>
-                  <li className="nav-item" role="presentation">
+                  <li className="nav-item mb-0" role="presentation">
                     <button className="nav-link" id="pills-diploma-tab" data-bs-toggle="pill" data-bs-target="#pills-diploma" type="button"
                       role="tab" aria-controls="pills-diploma" aria-selected="false">
-                        <HiOutlineDocumentText style={{ marginRight: '8px', color: '#117864', fontSize: '50px'}} />
-                        <p className="doz-our-program"> Diploma Programs</p>
+                        <HiOutlineDocumentText style={{ marginRight: '2px', color: '#313131ff', fontSize: '20px'}} />
+                         Diploma Programs
                     </button>
                   </li>
-                  <li className="nav-item" role="presentation">
+                  <li className="nav-item mb-0" role="presentation">
                     <button className="nav-link" id="pills-certificate-tab" data-bs-toggle="pill" data-bs-target="#pills-certificate" type="button"
                       role="tab" aria-controls="pills-certificate" aria-selected="false">
-                        <FaMedal style={{ marginRight: '8px', color: '#7D6608', fontSize: '50px'}} />
-                        <p className="doz-our-program"> Certificate Programs</p>
+                        <FaMedal style={{ marginRight: '2px', color: '#313131ff', fontSize: '20px'}} />
+                         Certificate Programs
                     </button>
                   </li>
-                  <li className="nav-item" role="presentation">
+                  <li className="nav-item mb-0s" role="presentation">
                     <button className="nav-link" id="pills-awareness-tab" data-bs-toggle="pill" data-bs-target="#pills-awareness" type="button"
                       role="tab" aria-controls="pills-awareness" aria-selected="false">
-                        <FaLightbulb style={{ marginRight: '8px', color: '#B9770E', fontSize: '50px' }} />
-                        <p className="doz-our-program"> Awareness Programs</p>
+                        <FaLightbulb style={{ marginRight: '2px', color: '#313131ff', fontSize: '20px' }} />
+                         Awareness Programs
                     </button>
                   </li>
                 </ul>
 
                 <div className="tab-content" id="pills-tabContent">
                   <div className="tab-pane fade show active" id="pills-ug" role="tabpanel" aria-labelledby="pills-ug-tab" tabindex="0">
-                    <div className="card doz-our-card">
-                      <div className="card-body">
-                        <div className="course-list">
-                          <p><FaPenFancy style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> B.A. – Hindi, Sanskrit, English,
-
-                            B.A. – History, Geography, Political Science, Public Administration,
-
-                            B.A. – Economics, Education, Sociology, Philosophy,
-
-                            B.A. – Home Science, Social Work,
-
-                            B.A. – Fashion Designing, Textile Designing , B.A./B.Sc. – Mathematics, Statistics,B.A. – Yoga</p>
-
-                          <p><GiPlantRoots style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> B.A. (Single Subject) – Annual, all subjects</p>
-
-                          <p><GiCalculator style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> B.Sc. – Chemistry, Zoology, Botany, Physics, Mathematics</p>
-
-                          <p><FaBookOpen style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> B.Sc. (Single Subject) – Annual, all subjects</p>
-
-                          <p><FaRupeeSign style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> B.Com – Bachelor of Commerce</p>
-
-                          <p><FaLaptopCode style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> BCA – Bachelor of Computer Applications</p>
-
-                          <p><MdBusinessCenter style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> BBA – Bachelor of Business Administration</p>
-
-                          <p><FaBook style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> BLIS – Bachelor of Library and Information Science</p>
-
-                          <p><FaChalkboardTeacher style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> B.Ed – Bachelor of Education</p>
-                        </div>
-                      </div>
+                  <div className="col-12">
+                     <div className="row">
+                       <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                              <div className="card-body">
+                                <div className="doz-our-ico-sec1">
+                                <FaPenFancy style={{ fontSize: "20px", color: "#223872" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">B.A.</h5>
+                                  <p>Hindi, Sanskrit, English</p>
+                              </div>
+                          </div>
+                       </div> 
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                              <div className="card-body">
+                                <div className="doz-our-ico-sec2">
+                                <FaPenFancy style={{ fontSize: "20px", color: "#223872" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">B.A.</h5>
+                                  <p>History, Geography, Political Science, Public Administration</p>
+                              </div>
+                          </div>
+                       </div> 
+                       <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                              <div className="card-body">
+                                <div className="doz-our-ico-sec3">
+                                <FaPenFancy style={{ fontSize: "20px", color: "#223872" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">B.A.</h5>
+                                  <p>Economics, Education, Sociology, Philosophy</p>
+                              </div>
+                          </div>
+                       </div> 
+                       <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                              <div className="card-body">
+                                <div className="doz-our-ico-sec4">
+                                <FaPenFancy style={{ fontSize: "20px", color: "#223872" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">B.A.</h5>
+                                  <p>Home Science, Social Work</p>
+                              </div>
+                          </div>
+                       </div> 
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                              <div className="card-body">
+                                <div className="doz-our-ico-sec4">
+                                <FaPenFancy style={{ fontSize: "20px", color: "#223872" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">B.A.</h5>
+                                  <p>Fashion Designing, Textile Designing , B.A./B.Sc. – Mathematics, Statistics,B.A. – Yoga</p>
+                              </div>
+                          </div>
+                       </div>  
+                       <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                              <div className="card-body">
+                                <div className="doz-our-ico-sec5">
+                                <GiPlantRoots style={{ fontSize: "20px", color: "#1b5e20" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">B.A. (Single Subject)</h5>
+                                  <p>Annual, all subjects</p>
+                              </div>
+                          </div>
+                       </div> 
+                       <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                              <div className="card-body">
+                                <div className="doz-our-ico-sec6">
+                                <GiCalculator style={{ fontSize: "20px", color: "#d84315" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head"> B.Sc.</h5>
+                                  <p>Chemistry, Zoology, Botany, Physics, Mathematics</p>
+                              </div>
+                          </div>
+                       </div> 
+                       <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                              <div className="card-body">
+                                <div className="doz-our-ico-sec7">
+                                <FaBookOpen style={{ fontSize: "20px", color: "#6a1b9a" ,flexShrink:"0"}} /> 
+                                </div>
+                                 <h5 className="doz-our-head"> B.Sc. (Single Subject)</h5>
+                                  <p>Annual, all subjects</p>
+                              </div>
+                          </div>
+                       </div> 
+                       <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                              <div className="card-body">
+                                <div className="doz-our-ico-sec8">
+                                <FaRupeeSign style={{ fontSize: "20px", color: "#00695c" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">B.Com</h5>
+                                  <p>Bachelor of Commerce</p>
+                              </div>
+                          </div>
+                       </div> 
+                       <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                              <div className="card-body">
+                                <div className="doz-our-ico-sec9">
+                                <FaLaptopCode style={{ fontSize: "20px", color: "#0d47a1" ,flexShrink:"0"}} /> 
+                                </div>
+                                 <h5 className="doz-our-head">BCA</h5>
+                                  <p>Bachelor of Computer Applications</p>
+                              </div>
+                          </div>
+                       </div> 
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                              <div className="card-body">
+                                <div className="doz-our-ico-sec10">
+                                <MdBusinessCenter style={{ fontSize: "20px", color: "#4e342e" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">BBA</h5>
+                                  <p>Bachelor of Business Administration</p>
+                              </div>
+                          </div>
+                       </div>  
+                       <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                              <div className="card-body">
+                                <div className="doz-our-ico-sec11">
+                                <FaBook style={{ fontSize: "20px", color: "#2e7d32" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head"> BLIS</h5>
+                                  <p>Bachelor of Library and Information Science</p>
+                              </div>
+                          </div>
+                       </div>  
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                              <div className="card-body">
+                                <div className="doz-our-ico-sec12">
+                                <FaChalkboardTeacher style={{ fontSize: "20px", color: "#9e9d24" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">B.Ed</h5>
+                                  <p>Bachelor of Education</p>
+                              </div>
+                          </div>
+                       </div> 
+                     </div>
                     </div>
                   </div>
                   <div className="tab-pane fade" id="pills-pg" role="tabpanel" aria-labelledby="pills-agriculture-tab" tabindex="0" >
-                    <div className="card doz-our-card">
-                      <div className="card-body">
-                        <div className="pg-course-list">
-                          <p><FaPenFancy style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> M.A. – Hindi, Sanskrit, English, History, Economics, Geography, Home Science, Political Science, Sociology, Education, Philosophy, Social Work, Yoga, Statistics</p>
-
-                          <p><FaAtom style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> M.Sc. – Chemistry, Zoology, Botany, Physics, Mathematics</p>
-
-                          <p><FaMicroscope style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> M.Sc. (Specializations) – Biochemistry, Statistics, Computer Science, Food & Nutrition</p>
-
-                          <p><FaRupeeSign style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> M.Com</p>
-
-                          <p><MdBusinessCenter style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> MBA – Master of Business Administration</p>
-
-                          <p><FaLaptopCode style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> MCA – Master of Computer Application</p>
-
-                          <p><FaBookOpen style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> MLIS – Master of Library and Information Science</p>
-
-                          <p><FaNewspaper style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> MJ – Master of Journalism</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                   <div className="col-12">
+                     <div className="row">
+                       <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icoback1">
+                                   <FaPenFancy style={{ fontSize: "20px", color: "#223872" ,flexShrink:"0"}} />  
+                                </div>
+                                 <h5 className="doz-our-head">M.A.</h5>
+                                  <p>Hindi, Sanskrit, English, History, Economics, Geography, Home Science, Political Science, Sociology, Education, Philosophy, Social Work, Yoga, Statistics</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icoback2">
+                                   <FaAtom style={{ fontSize: "20px", color: "#1565c0" ,flexShrink:"0"}} />   
+                                </div>
+                                 <h5 className="doz-our-head">M.Sc.</h5>
+                                  <p>Chemistry, Zoology, Botany, Physics, Mathematics</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icoback3">
+                                    <FaMicroscope style={{ fontSize: "20px", color: "#4e342e" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">M.Sc. (Specializations)</h5>
+                                  <p>Biochemistry, Statistics, Computer Science, Food & Nutrition</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icoback4">
+                                   <FaRupeeSign style={{ fontSize: "20px", color: "#00695c" ,flexShrink:"0"}} /> 
+                                </div>
+                                 <h5 className="doz-our-head">M.Com</h5>
+                                  <p></p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icoback5">
+                                    <MdBusinessCenter style={{ fontSize: "20px", color: "#6a1b9a" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">MBA</h5>
+                                  <p>Master of Business Administration</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icoback6">
+                                   <FaLaptopCode style={{ fontSize: "20px", color: "#0d47a1" ,flexShrink:"0"}} /> 
+                                </div>
+                                 <h5 className="doz-our-head">MCA</h5>
+                                  <p>Master of Computer Application</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icoback7">
+                                   <FaBookOpen style={{ fontSize: "20px", color: "#2e7d32" ,flexShrink:"0"}} /> 
+                                </div>
+                                 <h5 className="doz-our-head">MLIS</h5>
+                                  <p>Master of Library and Information Science</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-icoback8">
+                                   <FaNewspaper style={{ fontSize: "20px", color: "#c62828" ,flexShrink:"0"}} /> 
+                                </div>
+                                 <h5 className="doz-our-head">MJ</h5>
+                                  <p>Master of Journalism</p>
+                              </div>
+                          </div>
+                       </div>
+                   </div>
+                </div>
+              </div>
                   <div className="tab-pane fade" id="pills-pg-diploma" role="tabpanel" aria-labelledby="pills-pg-diploma-tab" tabindex="0" >
-                    <div className="card doz-our-card">
-                      <div className="card-body">
-                        <div className="agriculture-course-list">
-                          <p><FaSeedling style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> PG Diploma in Agriculture Extension (PGDAE)</p>
-                          <p><FaLanguage style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> PG Diploma in Translation (PGDT)</p>
-                          <p><FaPenFancy style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> PG Diploma in Creative Writing in Hindi (PGDCWH)</p>
-                          <p><FaUserGraduate style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> PG Diploma in Educational Administration (PGDEA)</p>
-                          <p><FaRecycle style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> PG Diploma in Environment and Sustainable Development (PGD-ESD)</p>
-                          <p><FaVideo style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> PG Diploma in Electronic Media Management and Film Production (PGDEM&FP)</p>
-                          <p><FaUserTie style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> PG Diploma in Vocational Guidance and Career Counselling (PGDVGCC)</p>
-                          <p><FaSchool style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> PG Diploma in Distance Education (PGDDE)</p>
-                          <p><FaLanguage style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> PG Diploma in Functional Hindi (PGDFH)</p>
-                          <p><FaNewspaper style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> PG Diploma in Rural Journalism and Mass Communication (PGDRJMC)</p>
-                          <p><FaGlobeAmericas style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> PG Diploma in Green Social Work (PGDGSW)</p>
-                          <p><FaChartBar style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> PG Diploma in Bio-Statistics and Demography (PGDBSD)</p>
-                          <p><FaBroadcastTower style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> PG Diploma in Journalism and Mass Communication (PGDJMC)</p>
-                          <p><FaRupeeSign style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> PG Diploma in Financial Management (PGDFM)</p>
-                          <p><FaBullhorn style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> PG Diploma in Marketing Management (PGDMM)</p>
-                          <p><FaIndustry style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> PG Diploma in Production Management (PGDPM)</p>
-                          <p><FaPeopleCarry style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> PG Diploma in Human Resource Development (PGDHRD)</p>
-                          <p><FaChartBar style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> PG Diploma in Bio-Statistics and Population Studies (PGDBSPS)</p>
-                          <p><FaAppleAlt style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> PG Diploma in Dietetics and Therapeutic Nutrition (PGDDTN)</p>
-                          <p><FaHospital style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> PG Diploma in Hospital and Public Health Management (PGDHHM)</p>
-                          <p><FaOm style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> PG Diploma in Spiritual Tourism (PGDST)</p>
-                          <p><FaSpa style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> PG Diploma in Yoga (PGDYO)</p>
-                          <p><FaShieldAlt style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> PG Diploma in Food Safety and Nutritional Quality Management (PGDFSQM)</p>
-                          <p><FaLandmark style={{ fontSize: "25px", color: "#26354D" ,flexShrink:"0"}} /> PG Diploma in Museology (PGDM)</p>
-                        </div>
-                      </div>
+                    <div className="col-12">
+                     <div className="row">
+                       <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-backgro1 doz-PG">
+                                    <FaSeedling style={{ fontSize: "20px", color: "#2e7d32" ,flexShrink:"0"}} /> 
+                                </div>
+                                 <h5 className="doz-our-head">PG Diploma</h5>
+                                  <p>Agriculter Extension (PGDAE)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-backgro2 doz-PG">
+                                   <FaLanguage style={{ fontSize: "20px", color: "#1565c0" ,flexShrink:"0"}} />   
+                                </div>
+                                 <h5 className="doz-our-head">PG Diploma</h5>
+                                  <p>Translation (PGDT)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-backgro3 doz-PG">
+                                    <FaPenFancy style={{ fontSize: "20px", color: "#512da8" ,flexShrink:"0"}} /> 
+                                </div>
+                                 <h5 className="doz-our-head">PG Diploma</h5>
+                                  <p>Creative Writing in Hindi (PGDCWH)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-backgro4 doz-PG">
+                                   <FaUserGraduate style={{ fontSize: "20px", color: "#c2185b" ,flexShrink:"0"}} />  
+                                </div>
+                                 <h5 className="doz-our-head">PG Diploma</h5>
+                                  <p>Educational Administration (PGDEA)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-backgro5 doz-PG">
+                                    <FaRecycle style={{ fontSize: "20px", color: "#689f38" ,flexShrink:"0"}} /> 
+                                </div>
+                                 <h5 className="doz-our-head">PG Diploma</h5>
+                                  <p>Environment and Sustainable Development (PGD-ESD)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-backgro6 doz-PG">
+                                    <FaVideo style={{ fontSize: "20px", color: "#fbc02d" ,flexShrink:"0"}} /> 
+                                </div>
+                                 <h5 className="doz-our-head">PG Diploma</h5>
+                                  <p>Electronic Media Management and Film Production (PGDEM&FP)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-backgro7 doz-PG">
+                                  <FaUserTie style={{ fontSize: "20px", color: "#6a1b9a" ,flexShrink:"0"}} />   
+                                </div>
+                                 <h5 className="doz-our-head">PG Diploma</h5>
+                                  <p> Vocational Guidance and Career Counselling (PGDVGCC)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-backgro8 doz-PG">
+                                   <FaSchool style={{ fontSize: "20px", color: "#8e24aa" ,flexShrink:"0"}} />  
+                                </div>
+                                 <h5 className="doz-our-head">PG Diploma</h5>
+                                  <p> Distance Education (PGDDE)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-backgro9 doz-PG">
+                                  <FaLanguage style={{ fontSize: "20px", color: "#0288d1" ,flexShrink:"0"}} />   
+                                </div>
+                                 <h5 className="doz-our-head">PG Diploma</h5>
+                                  <p>Functional Hindi (PGDFH)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-backgro10 doz-PG">
+                                    <FaNewspaper style={{ fontSize: "20px", color: "#d84315" ,flexShrink:"0"}} /> 
+                                </div>
+                                 <h5 className="doz-our-head">PG Diploma</h5>
+                                  <p>Rural Journalism and Mass Communication (PGDRJMC)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-backgro11 doz-PG">
+                                     <FaGlobeAmericas style={{ fontSize: "20px", color: "#3949ab" ,flexShrink:"0"}} />
+                                </div>
+                                 <h5 className="doz-our-head">PG Diploma</h5>
+                                  <p> Green Social Work (PGDGSW)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-backgro12 doz-PG">
+                                   <FaChartBar style={{ fontSize: "20px", color: "#ef6c00" ,flexShrink:"0"}} />  
+                                </div>
+                                 <h5 className="doz-our-head">PG Diploma</h5>
+                                  <p> Bio-Statistics and Demography (PGDBSD)</p>
+                              </div>
+                          </div>
+                       </div>
+                         <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-backgro13 doz-PG">
+                                   <FaBroadcastTower style={{ fontSize: "20px", color: "#5e35b1" ,flexShrink:"0"}} />  
+                                </div>
+                                 <h5 className="doz-our-head">PG Diploma</h5>
+                                  <p> Journalism and Mass Communication (PGDJMC)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-backgro14 doz-PG">
+                                   <FaRupeeSign style={{ fontSize: "20px", color: "#00838f" ,flexShrink:"0"}} />  
+                                </div>
+                                 <h5 className="doz-our-head">PG Diploma</h5>
+                                  <p>Financial Management (PGDFM)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-backgro15 doz-PG">
+                                   <FaBullhorn style={{ fontSize: "20px", color: "#c2185b" ,flexShrink:"0"}} />  
+                                </div>
+                                 <h5 className="doz-our-head">PG Diploma</h5>
+                                  <p> Marketing Management (PGDMM)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-backgro16 doz-PG">
+                                  <FaIndustry style={{ fontSize: "20px", color: "#00695c" ,flexShrink:"0"}} />   
+                                </div>
+                                 <h5 className="doz-our-head">PG Diploma</h5>
+                                  <p> Production Management (PGDPM)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-backgro17 doz-PG">
+                                    <FaPeopleCarry style={{ fontSize: "20px", color: "#558b2f" ,flexShrink:"0"}} /> 
+                                </div>
+                                 <h5 className="doz-our-head">PG Diploma</h5>
+                                  <p> Human Resource Development (PGDHRD)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-backgro18 doz-PG">
+                                  <FaChartBar style={{ fontSize: "20px", color: "#fdd835" ,flexShrink:"0"}} />   
+                                </div>
+                                 <h5 className="doz-our-head">PG Diploma</h5>
+                                  <p>Bio-Statistics and Population Studies (PGDBSPS)</p>
+                              </div>
+                          </div>
+                       </div>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-backgro19 doz-PG">
+                                   <FaAppleAlt style={{ fontSize: "20px", color: "#ad1457" ,flexShrink:"0"}} />  
+                                </div>
+                                 <h5 className="doz-our-head">PG Diploma</h5>
+                                  <p>Dietetics and Therapeutic Nutrition (PGDDTN)</p>
+                              </div>
+                          </div>
+                       </div>
+                       <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-backgro20 doz-PG">
+                                   <FaHospital style={{ fontSize: "20px", color: "#1976d2" ,flexShrink:"0"}} />  
+                                </div>
+                                 <h5 className="doz-our-head">PG Diploma</h5>
+                                  <p>Hospital and Public Health Management (PGDHHM)</p>
+                              </div>
+                          </div>
+                       </div>
+                       <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-backgro21 doz-PG">
+                                    <FaOm style={{ fontSize: "20px", color: "#ff6f00" ,flexShrink:"0"}} /> 
+                                </div>
+                                 <h5 className="doz-our-head">PG Diploma</h5>
+                                  <p> Spiritual Tourism (PGDST)</p>
+                              </div>
+                          </div>
+                       </div>
+                       <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-backgro22 doz-PG">
+                                    <FaSpa style={{ fontSize: "20px", color: "#ab47bc" ,flexShrink:"0"}} /> 
+                                </div>
+                                 <h5 className="doz-our-head">PG Diploma</h5>
+                                  <p> Yoga (PGDYO)</p>
+                              </div>
+                          </div>
+                       </div>
+                       <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-backgro23 doz-PG">
+                                   <FaShieldAlt style={{ fontSize: "20px", color: "#4527a0" ,flexShrink:"0"}} />  
+                                </div>
+                                 <h5 className="doz-our-head">PG Diploma</h5>
+                                  <p>Food Safety and Nutritional Quality Management (PGDFSQM)</p>
+                              </div>
+                          </div>
+                       </div>
+                       <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                          <div className="card doz-our-car">
+                             <div className="card-body">
+                                <div className="doz-our-backgro24 doz-PG">
+                                   <FaLandmark style={{ fontSize: "20px", color: "#006064" ,flexShrink:"0"}} />  
+                                </div>
+                                 <h5 className="doz-our-head">PG Diploma</h5>
+                                  <p>Museology (PGDM)</p>
+                              </div>
+                          </div>
+                       </div>
                     </div>
                   </div>
+                </div>
                   <div className="tab-pane fade" id="pills-diploma" role="tabpanel" aria-labelledby="pills-diploma-tab" tabindex="0" >
                     <div className="card doz-our-card">
                       <div className="card-body">
@@ -265,13 +690,11 @@ function OurProgram() {
                       </div>
                     </div>
                   </div>
-
-
                 </div>
               </div>
             </div>
           </div>
-        </div>
+          </div>
       </section>
     </>
   );
