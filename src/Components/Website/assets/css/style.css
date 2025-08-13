@@ -16563,7 +16563,7 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
   transition: var(--transition);
 }
 .navigation__menu--item.has-arrow:hover::before {
-  content: "\f068";
+  content: "-";
   transition: var(--transition);
 }
 .navigation__menu--item ul.submenu,

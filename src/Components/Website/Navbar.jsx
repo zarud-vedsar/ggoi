@@ -97,7 +97,7 @@ function Navbar() {
                           </li>
                           <li className="navigation__menu--item">
                             <Link
-                              to='/contact'
+                              to='/contact-us'
                               className="navigation__menu--item__link"
                             >
                               Contact Us
@@ -142,7 +142,7 @@ function Navbar() {
                   <Link to="/institutions" class="main">Institutions</Link>
                 </li>
                 <li>
-                  <Link to="/contact" class="main">Contact Us</Link>
+                  <Link to="/contact-us" class="main">Contact Us</Link>
                 </li>
               </ul>
             </nav>

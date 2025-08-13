@@ -20,6 +20,7 @@ const WebsitePaths = {
   CollegeDetailPage: lazy(() => import('../Pages/Website/CollegeDetailPage')),
 
   About: lazy(() => import('../Pages/Website/AboutUs.jsx')),
+  ContactUs: lazy(() => import('../Pages/Website/ContactUs.jsx')),
   VisionAndMission: lazy(() => import('../Pages/Website/VisionMission.jsx')),
   Messages: lazy(() => import('../Pages/Website/Messages.jsx')),
 };
@@ -65,6 +66,7 @@ function Website() {
         <Route path="/" element={<WebsitePaths.Home />} />
         <Route path="/college/:collegeId" element={<WebsitePaths.CollegeDetailPage />} />
         <Route path="/about-us" element={<WebsitePaths.About />} />
+        <Route path="/contact-us" element={<WebsitePaths.ContactUs />} />
         <Route path="*" element={<Navigate to='/page-not-found' />} />
         <Route path="/vision-mission" element={<WebsitePaths.VisionAndMission />} />
         <Route path="/messages" element={<WebsitePaths.Messages />} />
