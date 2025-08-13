@@ -1,22 +1,48 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import logo from "./assets/images/logo/logo.png";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import TopHeader from "./TopHeader";
 import { CiMenuBurger } from "react-icons/ci";
 import { RxCross2 } from "react-icons/rx";
+import { AiOutlineMenu } from "react-icons/ai";
 
 function Navbar() {
-  const [isSiderBarOpen, setIsSideBarOpen] = useState(false);
+  const [isSideBarOpen, setIsSideBarOpen] = useState(false);
   const [openDropDown, setOpenDropDown] = useState(0);
+  const { pathname } = useLocation();
+  useEffect(() => {
+    setIsSideBarOpen(false);
+  }, [pathname])
   const toggleSideBar = () => {
-    setIsSideBarOpen(() => !isSiderBarOpen);
+    setOpenDropDown(0)
+    setIsSideBarOpen(() => !isSideBarOpen);
   }
+  const [isScrolled, setIsScrolled] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false)
+      }
+    }
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
+  useEffect(() => {
+    const closeSideBarMenu = (e) => {
+      if (!e.target.closest(".side-bar") && !e.target.closest(".am-menu-btn")) setIsSideBarOpen(false);
+    };
+    document.addEventListener("click", closeSideBarMenu);
+    return () => document.removeEventListener("click", closeSideBarMenu);
+  }, []);
   return (
     <>
       <>
         {/* header area start */}
         <TopHeader />
-        <header className="header v__5  header__sticky">
+        <header className={`header v__5  header__sticky ${isScrolled ? "fixed" : ""}`}>
           <div className="container-fluid">
             <div className="row">
               <div className="col-xl-12">
@@ -81,8 +107,8 @@ function Navbar() {
                       </nav>
                     </div>
                   </div>
-                  <div className="d-inline d-lg-none">
-                    <button className="btn " onClick={toggleSideBar}><CiMenuBurger className="am-f40" /></button>
+                  <div className="d-inline d-lg-none am-menu-btn">
+                    <button className="btn " onClick={toggleSideBar}><AiOutlineMenu className="am-f40" /></button>
                   </div>
                 </div>
               </div>
@@ -91,10 +117,10 @@ function Navbar() {
         </header>
 
 
-        <div id="side-bar" class={`side-bar ${isSiderBarOpen ? "show" : ""}`}>
+        <div id="side-bar" class={`side-bar ${isSideBarOpen ? "show" : ""}`}>
           <button class="close-icon-menu" onClick={toggleSideBar}><RxCross2 className="am-icon" /></button>
 
-         
+
 
           <div class="mobile-menu-main">
             <nav class="nav-main mainmenu-nav mt--30">
@@ -102,24 +128,26 @@ function Navbar() {
                 <li>
                   <Link to="/" class="main">Home</Link>
                 </li>
-                <li class={`has-droupdown ${openDropDown===1?'mm-active':''}`} onClick={()=>setOpenDropDown(()=>openDropDown===1?0:1)}>
+                <li class={`has-droupdown ${openDropDown === 1 ? 'mm-active' : ''}`} onClick={() => setOpenDropDown(() => openDropDown === 1 ? 0 : 1)}>
                   <Link href="#" class="main">About</Link>
-                  <ul class={`submenu mm-collapse ${openDropDown===1?'mm-show':''}`}>
-                    <li><Link class="mobile-menu-link" href="index.html">Introduction</Link></li>
+                  <ul class={`submenu mm-collapse ${openDropDown === 1 ? 'mm-show' : ''}`}>
+                    <li><Link class="mobile-menu-link" to="/about-us">Introduction</Link></li>
 
-                    <li><Link class="mobile-menu-link"to="vision-mission">Vision & Mission</Link></li>
+                    <li><Link class="mobile-menu-link" to="/vision-mission">Vision & Mission</Link></li>
+
+                    <li><Link class="mobile-menu-link" to="/messages">About Content Message</Link></li>
                   </ul>
                 </li>
                 <li>
                   <Link to="/institutions" class="main">Institutions</Link>
                 </li>
                 <li>
-                  <Link to="/contact-us" class="main">Contact Us</Link>
+                  <Link to="/contact" class="main">Contact Us</Link>
                 </li>
               </ul>
             </nav>
 
-           
+
           </div>
 
         </div>

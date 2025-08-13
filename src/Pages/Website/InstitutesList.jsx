@@ -31,8 +31,8 @@ const InstitutesList = () => {
                     {Object.values(collegeData).map((logo, index) => (
                         <div className="col-12 col-md-6 col-lg-4 mb-5" key={index} data-aos="fade-up" data-aos-delay="200">
 
-                            <div className="am-card h-100 ">
-                                <Link to={`/${logo?.id}`}>
+                            <div className="am-card h-100 pb-4">
+                                <Link to={`/college/${logo?.id}`}>
                                 <div className="image-wrapper ">
                                     <img
                                         src={logo.img}
@@ -40,7 +40,7 @@ const InstitutesList = () => {
                                         className="object-contain mx-auto"
                                     />
                                     <div className="View-more-btn d-block w-100">
-                                        <Link to={`/${logo?.id}`} className="am-f23" >View More</Link>
+                                        <Link to={`/college/${logo?.id}`} className="am-f23" >View More</Link>
                                         <img src="website/img/arrow.svg" alt="" className="view-more-btn-arrow" />
                                     </div>
                                 </div></Link>

@@ -147,7 +147,7 @@ export default function TopHeader() {
       <div className="topbar">
         <div className="d-flex justify-content-between  bg-top-section">
           <a href="#main-content" className="btn skip-btn f14 f500 ">
-            <img src="website/img/angles-down-solid-full.svg" className="me-0 me-md-2" alt="" style={{ width: "20px" }} />
+            <img src="/website/img/angles-down-solid-full.svg" className="me-0 me-md-2" alt="" style={{ width: "20px" }} />
             <span className=" text-white  d-none d-md-inline">  Skip to main content  </span>
           </a>
 

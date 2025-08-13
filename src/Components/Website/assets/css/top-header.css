@@ -63,7 +63,9 @@ body {
     border-radius: 20px !important;
     text-align: center;
 }
-
+.goog-te-gadget{
+    display: none;
+}
 .skiptranslate.goog-te-gadget span,
 iframe.goog-te-banner-frame.skiptranslate {
     display: none;
@@ -354,7 +356,7 @@ iframe.goog-te-banner-frame.skiptranslate {
 }
 
 .am-header-item {
-    padding: 0px 25px 0px 15px;
+    padding: 0px 8px 0px 15px;
 }
 
 .skip-btn {

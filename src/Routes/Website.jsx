@@ -63,7 +63,7 @@ function Website() {
       <Navbar />
       <Routes>
         <Route path="/" element={<WebsitePaths.Home />} />
-        <Route path="/:collegeId" element={<WebsitePaths.CollegeDetailPage />} />
+        <Route path="/college/:collegeId" element={<WebsitePaths.CollegeDetailPage />} />
         <Route path="/about-us" element={<WebsitePaths.About />} />
         <Route path="*" element={<Navigate to='/page-not-found' />} />
         <Route path="/vision-mission" element={<WebsitePaths.VisionAndMission />} />
