@@ -17,6 +17,8 @@ import 'aos/dist/aos.css';
 // Lazy load website pages
 const WebsitePaths = {
   Home: lazy(() => import('../Pages/Website/Home')),
+  CollegeDetailPage: lazy(() => import('../Pages/Website/CollegeDetailPage')),
+
 };
 
 function Website() {
@@ -50,6 +52,7 @@ function Website() {
       <Navbar />
       <Routes>
         <Route path="/" element={<WebsitePaths.Home />} />
+        <Route path="/:collegeId" element={<WebsitePaths.CollegeDetailPage />} />
         <Route path="*" element={<Navigate to='/page-not-found' />} />
       </Routes>
     </Suspense>
