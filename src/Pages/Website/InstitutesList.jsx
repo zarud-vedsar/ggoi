@@ -18,7 +18,7 @@ const InstitutesList = () => {
         return () => window.removeEventListener("mousemove", moveHandler);
     }, []);
     return (
-        <section className="py-5 institutes-section " style={{ backgroundColor: "#f5f5f5" }} onMouseEnter={(() => setModifyCursor(true))} onMouseLeave={(() => setModifyCursor(false))} >
+        <section className="py-5 institutes-section" id="institution" style={{backgroundColor:"#f5f5f5"}} onMouseEnter={(() => setModifyCursor(true))} onMouseLeave={(() => setModifyCursor(false))} >
             <div className="container" >
 
 
