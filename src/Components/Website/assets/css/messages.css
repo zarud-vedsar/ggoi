@@ -1,0 +1,57 @@
+
+.doz-massage-img img{
+    width: 330px;
+    height: 380px;
+    position: relative;
+    top: -13%;
+    left: 4%;
+    z-index: 999;
+ }
+ .doz-massage-img::before{
+   content: "";
+   position: absolute;
+   bottom: 5%;
+   left: 4%;
+   width: 330px;
+   height: 320px;
+   background-color: #83210b;
+ }
+  .doz-massage-img{
+   content: "";
+   position: absolute;
+   bottom: 50%;
+   left: 65%;
+   width: 360px;
+   height: 355px;
+   background-color: #fff;
+ }
+ .doz-mess-content p{
+    color: #fff;
+    margin-top: 15px;
+ }
+ .doz-mess-content h4{
+    color: #fff;
+ }
+ .doz-massage-coni img{
+    width: 360px;
+    height: 400px;
+    position: relative;
+    z-index: 2;
+ }
+ .doz-massage-coni::before{
+    content: "";
+    position: absolute;
+    width: 420px;
+    height: 450px;
+    background-color: #83210b;
+ }
+.doz-massage-coni{
+    position: absolute;
+    width: 400px;
+    height: 450px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

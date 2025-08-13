@@ -1,1 +1,44 @@
- 
+/* .doz-about-head{
+    border-right: 1px solid #969595;
+} */
+.doz-about-para{
+   border-left: 1px solid #a1a1a1;
+   padding-left: 40px;
+}
+.doz-vision-content{
+    padding-left: 60px;
+    margin-top: 10px;
+}
+.doz-mission-content{
+    padding-right: 60px;
+    text-align: end;
+    margin-top: 60px;
+}
+.doz-about-col{
+    position: relative;
+}
+.doz-mission-content::before{
+    content: "";
+    position: absolute;
+    top: 18%;
+    right: 0;
+    width: 55px;
+    height: 0.4px;
+    background-color: #cfcece;
+}
+.doz-vision-content::before{
+    content: "";
+    position: absolute;
+    top: 5%;
+    left: 0;
+    width: 55px;
+    height: 0.4px;
+    background-color: #cfcece;
+}
+.doz-about-img img{
+    width: 200px;
+    height: 200px;
+}
+.doz-about-img{
+    text-align: center;
+}

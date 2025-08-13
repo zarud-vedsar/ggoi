@@ -54,7 +54,10 @@ function Navbar() {
                                 <Link to="/about-us">Introduction</Link>
                               </li>
                               <li>
-                                <a href="athletics.html">Vision & Mission</a>
+                                <a href="/vision-mission">Vision & Mission</a>
+                              </li>
+                              <li>
+                                <a href="/messages">About Content Message</a>
                               </li>
                             </ul>
                           </li>
