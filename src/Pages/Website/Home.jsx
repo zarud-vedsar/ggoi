@@ -28,6 +28,7 @@ import WelcomeNoteToNewStudent from './WelcomeNoteToNewStudent';
 import Footer from '../../Components/Website/Footer';
 import OurAffiliations from './OurAffiliations';
 import { Link } from 'react-router-dom';
+import ggoimg from '../../Components/Website/assets/images/logo/ggoi-image.jpg';
 
 function Home() {
   return (
@@ -155,6 +156,32 @@ function Home() {
         </div>
       </div>
       {/* banner area end */}
+
+        <section className="py-5 our-program-section" id="our-programs" style={{backgroundColor:"#f5f5f5"}}>
+               <div className="container doz-our-con">
+                 <div className="container">
+                     <div className="row">
+                         <div className="col-lg-5 col-md-5 col-sm-6 col-12 mb-3">
+                             <h2 className="section-heading mb-2 doz-about-head">About Ghanshyam<br/> Group of Institutions</h2>
+                         </div>
+                         <div className="col-lg-7 col-md-7 col-sm-6 col-12 mb-4 doz-about-para">
+                             <p>For over 22 years, the Ghanshyam Group of Institutions, under the Urvashi Ghanshyam Technological Research and
+                               Development Charitable Trust, has been dedicated to excellence in education. Founded in 2000 on the Prayagraj–Varanasi
+                               Road, the Trust has grown into a network of over 12 schools and colleges. Guided by visionary leadership, an experienced
+                                Board of Governors, and exceptional faculty, the institutions have nurtured bright, talented students who bring pride 
+                                to the group. Committed to quality learning and holistic growth, the Trust works toward building a democratic,
+                                 pluralistic, and secular nation—transforming education into a movement for complete illumination.</p>
+                         </div>
+                         <div className="col-12 mb-3">
+                             <div className="">
+                                 <img src={ggoimg}/>
+                             </div>
+                         </div>
+                     </div>
+                  </div>
+               </div> 
+            </section> 
+
       <OurProgram />
       <CareerExcellence />
       <InstitutesList />
