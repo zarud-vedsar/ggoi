@@ -2,25 +2,13 @@ import React, { useEffect, useRef, useState } from "react";
 
 import '../../Components/Website/assets/css/institutes-list.css';
 import { Link } from "react-router-dom";
-
-const logos = [
-    { img: 'website/img/collegeImg.jpg', link: "", name: "Ghansyam Urvasi Law College", address: "Phoolpur, Prayagraj, Boodae, Uttar Pradesh 211002" },
-    { img: 'website/img/collegeImg.jpg', link: "", name: "Ghanshyam Urvashi PG college", address: "Phoolpur, Prayagraj, Boodae, Uttar Pradesh 211002" },
-    { img: 'website/img/collegeImg.jpg', link: "", name: "Shri Sai Ram Industrial Training  Institute", address: "962H+9GV, NH 19, Benipur Makharut, Uttar Pradesh 221502" },
-    { img: 'website/img/collegeImg.jpg', link: "", name: "Ghanshyam Urvashi Industrial Training Institute", address: "Phoolpur, Prayagraj, Boodae, Uttar Pradesh 211002" },
-    { img: 'website/img/collegeImg.jpg', link: "", name: "Shri Sai College of Pharmacy", address: "Upardaha, Handia, Uttar Pradesh 221502" },
-    { img: 'website/img/collegeImg.jpg', link: "", name: "Ghanshyam College of Pharmacy", address: "Phoolpur, Prayagraj, Boodae, Uttar Pradesh 211002" },
-    { img: 'website/img/collegeImg.jpg', link: "", name: "Ghanshyam Urvashi College of Pharmacy", address: "Phoolpur, Prayagraj, Boodae, Uttar Pradesh 211002" },
-
-
-
-];
+import { collegeData } from "../../Components/Website/CollegeData";
 
 const InstitutesList = () => {
 
 
     const [modifyCursor, setModifyCursor] = useState(false);
-       const [pos, setPos] = useState({ x: 0, y: 0 });
+    const [pos, setPos] = useState({ x: 0, y: 0 });
 
     useEffect(() => {
         const moveHandler = e => {
@@ -32,16 +20,16 @@ const InstitutesList = () => {
     return (
         <section className="py-5 institutes-section" id="institution" style={{backgroundColor:"#f5f5f5"}} onMouseEnter={(() => setModifyCursor(true))} onMouseLeave={(() => setModifyCursor(false))} >
             <div className="container" >
-              
+
 
                 <div className="row">
                     <div className="col-md-12" data-aos="fade-up" data-aos-delay="200">
-                        <h2 className="mb-5 text-dark text-center"  data-aos="fade-up" data-aos-delay="200">Institutes Under Ghanshyam Group</h2>
+                        <h2 className="mb-5 text-dark text-center" data-aos="fade-up" data-aos-delay="200">Institutes Under Ghanshyam Group</h2>
                     </div>
 
 
-                    {logos.map((logo, index) => (
-                        <div className="col-12 col-md-6 col-lg-4 mb-5" key={index}  data-aos="fade-up" data-aos-delay="200">
+                    {Object.values(collegeData).map((logo, index) => (
+                        <div className="col-12 col-md-6 col-lg-4 mb-5" key={index} data-aos="fade-up" data-aos-delay="200">
 
                             <div className="am-card h-100 ">
                                 <div className="image-wrapper ">
@@ -51,7 +39,7 @@ const InstitutesList = () => {
                                         className="object-contain mx-auto"
                                     />
                                     <div className="View-more-btn d-block w-100">
-                                        <Link to="" className="am-f23" >View More</Link>
+                                        <Link to={`/${logo?.id}`} className="am-f23" >View More</Link>
                                         <img src="website/img/arrow.svg" alt="" className="view-more-btn-arrow" />
                                     </div>
                                 </div>
@@ -73,7 +61,7 @@ const InstitutesList = () => {
                         top: `${pos.y}px`
                     }}
                 >
-                    </div>
+                </div>
             }
 
 

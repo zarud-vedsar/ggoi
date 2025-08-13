@@ -29,7 +29,7 @@ const CareerExcellence = () => {
                     <div className="col-lg-3 col-md-3 col-sm-6 col-6 mb-5" ref={ref}>
                         <div className='am-card'>
                             <img src="website/img/program.png" alt="" className='d-block mx-auto mb-5' />
-                            <p className='text-white am-f40 number text-center'>  {inView && <CountUp end={81} duration={2} />}+</p>
+                            <p className='text-white am-f40 number text-center'>  {inView && <CountUp end={80} duration={2} />}+</p>
                             <p className='text-white am-f22 text-center'>Program</p>
                         </div>
                     </div>
