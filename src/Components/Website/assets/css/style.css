@@ -16392,7 +16392,7 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
   font-size: 18px;
   color: var(--rt-heading);
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 992px) {
   .header__menu {
     display: none;
   }
@@ -16735,7 +16735,7 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
 #side-bar .mobile-menu-main {
   display: none;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   #side-bar .mobile-menu-main {
     display: block;
   }
@@ -16789,12 +16789,12 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
   top: 5px;
   padding: 8px 13px;
   color: #fff;
-  background: var(--rt-primary-2) !important;
+  background: #36558e !important;
   pointer-events: none;
   cursor: pointer;
 }
 .mobile-menu-main nav ul li.has-droupdown.mm-active::after {
-  content: "\f068";
+  content: "-";
 }
 .mobile-menu-main nav ul li.has-droupdown.third-lvl::after {
   font-size: 10px;
@@ -16820,7 +16820,7 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
 }
 .mobile-menu-main nav ul li a {
   display: block;
-  color: var(--rt-body);
+  color: #ffffff;
   font-size: 15px;
 }
 .mobile-menu-main .social-wrapper-one {
@@ -25776,7 +25776,7 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
   padding-top: 50px;
   height: 100%;
   display: block;
-  background-color: white;
+  background-color: #36558ebd;
   backdrop-filter: blur(7px);
   z-index: 1900;
   transition: all 600ms ease;
@@ -25849,7 +25849,7 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
   position: absolute;
   border: 0;
 }
-.side-bar button i {
+.side-bar button .am-icon {
   color: #ffffff;
   height: 50px;
   width: 50px;
@@ -25860,7 +25860,6 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
   margin-left: 14px;
   margin-top: -53px;
   font-size: 27px;
-  background: var(--rt-primary-2);
 }
 
 #anywhere-home {

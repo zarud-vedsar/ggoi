@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "./assets/images/logo/logo.png";
 import { Link } from "react-router-dom";
 import TopHeader from "./TopHeader";
+import { CiMenuBurger } from "react-icons/ci";
+import { RxCross2 } from "react-icons/rx";
+
 function Navbar() {
+  const [isSiderBarOpen, setIsSideBarOpen] = useState(false);
+  const [openDropDown, setOpenDropDown] = useState(0);
+  const toggleSideBar = () => {
+    setIsSideBarOpen(() => !isSiderBarOpen);
+  }
   return (
     <>
       <>
@@ -58,7 +66,7 @@ function Navbar() {
                               Institutions
                             </a>
                           </li>
-                           <li className="navigation__menu--item">
+                          <li className="navigation__menu--item">
                             <Link
                               to='/contact'
                               className="navigation__menu--item__link"
@@ -70,11 +78,48 @@ function Navbar() {
                       </nav>
                     </div>
                   </div>
+                  <div className="d-inline d-lg-none">
+                    <button className="btn " onClick={toggleSideBar}><CiMenuBurger className="am-f40" /></button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </header>
+
+
+        <div id="side-bar" class={`side-bar ${isSiderBarOpen ? "show" : ""}`}>
+          <button class="close-icon-menu" onClick={toggleSideBar}><RxCross2 className="am-icon" /></button>
+
+         
+
+          <div class="mobile-menu-main">
+            <nav class="nav-main mainmenu-nav mt--30">
+              <ul class="mainmenu metismenu" id="mobile-menu-active">
+                <li>
+                  <Link to="/" class="main">Home</Link>
+                </li>
+                <li class={`has-droupdown ${openDropDown===1?'mm-active':''}`} onClick={()=>setOpenDropDown(()=>openDropDown===1?0:1)}>
+                  <Link href="#" class="main">About</Link>
+                  <ul class={`submenu mm-collapse ${openDropDown===1?'mm-show':''}`}>
+                    <li><Link class="mobile-menu-link" href="index.html">Introduction</Link></li>
+
+                    <li><Link class="mobile-menu-link"to="vision-mission">Vision & Mission</Link></li>
+                  </ul>
+                </li>
+                <li>
+                  <Link to="/institutions" class="main">Institutions</Link>
+                </li>
+                <li>
+                  <Link to="/contact-us" class="main">Contact Us</Link>
+                </li>
+              </ul>
+            </nav>
+
+           
+          </div>
+
+        </div>
       </>
     </>
   );

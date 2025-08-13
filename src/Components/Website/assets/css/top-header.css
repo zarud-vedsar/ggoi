@@ -132,6 +132,7 @@ iframe.goog-te-banner-frame.skiptranslate {
     font-size: 14px;
     position: relative;
     border: 1px solid #fff;
+    line-height: 24px;
 }
 
 /* Arrow indicator */

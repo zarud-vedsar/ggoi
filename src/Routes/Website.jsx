@@ -1,5 +1,5 @@
 import React, { lazy, Suspense, useEffect } from 'react';
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
 
 // CSS imports
 import '../Components/Website/assets/css/plugins/animate.min.css';
@@ -23,6 +23,14 @@ const WebsitePaths = {
 };
 
 function Website() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth"
+    });
+  }, [pathname])
   useEffect(() => {
     // Global plugin JS imports (must be in public/assets/js or src-relative)
     const loadScripts = async () => {

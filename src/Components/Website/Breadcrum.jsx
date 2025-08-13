@@ -13,7 +13,7 @@ const Breadcrum = ({ paths }) => {
                         <nav >
                             <ol className=" d-flex align-items-center flex-wrap p-1">
                                 {paths.map((path, index) => (
-                                    <li key={index} className=" d-flex align-items-center">
+                                    <li key={index} className=" d-flex align-items-center m-0">
                                         {index !== paths.length - 1 ? (
                                             <>
                                                 <Link to={path.link} className='breadcrum-link-color'>{path.label}</Link>

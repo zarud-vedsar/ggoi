@@ -32,6 +32,7 @@ const InstitutesList = () => {
                         <div className="col-12 col-md-6 col-lg-4 mb-5" key={index} data-aos="fade-up" data-aos-delay="200">
 
                             <div className="am-card h-100 ">
+                                <Link to={`/${logo?.id}`}>
                                 <div className="image-wrapper ">
                                     <img
                                         src={logo.img}
@@ -42,7 +43,7 @@ const InstitutesList = () => {
                                         <Link to={`/${logo?.id}`} className="am-f23" >View More</Link>
                                         <img src="website/img/arrow.svg" alt="" className="view-more-btn-arrow" />
                                     </div>
-                                </div>
+                                </div></Link>
                                 <p className="mb-1 college-name text-center am-f22 text-dark">{logo?.name}</p>
                                 <p className="text-center">{logo?.address}</p>
                             </div>
@@ -55,7 +56,7 @@ const InstitutesList = () => {
             </div>
             {modifyCursor &&
                 <div
-                    className="cursor-circle"
+                    className="cursor-circle d-none d-md-block"
                     style={{
                         left: `${pos.x}px`,
                         top: `${pos.y}px`
