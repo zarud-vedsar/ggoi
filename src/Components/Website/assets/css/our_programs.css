@@ -105,7 +105,6 @@ border-radius:0px;
    padding: 7px 15px;
    position: relative;
 }
-
 .our-program-section .nav-pills .nav-link.active::after,
 .our-program-section .nav-pills .show > .nav-link::after {
   content: "";

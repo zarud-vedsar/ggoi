@@ -43,7 +43,7 @@ function Navbar() {
                             </a>
                             <ul className="submenu sub__style">
                               <li>
-                                <Link to="/about">Introduction</Link>
+                                <Link to="/about-us">Introduction</Link>
                               </li>
                               <li>
                                 <a href="athletics.html">Vision & Mission</a>
