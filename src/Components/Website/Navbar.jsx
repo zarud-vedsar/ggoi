@@ -117,32 +117,32 @@ function Navbar() {
         </header>
 
 
-        <div id="side-bar" class={`side-bar ${isSideBarOpen ? "show" : ""}`}>
-          <button class="close-icon-menu" onClick={toggleSideBar}><RxCross2 className="am-icon" /></button>
+        <div id="side-bar" className={`side-bar ${isSideBarOpen ? "show" : ""}`}>
+          <button className="close-icon-menu" onClick={toggleSideBar}><RxCross2 className="am-icon" /></button>
 
 
 
-          <div class="mobile-menu-main">
-            <nav class="nav-main mainmenu-nav mt--30">
-              <ul class="mainmenu metismenu" id="mobile-menu-active">
+          <div className="mobile-menu-main">
+            <nav className="nav-main mainmenu-nav mt--30">
+              <ul className="mainmenu metismenu" id="mobile-menu-active">
                 <li>
-                  <Link to="/" class="main">Home</Link>
+                  <Link to="/" className="main">Home</Link>
                 </li>
-                <li class={`has-droupdown ${openDropDown === 1 ? 'mm-active' : ''}`} onClick={() => setOpenDropDown(() => openDropDown === 1 ? 0 : 1)}>
-                  <Link href="#" class="main">About</Link>
-                  <ul class={`submenu mm-collapse ${openDropDown === 1 ? 'mm-show' : ''}`}>
-                    <li><Link class="mobile-menu-link" to="/about-us">Introduction</Link></li>
+                <li className={`has-droupdown ${openDropDown === 1 ? 'mm-active' : ''}`} onClick={() => setOpenDropDown(() => openDropDown === 1 ? 0 : 1)}>
+                  <Link href="#" className="main">About</Link>
+                  <ul className={`submenu mm-collapse ${openDropDown === 1 ? 'mm-show' : ''}`}>
+                    <li><Link className="mobile-menu-link" to="/about-us">Introduction</Link></li>
 
-                    <li><Link class="mobile-menu-link" to="/vision-mission">Vision & Mission</Link></li>
+                    <li><Link className="mobile-menu-link" to="/vision-mission">Vision & Mission</Link></li>
 
-                    <li><Link class="mobile-menu-link" to="/messages">About Content Message</Link></li>
+                    <li><Link className="mobile-menu-link" to="/messages">About Content Message</Link></li>
                   </ul>
                 </li>
                 <li>
-                  <Link to="/#institution" class="main">Institutions</Link>
+                  <Link to="/#institution" className="main">Institutions</Link>
                 </li>
                 <li>
-                  <Link to="/contact-us" class="main">Contact Us</Link>
+                  <Link to="/contact-us" className="main">Contact Us</Link>
                 </li>
               </ul>
             </nav>

@@ -1,80 +1,135 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation ,Autoplay} from "swiper/modules";
+
 import "swiper/css";
-import "swiper/css/autoplay";
-import "swiper/css/free-mode";
 import "swiper/css/navigation";
-import "swiper/css/pagination";
-import { Autoplay, Navigation } from "swiper/modules";
-import '../../Components/Website/assets/css/home-gallery.css';
+import "swiper/css/autoplay";
 
-const logos = [
-    { img: 'website/img/collegeImg.jpg', link: "", name: "Ghanshyam College of Engineering" },
-    { img: 'website/img/collegeImg.jpg', link: "", name: "Ghanshyam College of Pharmacy" },
-    { img: 'website/img/collegeImg.jpg', link: "", name: "Ghanshyam Industrial Training Institute" },
-    { img: 'website/img/collegeImg.jpg', link: "", name: "Ghanshyam College of Management & Technology" },
-    { img: 'website/img/collegeImg.jpg', link: "", name: "Ghanshyam College of Engineering" },
-    { img: 'website/img/collegeImg.jpg', link: "", name: "Ghanshyam College of Pharmacy" },
-    { img: 'website/img/collegeImg.jpg', link: "", name: "Ghanshyam Industrial Training Institute" },
-    { img: 'website/img/collegeImg.jpg', link: "", name: "Ghanshyam College of Management & Technology" },
+import LightGallery from "lightgallery/react";
 
+// LightGallery Styles
+import "lightgallery/css/lightgallery.css";
+import "lightgallery/css/lg-thumbnail.css";
+import "lightgallery/css/lg-zoom.css";
+import "lightgallery/css/lg-autoplay.css";
+import "lightgallery/css/lg-fullscreen.css";
+import "lightgallery/css/lg-share.css";
+import "lightgallery/css/lg-video.css";
+import "lightgallery/css/lg-pager.css";
 
+// LightGallery Plugins
+import lgThumbnail from "lightgallery/plugins/thumbnail";
+import lgZoom from "lightgallery/plugins/zoom";
+import lgAutoplay from "lightgallery/plugins/autoplay";
+import lgFullscreen from "lightgallery/plugins/fullscreen";
+import lgShare from "lightgallery/plugins/share";
+import lgVideo from "lightgallery/plugins/video";
+import lgPager from "lightgallery/plugins/pager";
+
+// Styles
+import "../../Components/Website/assets/css/home-gallery.css";
+
+const galleryImage = [
+    "/website/homeGallery/img1.jpg", "/website/homeGallery/img2.jpg", "/website/homeGallery/img3.jpg",
+    "/website/homeGallery/img4.jpg", "/website/homeGallery/img5.jpg", "/website/homeGallery/img6.jpg",
+    "/website/homeGallery/img7.jpg", "/website/homeGallery/img8.jpg", "/website/homeGallery/img9.jpg",
+    "/website/homeGallery/img10.jpg", "/website/homeGallery/img11.jpg", "/website/homeGallery/img12.jpg",
+    "/website/homeGallery/img13.jpg", "/website/homeGallery/img14.jpg", "/website/homeGallery/img15.jpg",
+    "/website/homeGallery/img16.jpg", "/website/homeGallery/img17.jpg", "/website/homeGallery/img18.jpg",
+    "/website/homeGallery/img19.jpg", "/website/homeGallery/img20.jpg"
 ];
 
 const HomePageGallery = () => {
+    const lightGalleryRef = useRef(null);
+
+    const handleImageClick = (index) => {
+        if (lightGalleryRef.current) {
+            lightGalleryRef.current.openGallery(index);
+        }
+    };
+
     return (
-        <section className="py-5 home-gallery-section" style={{backgroundColor:"#f5f5f5"}} >
+        <section className="py-5 home-gallery-section" style={{ backgroundColor: "#f5f5f5" }}>
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
                         <h2 className="mb-5 text-center" data-aos="fade-up" data-aos-delay="200">Gallery</h2>
                     </div>
-                    <div className="col-12 swiper" data-aos="fade-up" data-aos-delay="300">
-                        <div className="pb-5  bg-transparent">
+                    <div className="col-12" data-aos="fade-up" data-aos-delay="300">
+                        <div className="pb-5 bg-transparent">
                             <Swiper
-                                  autoplay={{
+                              autoplay={{
                                     delay: 1800,
                                     disableOnInteraction: false,
-                                  }}
-                                loop={true}
-                                grabCursor={true}
-                                modules={[Autoplay, Navigation]}
-                                navigation={true}
+                                }}
+                                modules={[Navigation,Autoplay]}
+                                spaceBetween={10}
+                                navigation
                                 breakpoints={{
-                                    320: { slidesPerView: 1 },
-                                    640: { slidesPerView: 2 },
+                                    0: { slidesPerView: 2 },
+                                    576: { slidesPerView: 2 },
                                     768: { slidesPerView: 3 },
-                                    992: { slidesPerView: 4 },
+                                    992: { slidesPerView: 5 },
                                 }}
                             >
-                                {logos.map((logo, index) => (
+                                {galleryImage.map((src, index) => (
                                     <SwiperSlide key={index}>
-                                        <a
-                                            href={logo.link}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            style={{ display: "block", width: "100%" }}
+                                        <div
+                                            onClick={() => handleImageClick(index)}
+                                            role="button"
+                                            tabIndex={0}
+                                            className="d-block col-6 col-sm-4 col-md-3 col-lg-2 mb-2 img-anchor"
+                                            style={{ width: "100%", cursor: "pointer" }}
+                                            onKeyPress={(e) => {
+                                                if (e.key === 'Enter') handleImageClick(index);
+                                            }}
                                         >
-                                            <div className="swiper-card">
-                                                <img
-                                                    src={logo.img}
-                                                    alt={`Logo ${index + 1}`}
-                                                    className="object-contain"
-                                                />
-                                                <p className="college-name mt-3 am-f22 text-dark">{logo?.name}</p>
-
-                                            </div>
-                                        </a>
+                                            <img
+                                                src={src}
+                                                loading="lazy"
+                                                alt={`Gallery Image ${index + 1}`}
+                                                className="img-fluid"
+                                                style={{ borderRadius: "10px",height:"200px",width:"100%" }}
+                                            />
+                                        </div>
                                     </SwiperSlide>
                                 ))}
                             </Swiper>
+
+                            <LightGallery
+                                onInit={(ref) => {
+                                    lightGalleryRef.current = ref.instance;
+                                }}
+                                dynamic
+                                dynamicEl={galleryImage.map((src) => ({
+                                    src: src,
+                                    thumb: src,
+                                }))}
+                                plugins={[
+                                    lgThumbnail,
+                                    lgZoom,
+                                    lgAutoplay,
+                                    lgFullscreen,
+                                    lgShare,
+                                    lgVideo,
+                                    lgPager,
+                                ]}
+                                closable
+                                hideBarsDelay={0}
+                                speed={500}
+                                mobileSettings={{
+                                    controls: true,
+                                    showCloseButton: true,
+                                }}
+                                className="d-none"
+                            />
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
-    )
-}
+    );
+};
 
-export default HomePageGallery
+export default HomePageGallery;

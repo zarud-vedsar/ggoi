@@ -23,7 +23,7 @@ const PlacementCell = () => {
                 <div className="row ">
                     <div className="col-md-6 position-relative high-package-campus-placement">
                         <div className="highestPackage pillar pt-5">
-                            <p className="text-center title am-f28 mb-0 text-white">20 LPA</p>
+                            <p className="text-center title am-f28 mb-0 text-white">8 LPA</p>
                             <p className="text-center label text-white">Highest Package</p>
                             <img src="website/img/high-package.svg" alt="" className="mx-auto" />
                         </div>
