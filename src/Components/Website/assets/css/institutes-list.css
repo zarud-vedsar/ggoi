@@ -1,15 +1,12 @@
 .institutes-section .am-card img {
     width: 100%;
-
 }
-
 .institutes-section .am-card .image-wrapper {
     position: relative;
     overflow: hidden;
     border-radius: 12px ;
-    margin-bottom: 20px;
+    margin-bottom: 7px;
 }
-
 .institutes-section .am-card .image-wrapper:hover::before {
     content: "";
     position: absolute;
@@ -19,60 +16,49 @@
     height: 100%;
     background: #5b565657;
 }
-
 .institutes-section .view-more-btn-arrow {
-    height: 40px;
-    display: inline;
-    vertical-align: middle;
-
+    height: 30px;
+    position: absolute;
+    right: -50px;
 }
-
 .institutes-section .View-more-btn {
     position: absolute;
-    top: 70%;
+    top: 76%;
     left: 40%;
     transform: translate(-50%, -50%);
     opacity: 0;
     visibility: hidden;
     white-space: nowrap;
-
     transition: all 0.5s ease-in-out;
+    background-color: #15374D;
+    padding: 5px 50px 5px 20px ;
+    border-radius: 15px;
 
 }
-
 .institutes-section .am-card .image-wrapper:hover .View-more-btn {
     top: 50%;
     opacity: 1;
     visibility: visible;
 }
-
 .institutes-section .View-more-btn a {
     color: #fff;
-
 }
-
 .institutes-section .am-card .college-name {
-    font-weight: 300;
-    line-height: 38px;
+    font-weight: 500;
+    line-height: 25px;
 }
-
-
-
 .institutes-section .am-card {
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
     background-color: #fff;
     padding: 0px;
-    border-radius: 12px ;
+    border-radius: 20px ;
     overflow: hidden;
     width: 90%;
     margin: 0 auto;
     
 }
-
-
-
 .cursor-circle {
     position: fixed;
     width: 40px;
@@ -85,4 +71,11 @@
     transition: transform 0.1s ease;
     z-index: 9999;
 }
+/* .doz-institud-button{
+    background-color: #15374D;
+    padding: 5px 15px;
+    width: 60% !important;
+    margin: 0px auto !important;
+    
+} */
 
