@@ -21,12 +21,10 @@ const InstitutesList = () => {
         <section className="py-5 institutes-section" id="institution" style={{backgroundColor:"#f5f5f5"}} onMouseEnter={(() => setModifyCursor(true))} onMouseLeave={(() => setModifyCursor(false))} >
             <div className="container" >
 
-
                 <div className="row">
                     <div className="col-md-12" data-aos="fade-up" data-aos-delay="200">
                         <h2 className="mb-5 text-dark text-center" data-aos="fade-up" data-aos-delay="200">Institutes Under Ghanshyam Group</h2>
                     </div>
-
 
                     {Object.values(collegeData).map((logo, index) => (
                         <div className="col-12 col-md-6 col-lg-4 mb-5" key={index} data-aos="fade-up" data-aos-delay="200">
