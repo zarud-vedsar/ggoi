@@ -31,8 +31,18 @@ export default function TopHeader() {
   const [isimagesHidden, setImagesHidden] = useState(false);
   const toggleDropdown = () => setIsOpen(!isOpen);
   const location = useLocation();
-   const selectedLabel =
+  const selectedLabel =
     languages.find((l) => l.code === selectedLang)?.label || "English";
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.querySelector(location.hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
+
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (menuRef.current && !menuRef.current.contains(event.target)) {
@@ -71,7 +81,7 @@ export default function TopHeader() {
     const selectField = document.querySelector(".goog-te-combo");
     if (selectField) {
       selectField.value = selectedLang;
-   
+
       selectField.dispatchEvent(new Event("change"));
     }
   }, [selectedLang]);
@@ -119,7 +129,7 @@ export default function TopHeader() {
     fontSizeMap.current.clear();
   };
 
- 
+
 
   useEffect(() => {
     if (isBigCursor) {
@@ -181,7 +191,7 @@ export default function TopHeader() {
                 aria-haspopup="true"
                 aria-expanded={isOpen}
               >
-                <IoAccessibility className="am-f20"/>
+                <IoAccessibility className="am-f20" />
               </button>
               {isOpen && (
                 <div className="dropdown-menu show am-accessbilty-menu">
@@ -193,10 +203,10 @@ export default function TopHeader() {
                         onClick={() => scaleFonts(1.1)}
                         className="btn am-font-scale-btn "
                       >
-                      <p className="am-f16 mb-2">  A <sup>+</sup></p>
+                        <p className="am-f16 mb-2">  A <sup>+</sup></p>
                         <p
                           className="text-center m-0 am-f12"
-                
+
                         >
                           Increase <br />
                           Text
@@ -208,10 +218,10 @@ export default function TopHeader() {
                         onClick={resetFonts}
                         className="btn am-font-scale-btn"
                       >
-                       <p className="am-f16 mb-2">  A</p>
+                        <p className="am-f16 mb-2">  A</p>
                         <p
                           className="text-center m-0 am-f12"
-                         
+
                         >
                           Reset <br />
                           Text
@@ -223,10 +233,10 @@ export default function TopHeader() {
                         onClick={() => scaleFonts(0.9)}
                         className="btn am-font-scale-btn"
                       >
-                      <p className="am-f16 mb-2">   A<sup>-</sup>{" "}</p>
+                        <p className="am-f16 mb-2">   A<sup>-</sup>{" "}</p>
                         <p
                           className="text-center   m-0 am-f12"
-                         
+
                         >
                           Decrease <br />
                           Text
@@ -247,7 +257,7 @@ export default function TopHeader() {
                     <div className="mx-3 d-none">
                       <button onClick={() => setImagesHidden(prev => !prev)
                       } className={`btn am-font-scale-btn ${isimagesHidden ? 'active' : ''} `}>
-                        <MdHideImage  className="am-f16 mb-2"/>
+                        <MdHideImage className="am-f16 mb-2" />
 
                         <p className="text-center m-0 am-f12" >Hide <br /> Image</p>
 

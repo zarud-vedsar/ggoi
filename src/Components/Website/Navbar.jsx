@@ -139,7 +139,7 @@ function Navbar() {
                   </ul>
                 </li>
                 <li>
-                  <Link to="/#institutions" class="main">Institutions</Link>
+                  <Link to="/#institution" class="main">Institutions</Link>
                 </li>
                 <li>
                   <Link to="/contact-us" class="main">Contact Us</Link>

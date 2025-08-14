@@ -125,7 +125,7 @@ const ContactUs = () => {
                     <FaMapLocationDot className='am-f40 am-text-primary mb-4' />
 
 
-                    <p >
+                    <p className='text-center'>
                       Phoolpur, Prayagraj, Boodae, Uttar Pradesh 211002
                     </p>
                   </div>
@@ -137,9 +137,9 @@ const ContactUs = () => {
 
 
                     <div className='d-flex flex-column'>
-                      <a href="callto:+442041542541" >+91 892 405 7222
+                      <a href="tel:+91 892 405 7222" >+91 892 405 7222
                       </a>
-                      <a href="callto:+442041542542" >+91 962 192 5222</a>
+                      <a href="tel:+91 892 405 7222" >+91 962 192 5222</a>
                     </div>
                   </div>
                 </div>
