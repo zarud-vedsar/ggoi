@@ -86,12 +86,13 @@ const ContactUs = () => {
       if (!response.ok) {
         const errorData = await response.json();
         console.error("Server error:", errorData);
-        return;
+        return setIsSubmit(false);
       }
 
       const result = await response.json();
       toast.error("Form submitted successfully:");
       setFormData({ ...initializeFormData });
+      setIsSubmit(false);
     }
     catch (e) {
       toast.error("Submission failed")
