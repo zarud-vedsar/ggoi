@@ -394,15 +394,3 @@ textarea:active {
     border-color: transparent !important
 }
 
-#main-content {
-    scroll-margin-top: 260px;
-}
-#institution{
-    scroll-margin-top:130px ;
-}
-@media only screen and (max-width:1200px) {
-
-#main-content {
-    scroll-margin-top: 320px;
-}
-}

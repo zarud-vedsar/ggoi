@@ -5,6 +5,7 @@ import TopHeader from "./TopHeader";
 import { CiMenuBurger } from "react-icons/ci";
 import { RxCross2 } from "react-icons/rx";
 import { AiOutlineMenu } from "react-icons/ai";
+import { HashLink } from 'react-router-hash-link';
 
 function Navbar() {
   const [isSideBarOpen, setIsSideBarOpen] = useState(false);
@@ -80,20 +81,20 @@ function Navbar() {
                                 <Link to="/about-us">Introduction</Link>
                               </li>
                               <li>
-                                <a href="/vision-mission">Vision & Mission</a>
+                                <Link to="/vision-mission">Vision & Mission</Link>
                               </li>
                               <li>
-                                <a href="/messages">About Content Message</a>
+                                <Link to="/messages">About Content Message</Link>
                               </li>
                             </ul>
                           </li>
                           <li className="navigation__menu--item">
-                            <a
-                              href='/#institution'
+                            <HashLink
+                              to='/#institution'
                               className="navigation__menu--item__link"
                             >
                               Institutions
-                            </a>
+                            </HashLink>
                           </li>
                           <li className="navigation__menu--item">
                             <Link
@@ -139,7 +140,7 @@ function Navbar() {
                   </ul>
                 </li>
                 <li>
-                  <Link to="/#institution" className="main">Institutions</Link>
+                  <HashLink to="/#institution" className="main">Institutions</HashLink>
                 </li>
                 <li>
                   <Link to="/contact-us" className="main">Contact Us</Link>

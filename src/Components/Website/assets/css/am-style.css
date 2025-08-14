@@ -1,47 +1,197 @@
-.am-f1  { font-size: 1px !important; }
-.am-f2  { font-size: 2px !important; }
-.am-f3  { font-size: 3px !important; }
-.am-f4  { font-size: 4px !important; }
-.am-f5  { font-size: 5px !important; }
-.am-f6  { font-size: 6px !important; }
-.am-f7  { font-size: 7px !important; }
-.am-f8  { font-size: 8px !important; }
-.am-f9  { font-size: 9px !important; }
-.am-f10 { font-size: 10px !important; }
-.am-f11 { font-size: 11px !important; }
-.am-f12 { font-size: 12px !important; }
-.am-f13 { font-size: 13px !important; }
-.am-f14 { font-size: 14px !important; }
-.am-f15 { font-size: 15px !important; }
-.am-f16 { font-size: 16px !important; }
-.am-f17 { font-size: 17px !important; }
-.am-f18 { font-size: 18px !important; }
-.am-f19 { font-size: 19px !important; }
-.am-f20 { font-size: 20px !important; }
-.am-f21 { font-size: 21px !important; }
-.am-f22 { font-size: 22px !important; }
-.am-f23 { font-size: 23px !important; }
-.am-f24 { font-size: 24px !important; }
-.am-f25 { font-size: 25px !important; }
-.am-f26 { font-size: 26px !important; }
-.am-f27 { font-size: 27px !important; }
-.am-f28 { font-size: 28px !important; }
-.am-f29 { font-size: 29px !important; }
-.am-f30 { font-size: 30px !important; }
-.am-f31 { font-size: 31px !important; }
-.am-f32 { font-size: 32px !important; }
-.am-f33 { font-size: 33px !important; }
-.am-f34 { font-size: 34px !important; }
-.am-f35 { font-size: 35px !important; }
-.am-f36 { font-size: 36px !important; }
-.am-f37 { font-size: 37px !important; }
-.am-f38 { font-size: 38px !important; }
-.am-f39 { font-size: 39px !important; }
-.am-f40 { font-size: 40px !important; }
-
-.am-text-primary{
-    color:#a51734 !important
+.am-f1 {
+    font-size: 1px !important;
 }
-.Toastify__close-button{
+
+.am-f2 {
+    font-size: 2px !important;
+}
+
+.am-f3 {
+    font-size: 3px !important;
+}
+
+.am-f4 {
+    font-size: 4px !important;
+}
+
+.am-f5 {
+    font-size: 5px !important;
+}
+
+.am-f6 {
+    font-size: 6px !important;
+}
+
+.am-f7 {
+    font-size: 7px !important;
+}
+
+.am-f8 {
+    font-size: 8px !important;
+}
+
+.am-f9 {
+    font-size: 9px !important;
+}
+
+.am-f10 {
+    font-size: 10px !important;
+}
+
+.am-f11 {
+    font-size: 11px !important;
+}
+
+.am-f12 {
+    font-size: 12px !important;
+}
+
+.am-f13 {
+    font-size: 13px !important;
+}
+
+.am-f14 {
+    font-size: 14px !important;
+}
+
+.am-f15 {
+    font-size: 15px !important;
+}
+
+.am-f16 {
+    font-size: 16px !important;
+}
+
+.am-f17 {
+    font-size: 17px !important;
+}
+
+.am-f18 {
+    font-size: 18px !important;
+}
+
+.am-f19 {
+    font-size: 19px !important;
+}
+
+.am-f20 {
+    font-size: 20px !important;
+}
+
+.am-f21 {
+    font-size: 21px !important;
+}
+
+.am-f22 {
+    font-size: 22px !important;
+}
+
+.am-f23 {
+    font-size: 23px !important;
+}
+
+.am-f24 {
+    font-size: 24px !important;
+}
+
+.am-f25 {
+    font-size: 25px !important;
+}
+
+.am-f26 {
+    font-size: 26px !important;
+}
+
+.am-f27 {
+    font-size: 27px !important;
+}
+
+.am-f28 {
+    font-size: 28px !important;
+}
+
+.am-f29 {
+    font-size: 29px !important;
+}
+
+.am-f30 {
+    font-size: 30px !important;
+}
+
+.am-f31 {
+    font-size: 31px !important;
+}
+
+.am-f32 {
+    font-size: 32px !important;
+}
+
+.am-f33 {
+    font-size: 33px !important;
+}
+
+.am-f34 {
+    font-size: 34px !important;
+}
+
+.am-f35 {
+    font-size: 35px !important;
+}
+
+.am-f36 {
+    font-size: 36px !important;
+}
+
+.am-f37 {
+    font-size: 37px !important;
+}
+
+.am-f38 {
+    font-size: 38px !important;
+}
+
+.am-f39 {
+    font-size: 39px !important;
+}
+
+.am-f40 {
+    font-size: 40px !important;
+}
+
+.am-text-primary {
+    color: #a51734 !important
+}
+
+.Toastify__close-button {
     width: fit-content;
+}
+
+#main-content {
+    scroll-margin-top: 260px;
+}
+
+#institution {
+    scroll-margin-top: 130px;
+}
+
+
+#message-manager {
+    scroll-margin-top: 130px;
+}
+
+#message-director {
+    scroll-margin-top: 130px;
+
+}
+
+@media only screen and (max-width:1200px) {
+
+    #main-content {
+        scroll-margin-top: 320px;
+    }
+
+    #institution {
+        scroll-margin-top: 148px;
+    }
+
 }

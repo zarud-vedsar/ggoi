@@ -12,8 +12,8 @@ function Message() {
             { label: 'Home', link: '/' },
             { label: 'About Content Message', link: `/messages` },
          ]} />
-         <section className="py-5" data-aos="fade-up" data-aos-delay="200" id="main-content">
-            <div className="container px-5 py-5" style={{ backgroundColor: "#83210b" }}>
+         <section className="py-5"  id="main-content">
+            <div className="container px-5 py-5" style={{ backgroundColor: "#83210b" }} data-aos="fade-up" data-aos-delay="200">
                <div className="row">
                   <div className="col-lg-7 col-md-12 col-sm-12 col-12 order-2 order-md-2 order-sm-2 order-lg-1">
                      <div className="doz-mess-content">
@@ -53,7 +53,7 @@ function Message() {
             </div>
          </section>
 
-         <section className="py-5">
+         <section className="py-5" id="message-manager">
             <div className="container p-5" style={{ backgroundColor: "#f5f5f5" }} data-aos="fade-up" data-aos-delay="200">
                <div className="row">
                   <div className="col-lg-7 col-md-12 col-sm-12 col-12 order-2 order-md-2 order-sm-2 order-lg-1">
@@ -87,8 +87,8 @@ function Message() {
             </div>
          </section>
 
-         <section className="py-5" data-aos="fade-up" data-aos-delay="200">
-            <div className="container p-5" style={{ backgroundColor: "#9D8420" }}>
+         <section className="py-5" id="message-director">
+            <div className="container p-5" style={{ backgroundColor: "#9D8420" }} data-aos="fade-up" data-aos-delay="200">
                <div className="row">
                   <div className="col-lg-7 col-md-12 col-sm-12 col-12 order-2 order-md-2 order-sm-2 order-lg-1">
                      <div className="doz-mess-content">

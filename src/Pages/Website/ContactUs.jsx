@@ -137,9 +137,10 @@ const ContactUs = () => {
 
 
                     <div className='d-flex flex-column'>
-                      <a href="tel:+91 892 405 7222" >+91 892 405 7222
+                      <a href="tel: +918924057222" > +91 892 405 7222
                       </a>
-                      <a href="tel:+91 892 405 7222" >+91 962 192 5222</a>
+                      <a href="tel:+919621925222" >+91962 192 5222</a>
+
                     </div>
                   </div>
                 </div>

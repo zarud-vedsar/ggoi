@@ -7,7 +7,8 @@ import { FaYoutube } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa6";
-
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 const Footer = () => {
     return (
         <>
@@ -26,11 +27,11 @@ const Footer = () => {
                                     <li>
                                         <span>Follow us:</span>
                                     </li>
-                                    <li><a href="https://www.instagram.com/ghanshyamgroup/" className="rs-c-instagram-b"><FaInstagram />
+                                    <li><a href="https://www.instagram.com/ghanshyamgroup/" target='_blank' className="rs-c-instagram-b"><FaInstagram />
                                     </a></li>
-                                    <li><a href="https://www.facebook.com/share/CGPErdSEJVMSmGN1/?mibextid=qi2Omg" className="facebook-bg"><FaFacebook />
+                                    <li><a href="https://www.facebook.com/share/CGPErdSEJVMSmGN1/?mibextid=qi2Omg" target='_blank'  className="facebook-bg"><FaFacebook />
                                     </a></li>
-                                    <li><a href="https://www.youtube.com/@ghanshyamurvaship.g.colleg8403" className="rs-c-youtube-b"><FaYoutube />
+                                    <li><a href="https://www.youtube.com/@ghanshyamurvaship.g.colleg8403" target='_blank'  className="rs-c-youtube-b"><FaYoutube />
                                     </a></li>
 
                                 </ul>
@@ -43,23 +44,19 @@ const Footer = () => {
 
                                 <ul className="import-link">
                                     <li>
-                                        <a href="./index.php">Home</a>
+                                        <Link to="/">Home</Link>
+                                    </li>
+                                   
+                                    <li>
+                                        <HashLink to="/messages#main-content">Founder Message</HashLink>
                                     </li>
                                     <li>
-                                        <a href="./about.php">About College</a>
+                                        <HashLink to="/messages#message-manager">Manager Message</HashLink>
                                     </li>
                                     <li>
-                                        <a href="./founder-msg.php">Founder Message</a>
+                                        <HashLink to="/messages#message-director">Director Message</HashLink>
                                     </li>
-                                    <li>
-                                        <a href="./chairman-msg.php">Chairman Message</a>
-                                    </li>
-                                    <li>
-                                        <a href="./director-msg.php">Director Message</a>
-                                    </li>
-                                    <li>
-                                        <a href="./principle-msg.php">Principle Message</a>
-                                    </li>
+                                  
                                 </ul>
                             </div>
                         </div>
@@ -69,13 +66,13 @@ const Footer = () => {
 
                                 <ul className="import-link">
                                     <li>
-                                        <a href="./contact.php">Contact Us</a>
+                                        <Link to="/contact-us">Contact Us</Link>
                                     </li>
                                     <li>
-                                        <a href="./terms-conditions.php">Terms &amp; conditions</a>
+                                        <Link to="/terms-and-conditions">Terms &amp; conditions</Link>
                                     </li>
                                     <li>
-                                        <a href="./privacy-policy.php">Privacy policy</a>
+                                        <Link to="/privacy-policy">Privacy policy</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -100,6 +97,7 @@ const Footer = () => {
 
                                         <span>Phone</span>
                                         <a href="tel:+918924057222">+918924057222</a>
+                                        <br />
                                         <a href="tel:+919621925222">+919621925222</a>
                                     </li>
                                 </ul>
