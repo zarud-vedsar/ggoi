@@ -38,3 +38,10 @@
 .am-f38 { font-size: 38px !important; }
 .am-f39 { font-size: 39px !important; }
 .am-f40 { font-size: 40px !important; }
+
+.am-text-primary{
+    color:#a51734 !important
+}
+.Toastify__close-button{
+    width: fit-content;
+}

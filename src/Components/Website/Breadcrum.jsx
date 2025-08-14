@@ -9,7 +9,6 @@ const Breadcrum = ({ paths }) => {
             <div className="container" >
                 <div className="row">
                     <div className="col-md-12">
-                        <h2 className="mb-5">{paths?.length > 0 ? paths[paths.length - 1].label : 'Breadcrumb'}</h2>
                         <nav >
                             <ol className=" d-flex align-items-center flex-wrap p-1">
                                 {paths.map((path, index) => (
@@ -26,6 +25,8 @@ const Breadcrum = ({ paths }) => {
                                 ))}
                             </ol>
                         </nav>
+                        <h2 className="mb-5 text-white">{paths?.length > 0 ? paths[paths.length - 1].label : 'Breadcrumb'}</h2>
+
                     </div>
                 </div>
             </div>
