@@ -107,7 +107,7 @@ const ContactUs = () => {
         { label: 'Home', link: '/' },
         { label: 'Contact Us', link: `/contact-us` },
       ]} />
-      <section className="py-5">
+      <section className="py-5" id="main-content">
         <div className="container">
           <div className="row">
             <div className="col-12" data-aos="fade-up" data-aos-delay="200">

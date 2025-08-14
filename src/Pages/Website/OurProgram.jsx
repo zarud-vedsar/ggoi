@@ -59,7 +59,7 @@ import { FaLightbulb } from 'react-icons/fa';
 function OurProgram() {
   return (
     <>
-      <section className="py-5 our-program-section" id="our-programs" style={{backgroundColor:"#f5f5f5"}} data-aos="fade-up" data-aos-delay="200">
+      <section className="py-5 our-program-section" id="main-content" style={{backgroundColor:"#f5f5f5"}} data-aos="fade-up" data-aos-delay="200">
         <div className="container doz-our-con">
           <div className="container">
           <h2 className="section-heading mb-2">Our Programs</h2>

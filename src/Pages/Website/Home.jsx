@@ -20,21 +20,19 @@ import CampusFacilities from './CampusFacilities';
 import PersonalityDevelopment from './PersonalityDevelopment';
 import HomePageGallery from './HomePageGallery';
 import EventsAndExtraCurriculars from './EventsAndExtraCurriculars';
-import Breadcrum from '../../Components/Website/breadcrum';
 import PlacementCell from './PlacementCell';
 import CareerExcellence from './CareerExcellence';
 import AcademicsAndFaculty from './AcademicsAndFaculty';
 import WelcomeNoteToNewStudent from './WelcomeNoteToNewStudent';
 import Footer from '../../Components/Website/Footer';
 import OurAffiliations from './OurAffiliations';
-import { Link } from 'react-router-dom';
 import ggoimg from '../../Components/Website/assets/images/logo/ggoi-image.jpg';
 
 function Home() {
   return (
     <>
       {/* banner area */}
-      <div className="banner v__5">
+      <div className="banner v__5"  data-aos="fade-up" data-aos-delay="200" >
         <div className="banner__left__side__content">
           <div className="banner__left__side__content__social">
             <span>Follow-</span>
@@ -76,7 +74,7 @@ function Home() {
                         Welcome to Ghanshyam Group of Institutions, Prayagraj – a leading educational trust dedicated to providing world-class education in rural and semi-urban regions of Uttar Pradesh. With over 10,000+ students, 9 campuses, and 850+ dedicated faculty, our mission is to nurture socially responsible and industry-ready professionals.
                       </p>
                       <a
-                        href="/#our-programs"
+                        href="/#main-content"
                         className="rts-nbg-btn btn-arrow"
                       >
                         View Our Program
@@ -157,7 +155,7 @@ function Home() {
       </div>
       {/* banner area end */}
 
-        <section className="py-5 our-program-section" id="our-programs" style={{backgroundColor:"#f5f5f5"}}>
+        <section className="py-5 our-program-section"  style={{backgroundColor:"#f5f5f5"}} data-aos="fade-up" data-aos-delay="200">
                <div className="container doz-our-con">
                  <div className="container">
                      <div className="row">

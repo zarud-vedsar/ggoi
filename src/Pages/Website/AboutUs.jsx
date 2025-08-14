@@ -3,14 +3,19 @@
  import ggoImg from '../../Components/Website/assets/images/logo/ggoi-image.jpg';
  import mImg from '../../Components/Website/assets/images/logo/target.png';
  import vImg from '../../Components/Website/assets/images/logo/shared-vision.png';
+import Breadcrum from "../../Components/Website/breadcrum";
+import Footer from "../../Components/Website/Footer";
  function AboutUs() {
   return (
     <>
-     
-      <section className="py-5 our-program-section" id="our-programs" style={{backgroundColor:"#f5f5f5"}}>
+      <Breadcrum paths={[
+              { label: 'Home', link: '/' },
+              { label: 'Introduction', link: `/about-us` },
+            ]} />
+      <section className="py-5 our-program-section" id="main-content" style={{backgroundColor:"#f5f5f5"}} >
         <div className="container doz-our-con">
           <div className="container">
-              <div className="row">
+              <div className="row" data-aos="fade-up" data-aos-delay="200">
                   <div className="col-lg-5 col-md-5 col-sm-6 col-12 mb-3">
                       <h2 className="section-heading mb-2 doz-about-head">About Ghanshyam<br/> Group of Institutions</h2>
                   </div>
@@ -54,7 +59,7 @@
         </div> 
      </section> 
 
-     <section className="py-5">
+     <section className="py-5" data-aos="fade-up" data-aos-delay="200">
         <div className="container">
             <div className="row">
                 <div className="col-lg-6 col-md-6 col-sm-6 col-12 border-end doz-about-col">
@@ -83,7 +88,8 @@
         </div>
      </section>
     
-    
+        <Footer/>
+
     </>
       );
 }
