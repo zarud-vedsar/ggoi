@@ -161,12 +161,12 @@ const ContactUs = () => {
                 <div className="row">
                   <div className='form-group col-12'>
                     <label htmlFor="name">Name <span className='text-danger'>*</span></label>
-                    <input type="text" id="name" name="name" className='form-control' value={formData?.name} onChange={handleChange} />
+                    <input type="text" id="name" name="name" placeholder='Enter name' className='form-control' value={formData?.name} onChange={handleChange} />
                     {error?.name === "name" && <p><small className='text-danger'>{error.msg}</small></p>}
                   </div>
                   <div className='form-group col-sm-6'>
                     <label htmlFor="email">Email <span className='text-danger'>*</span></label>
-                    <input type="email" id="email" name="email" value={formData?.email} onChange={handleChange} />
+                    <input type="email" id="email" name="email" placeholder='Enter email' value={formData?.email} onChange={handleChange} />
                     {error?.name === "email" && <p><small className='text-danger'>{error.msg}</small></p>}
                   </div>
                   <div className="form-group col-sm-6">
@@ -193,12 +193,12 @@ const ContactUs = () => {
                   </div>
                   <div className='form-group col-12'>
                     <label htmlFor="subject">Subject <span className='text-danger'>*</span></label>
-                    <input type="text" id="subject" name="subject" value={formData?.subject} onChange={handleChange} />
+                    <input type="text" id="subject" name="subject" placeholder='Enter subject' value={formData?.subject} onChange={handleChange} />
                     {error?.name === "subject" && <p><small className='text-danger'>{error.msg}</small></p>}
                   </div>
                   <div className='form-group col-12'>
                     <label htmlFor="message">Message <span className='text-danger'>*</span></label>
-                    <textarea type="text" id="message" name="message" value={formData?.message} onChange={handleChange} />
+                    <textarea type="text" id="message" name="message" placeholder='Enter message' value={formData?.message} onChange={handleChange} />
                     {error?.name === "message" && <p><small className='text-danger'>{error.msg}</small></p>}
                   </div>
 

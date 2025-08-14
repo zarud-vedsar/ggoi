@@ -25,7 +25,7 @@ const Breadcrum = ({ paths }) => {
                                 ))}
                             </ol>
                         </nav>
-                                                <h2 className="mb-5">{paths?.length > 0 ? paths[paths.length - 1].label : 'Breadcrumb'}</h2>
+                        <h2 className="mb-5 text-white">{paths?.length > 0 ? paths[paths.length - 1].label : 'Breadcrumb'}</h2>
 
                     </div>
                 </div>
