@@ -2,6 +2,7 @@
   import '../../Components/Website/assets/css/messages.css';
   import picture1 from '../../Components/Website/assets/images/logo/Picture1.png';
   import picture2 from '../../Components/Website/assets/images/logo/Picture2.jpg';
+  import picture3 from '../../Components/Website/assets/images/logo/Picture3.jpg';
    function Message() {
   return (
     <>
@@ -9,7 +10,7 @@
     <section className="py-5">
            <div className="container px-5 py-5" style={{backgroundColor: "#83210b"}}>
                 <div className="row">
-                     <div className="col-lg-7 col-md-7 col-sm-12 col-12">
+                     <div className="col-lg-7 col-md-12 col-sm-12 col-12 order-2 order-md-2 order-sm-2 order-lg-1">
                         <div className="doz-mess-content">
                             <h4 className="mb-0">MESSAGE FROM PATRON</h4>
                             <p>In the present time, only through proper education system, students of backward, dalit and needy society of 
@@ -35,17 +36,22 @@
                               studies and high level results in the group.</p>
                         </div>
                      </div>
-                     <div className="col-lg-5 col-md-5 col-sm-12 col-12 d-flex justify-content-center align-items-center doz-mes-im"> 
+                     <div className="col-lg-5 col-md-12 col-sm-12 col-12 d-flex justify-content-center align-items-center  order-1 order-md-1 order-sm-1 order-lg-2"> 
                          <div className="doz-massage-img">
                             <img src={picture1}/>
+                         </div>
+                         <div className="doz-mes-text">
+                            <h5>Dr. Ghanshyam Singh</h5>
                          </div>
                      </div>
                   </div>
                </div>
+         </section>      
    
-        <div className="container py-5">
+        <section className="py-5">
+        <div className="container p-5" style={{backgroundColor: "#f5f5f5"}}>
            <div className="row">
-                     <div className="col-lg-7 col-md-7 col-sm-12 col-12">
+                     <div className="col-lg-7 col-md-12 col-sm-12 col-12 order-2 order-md-2 order-sm-2 order-lg-1">
                         <div className="doz-mess-cont">
                             <h4 className="mb-0">MESSAGE FROM THE MANAGER</h4>
                             <p>Growing up on the path of rapid development in the modern scientific era, the nation needs strong 
@@ -64,9 +70,44 @@
                                   <p>With best wishes.</p>
                         </div>
                      </div>
-                     <div className="col-lg-5 col-md-5 col-sm-12 col-12 d-flex justify-content-center align-items-center"> 
+                     <div className="col-lg-5 col-md-12 col-sm-12 col-12  d-flex justify-content-center  order-1 order-md-1 order-sm-1 order-lg-2"> 
                          <div className="doz-massage-coni">
-                            <img src={picture2}/>
+                            <img src={picture2} className="do-image-mes"/>
+                         </div>
+                         <div className="doz-text-mas">
+                            <h5>Mr.Vinod Kumar Singh ‘Ashok’</h5>
+                         </div>
+                     </div>
+                  </div>
+               </div>
+               </section>
+
+              <section className="py-5">
+                <div className="container p-5" style={{backgroundColor: "#9D8420"}}>
+           <div className="row">
+                     <div className="col-lg-7 col-md-12 col-sm-12 col-12 order-2 order-md-2 order-sm-2 order-lg-1">
+                        <div className="doz-mess-content">
+                            <h4 className="mb-0 ">MESSAGE FROM GROUP DIRECTOR</h4>
+                             <p>It is a proud moment for us to see thousands of students pursuing his/her different education in Ghanshyam 
+                              Group of Institutions and equipping themselves to become industry ready as well as social professionals for the
+                              successful careers. In this process the Management intends to widen all dimensions of Education in Under 
+                              Graduate in different streams in Degree, LLB, Pharmacy, Agriculture etc... We believe that our Initiative will
+                              create an academic foundation for social, cultural, scientific, economic and technological development in our
+                              Nation which will mature into Global Interface. Therefore, our focus is to achieve unparalleled excellence that
+                              will bring development to our society and mankind by optimizing the potential of students.</p>
+                              <p>All the students are the nation-builders and movers of technology. You are the agents of change. 
+                                 It is our keen hope that the years that you have already spent in Ghanshyam Group of Institutions have 
+                                 enabled you to equip with leadership and managerial skills. There are challenges to great efforts but, 
+                                 always remember, great effort bears the sweet fruit of success.</p>
+                                 <p>“For every one of us that succeeds, it’s because there’s somebody there to show you the way out” we’re one of them.</p>
+                        </div>
+                     </div>
+                     <div className="col-lg-5 col-md-12 col-sm-12 col-12 d-flex justify-content-center order-1 order-md-1 order-sm-1 order-lg-2"> 
+                         <div className="doz-massage-res">
+                            <img src={picture3} className="do-image-mes"/>
+                         </div>
+                         <div className="doz-message-text">
+                            <h5>Mr. Vivek Kumar Singh</h5>
                          </div>
                      </div>
                   </div>
