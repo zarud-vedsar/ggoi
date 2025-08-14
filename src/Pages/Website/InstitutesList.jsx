@@ -37,15 +37,15 @@ const InstitutesList = () => {
                                     <img
                                         src={logo.img}
                                         alt={`Logo ${index + 1}`}
-                                        className="object-contain mx-auto"
+                                        className="object-contain mx-auto m-0 p-0"
                                     />
-                                    <div className="View-more-btn d-block w-100">
-                                        <Link to={`/college/${logo?.id}`} className="am-f23" >View More</Link>
-                                        <img src="website/img/arrow.svg" alt="" className="view-more-btn-arrow" />
+                                    <div className="View-more-btn">
+                                        <Link to={`/college/${logo?.id}`} className="am-f18" >View More
+                                        <img src="website/img/arrow.svg" alt="" className="view-more-btn-arrow" /></Link>
                                     </div>
                                 </div></Link>
-                                <p className="mb-1 college-name text-center am-f22 text-dark">{logo?.name}</p>
-                                <p className="text-center">{logo?.address}</p>
+                                <p className="mb-1 college-name text-start am-f17 text-dark m-0 px-4">{logo?.name}</p>
+                                <p className="text-start doz-instuted m-0 px-4">{logo?.address}</p>
                             </div>
 
                         </div>

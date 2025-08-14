@@ -171,6 +171,17 @@ function Home() {
                                 Board of Governors, and exceptional faculty, the institutions have nurtured bright, talented students who bring pride 
                                 to the group. Committed to quality learning and holistic growth, the Trust works toward building a democratic,
                                  pluralistic, and secular nation—transforming education into a movement for complete illumination.</p>
+                                 <div>
+                                   <a
+                                    href="/about-us"
+                                    className="rts-nbg-btn btn-arrow"
+                                  >
+                                    Read More
+                                    <span>
+                                      <FaArrowRight style={{ fontSize: "20px" }} />
+                                    </span>
+                                  </a>
+                                 </div>
                          </div>
                          <div className="col-12 mb-3">
                              <div className="">
