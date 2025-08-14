@@ -69,11 +69,9 @@ export default function TopHeader() {
   // Update language on dropdown change
   useEffect(() => {
     const selectField = document.querySelector(".goog-te-combo");
-    console.log(selectField)
     if (selectField) {
       selectField.value = selectedLang;
-      console.log(selectedLang)
-      console.log(selectField)
+   
       selectField.dispatchEvent(new Event("change"));
     }
   }, [selectedLang]);
