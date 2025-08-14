@@ -1,6 +1,6 @@
 import React, { lazy, Suspense, useEffect } from 'react';
 import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
-
+import { ToastContainer } from 'react-toastify';
 // CSS imports
 import '../Components/Website/assets/css/plugins/animate.min.css';
 import '../Components/Website/assets/css/plugins/fontawesome.min.css';
@@ -62,6 +62,7 @@ function Website() {
   return (
     <Suspense fallback={<div>Loading Website...</div>}>
       <Navbar />
+
       <Routes>
         <Route path="/" element={<WebsitePaths.Home />} />
         <Route path="/college/:collegeId" element={<WebsitePaths.CollegeDetailPage />} />
@@ -71,6 +72,7 @@ function Website() {
         <Route path="/vision-mission" element={<WebsitePaths.VisionAndMission />} />
         <Route path="/messages" element={<WebsitePaths.Messages />} />
       </Routes>
+      <ToastContainer />
     </Suspense>
   );
 }
