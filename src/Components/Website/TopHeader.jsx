@@ -246,7 +246,7 @@ export default function TopHeader() {
                         <p className="text-center m-0 am-f12" >Big <br /> Cursor</p>
                       </button>
                     </div>
-                    <div className="mx-3">
+                    <div className="mx-3 d-none">
                       <button onClick={() => setImagesHidden(prev => !prev)
                       } className={`btn am-font-scale-btn ${isimagesHidden ? 'active' : ''} `}>
                         <MdHideImage  className="am-f16 mb-2"/>
