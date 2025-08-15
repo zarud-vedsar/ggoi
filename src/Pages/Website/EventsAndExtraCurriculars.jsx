@@ -2,114 +2,54 @@ import React from 'react'
 import '../../Components/Website/assets/css/events-and-extra-curriculars.css'
 import MagicFadeCard from '../../Components/Website/MagicFadeCard';
 
+import festImg from '../../Components/Website/assets/img/festImg.jpg';
+import exhibitionImg from '../../Components/Website/assets/img/exibitionImg.jpg';
+import industrialVisit from '../../Components/Website/assets/img/industrialvisit.jpg';
 
 
 const eventList = [
     {
-        images: [
-            '/website/img/festImg.jpg',
-            '/website/img/exibitionImg.jpg',
-            '/website/img/industrialvisit.jpg',
-            '/website/img/festImg.jpg',
-            '/website/img/exibitionImg.jpg',
-            '/website/img/festImg.jpg',
-            '/website/img/industrialvisit.jpg'
-        ],
+        images: [festImg, exhibitionImg, industrialVisit, festImg, exhibitionImg, festImg, industrialVisit],
         link: "",
         name: "Annual Cultural Fest"
     },
     {
-        images: [
-            '/website/img/industrialvisit.jpg',
-            '/website/img/festImg.jpg',
-            '/website/img/exibitionImg.jpg',
-            '/website/img/festImg.jpg',
-            '/website/img/industrialvisit.jpg',
-            '/website/img/exibitionImg.jpg',
-            '/website/img/festImg.jpg'
-        ],
+        images: [industrialVisit, festImg, exhibitionImg, festImg, industrialVisit, exhibitionImg, festImg],
         link: "",
         name: "Science and Technical Exhibitions"
     },
     {
-        images: [
-            '/website/img/exibitionImg.jpg',
-            '/website/img/festImg.jpg',
-            '/website/img/festImg.jpg',
-            '/website/img/industrialvisit.jpg',
-            '/website/img/exibitionImg.jpg',
-            '/website/img/festImg.jpg',
-            '/website/img/industrialvisit.jpg'
-        ],
+        images: [exhibitionImg, festImg, festImg, industrialVisit, exhibitionImg, festImg, industrialVisit],
         link: "",
         name: "Industrial Visits"
     },
     {
-        images: [
-            '/website/img/festImg.jpg',
-            '/website/img/industrialvisit.jpg',
-            '/website/img/exibitionImg.jpg',
-            '/website/img/festImg.jpg',
-            '/website/img/festImg.jpg',
-            '/website/img/industrialvisit.jpg',
-            '/website/img/exibitionImg.jpg'
-        ],
+        images: [festImg, industrialVisit, exhibitionImg, festImg, festImg, industrialVisit, exhibitionImg],
         link: "",
         name: "Seminars and Workshops"
     },
     {
-        images: [
-            '/website/img/exibitionImg.jpg',
-            '/website/img/festImg.jpg',
-            '/website/img/industrialvisit.jpg',
-            '/website/img/exibitionImg.jpg',
-            '/website/img/industrialvisit.jpg',
-            '/website/img/festImg.jpg',
-            '/website/img/festImg.jpg'
-        ],
+        images: [exhibitionImg, festImg, industrialVisit, exhibitionImg, industrialVisit, festImg, festImg],
         link: "",
         name: "Guest Lectures by Industry Experts"
     },
     {
-        images: [
-            '/website/img/industrialvisit.jpg',
-            '/website/img/exibitionImg.jpg',
-            '/website/img/festImg.jpg',
-            '/website/img/festImg.jpg',
-            '/website/img/industrialvisit.jpg',
-            '/website/img/festImg.jpg',
-            '/website/img/exibitionImg.jpg'
-        ],
+        images: [industrialVisit, exhibitionImg, festImg, festImg, industrialVisit, festImg, exhibitionImg],
         link: "",
         name: "Celebration of National Days"
     },
     {
-        images: [
-            '/website/img/festImg.jpg',
-            '/website/img/festImg.jpg',
-            '/website/img/industrialvisit.jpg',
-            '/website/img/exibitionImg.jpg',
-            '/website/img/industrialvisit.jpg',
-            '/website/img/exibitionImg.jpg',
-            '/website/img/festImg.jpg'
-        ],
+        images: [festImg, festImg, industrialVisit, exhibitionImg, industrialVisit, exhibitionImg, festImg],
         link: "",
         name: "Blood Donation and Social Awareness Programs"
     },
     {
-        images: [
-            '/website/img/exibitionImg.jpg',
-            '/website/img/festImg.jpg',
-            '/website/img/festImg.jpg',
-            '/website/img/industrialvisit.jpg',
-            '/website/img/exibitionImg.jpg',
-            '/website/img/festImg.jpg',
-            '/website/img/industrialvisit.jpg'
-        ],
+        images: [exhibitionImg, festImg, festImg, industrialVisit, exhibitionImg, festImg, industrialVisit],
         link: "",
         name: "Industrial Visits"
     },
 ];
+
 
 
 const EventsAndExtraCurriculars = () => {

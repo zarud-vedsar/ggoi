@@ -17,7 +17,7 @@ const CollegeDetailPage = () => {
                 <div className='container'>
                     <div className="row">
                         <div className='col-md-5' data-aos="fade-up" data-aos-delay="200">
-                            <img src={`/${collegeDetail?.img}`} alt="" className='rounded ' style={{width:"100%"}} />
+                            <img src={`${collegeDetail?.img}`} alt="" className='rounded ' style={{width:"100%"}} />
                         </div>
                         <div className="col-md-7 pt-5 px-5" data-aos="fade-up" data-aos-delay="300">
 

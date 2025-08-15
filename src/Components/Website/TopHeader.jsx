@@ -5,7 +5,7 @@ import { FaHandPointer } from "react-icons/fa6";
 import { MdHideImage } from "react-icons/md";
 import { IoAccessibility } from "react-icons/io5";
 import { FaFont } from "react-icons/fa";
-
+import angleDown from '../../Components/Website/assets/img/angles-down-solid-full.svg';
 const languages = [
   { code: "en", label: "English" },
   { code: "hi", label: "हिन्दी Hindi" },
@@ -155,7 +155,7 @@ export default function TopHeader() {
       <div className="topbar">
         <div className="d-flex justify-content-between  bg-top-section">
           <a href="#main-content" className="btn skip-btn f14 f500 ">
-            <img src="/website/img/angles-down-solid-full.svg" className="me-0 me-md-2" alt="" style={{ width: "20px" }} />
+            <img src={angleDown} className="me-0 me-md-2" alt="" style={{ width: "20px" }} />
             <span className=" text-white  d-none d-md-inline">  Skip to main content  </span>
           </a>
 

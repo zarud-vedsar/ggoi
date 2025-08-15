@@ -30,14 +30,32 @@ import lgPager from "lightgallery/plugins/pager";
 // Styles
 import "../../Components/Website/assets/css/home-gallery.css";
 
+import img1 from '../../Components/Website/assets/homeGallery/img1.jpg';
+import img2 from '../../Components/Website/assets/homeGallery/img2.jpg';
+import img3 from '../../Components/Website/assets/homeGallery/img3.jpg';
+import img4 from '../../Components/Website/assets/homeGallery/img4.jpg';
+import img5 from '../../Components/Website/assets/homeGallery/img5.jpg';
+import img6 from '../../Components/Website/assets/homeGallery/img6.jpg';
+import img7 from '../../Components/Website/assets/homeGallery/img7.jpg';
+import img8 from '../../Components/Website/assets/homeGallery/img8.jpg';
+import img9 from '../../Components/Website/assets/homeGallery/img9.jpg';
+import img10 from '../../Components/Website/assets/homeGallery/img10.jpg';
+import img11 from '../../Components/Website/assets/homeGallery/img11.jpg';
+import img12 from '../../Components/Website/assets/homeGallery/img12.jpg';
+import img13 from '../../Components/Website/assets/homeGallery/img13.jpg';
+import img14 from '../../Components/Website/assets/homeGallery/img14.jpg';
+import img15 from '../../Components/Website/assets/homeGallery/img15.jpg';
+import img16 from '../../Components/Website/assets/homeGallery/img16.jpg';
+import img17 from '../../Components/Website/assets/homeGallery/img17.jpg';
+import img18 from '../../Components/Website/assets/homeGallery/img18.jpg';
+import img19 from '../../Components/Website/assets/homeGallery/img19.jpg';
+import img20 from '../../Components/Website/assets/homeGallery/img20.jpg';
+
 const galleryImage = [
-    "/website/homeGallery/img1.jpg", "/website/homeGallery/img2.jpg", "/website/homeGallery/img3.jpg",
-    "/website/homeGallery/img4.jpg", "/website/homeGallery/img5.jpg", "/website/homeGallery/img6.jpg",
-    "/website/homeGallery/img7.jpg", "/website/homeGallery/img8.jpg", "/website/homeGallery/img9.jpg",
-    "/website/homeGallery/img10.jpg", "/website/homeGallery/img11.jpg", "/website/homeGallery/img12.jpg",
-    "/website/homeGallery/img13.jpg", "/website/homeGallery/img14.jpg", "/website/homeGallery/img15.jpg",
-    "/website/homeGallery/img16.jpg", "/website/homeGallery/img17.jpg", "/website/homeGallery/img18.jpg",
-    "/website/homeGallery/img19.jpg", "/website/homeGallery/img20.jpg"
+  img1, img2, img3, img4, img5,
+  img6, img7, img8, img9, img10,
+  img11, img12, img13, img14, img15,
+  img16, img17, img18, img19, img20,
 ];
 
 const HomePageGallery = () => {

@@ -6,7 +6,7 @@ body {
 }
 
 .big-cursor {
-    cursor: url(/website/img/hand-pointer-solid-full.svg), auto;
+    cursor: url(../img/hand-pointer-solid-full.svg), auto;
 }
 
 .goog-te-combo {

@@ -1,27 +1,28 @@
 import React from 'react'
-import '../../Components/Website/assets/css/our-affiliation.css'
+import '../../Components/Website/assets/css/our-affiliation.css';
+import aktuLogo from '../../Components/Website/assets/img/aktulogo.png';
+import govUpLogo from '../../Components/Website/assets/img/govuplogo.svg';
+import pciLogo from '../../Components/Website/assets/img/pcoilogo.png';
+import rsuLogo from '../../Components/Website/assets/img/rsu.png';
 const OurAffiliations = () => {
     const list = [
-        {
-            title: "Dr. A.P.J. Abdul Kalam Technical University",
-            img: "/website/img/aktulogo.png",
-        },
-        {
-            title: "Government of Uttar Pradesh",
-            img: "/website/img/govuplogo.svg",
-        },
-        {
-            title: "Pharmacy Council of India",
-            img: "/website/img/pcoilogo.png",
-        },
-      
-        {
-            title: "Prof. Rajendra Singh (Rajju Bhaiya) University",
-            img: "/website/img/rsu.png",
-        },
-      
-        
-    ];
+    {
+        title: "Dr. A.P.J. Abdul Kalam Technical University",
+        img: aktuLogo,
+    },
+    {
+        title: "Government of Uttar Pradesh",
+        img: govUpLogo,
+    },
+    {
+        title: "Pharmacy Council of India",
+        img: pciLogo,
+    },
+    {
+        title: "Prof. Rajendra Singh (Rajju Bhaiya) University",
+        img: rsuLogo,
+    },
+];
 
     
     return (

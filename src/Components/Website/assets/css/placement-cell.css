@@ -1,7 +1,7 @@
 
 
 .placement-cell-section {
-    background-image: url(/website/img/studentgroup.jpg);
+    background-image: url(../img/studentgroup.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -125,7 +125,7 @@
     bottom: 0;
     width: 320px;
     height: 250px;
-    background-image: url(/website/img/girl-img1.png);
+    background-image: url(../img/girl-img1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;

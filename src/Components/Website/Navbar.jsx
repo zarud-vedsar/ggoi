@@ -84,7 +84,7 @@ function Navbar() {
                                 <Link to="/vision-mission">Vision & Mission</Link>
                               </li>
                               <li>
-                                <Link to="/messages">About Content Message</Link>
+                                <Link to="/messages"> Messages</Link>
                               </li>
                             </ul>
                           </li>
@@ -136,7 +136,7 @@ function Navbar() {
 
                     <li><Link className="mobile-menu-link" to="/vision-mission">Vision & Mission</Link></li>
 
-                    <li><Link className="mobile-menu-link" to="/messages">About Content Message</Link></li>
+                    <li><Link className="mobile-menu-link" to="/messages">Messages</Link></li>
                   </ul>
                 </li>
                 <li>

@@ -1,58 +1,69 @@
 import React from 'react'
-import '../../Components/Website/assets/css/campus-facilities.css'
+import '../../Components/Website/assets/css/campus-facilities.css';
+import classroomImg from '../../Components/Website/assets/img/classroom.png';
+import laboratoryImg from '../../Components/Website/assets/img/laboratory.png';
+import workshopImg from '../../Components/Website/assets/img/workshop.png';
+import libraryImg from '../../Components/Website/assets/img/library.png';
+import computerLabImg from '../../Components/Website/assets/img/computer-lab.png';
+import wifiImg from '../../Components/Website/assets/img/wifi.png';
+import cafeteriaImg from '../../Components/Website/assets/img/cafeteria.png';
+import gymImg from '../../Components/Website/assets/img/gym.png';
+import hostelImg from '../../Components/Website/assets/img/hostel.png';
+import transportImg from '../../Components/Website/assets/img/transport.png';
 const CampusFacilities = () => {
-    const list = [
-        {
-            title: "Classrooms",
-            img: "/website/img/classroom.png",
-            desc: "Well-ventilated classrooms with modern teaching aids."
-        },
-        {
-            title: "Laboratories",
-            img: "/website/img/laboratory.png",
-            desc: "Equipped with the latest machinery and software tools for practical learning."
-        },
-        {
-            title: "Workshops",
-            img: "/website/img/workshop.png",
-            desc: "Dedicated workshops for different engineering disciplines."
-        },
-        {
-            title: "Library",
-            img: "/website/img/library.png",
-            desc: "Rich in technical, management and pharmaceutical books with journals and digital content."
-        },
-        {
-            title: "Computer Labs",
-            img: "/website/img/computer-lab.png",
-            desc: "High-speed internet-enabled systems with updated software."
-        },
-        {
-            title: "Wi-Fi Campus",
-            img: "/website/img/wifi.png",
-            desc: "Internet connectivity throughout the campus."
-        },
-        {
-            title: "Cafeteria",
-            img: "/website/img/cafeteria.png",
-            desc: "Provides hygienic and nutritious food."
-        },
-        {
-            title: "Sports & Gym",
-            img: "/website/img/gym.png",
-            desc: "Indoor and outdoor sports facilities, gymnasium for fitness."
-        },
-        {
-            title: "Hostels",
-            img: "/website/img/hostel.png",
-            desc: "Separate hostels for boys and girls with mess facility and round-the-clock security."
-        },
-        {
-            title: "Transport",
-            img: "/website/img/transport.png",
-            desc: "Fleet of buses covering all major routes of the city."
-        }
-    ];
+   const list = [
+    {
+        title: "Classrooms",
+        img: classroomImg,
+        desc: "Well-ventilated classrooms with modern teaching aids."
+    },
+    {
+        title: "Laboratories",
+        img: laboratoryImg,
+        desc: "Equipped with the latest machinery and software tools for practical learning."
+    },
+    {
+        title: "Workshops",
+        img: workshopImg,
+        desc: "Dedicated workshops for different engineering disciplines."
+    },
+    {
+        title: "Library",
+        img: libraryImg,
+        desc: "Rich in technical, management and pharmaceutical books with journals and digital content."
+    },
+    {
+        title: "Computer Labs",
+        img: computerLabImg,
+        desc: "High-speed internet-enabled systems with updated software."
+    },
+    {
+        title: "Wi-Fi Campus",
+        img: wifiImg,
+        desc: "Internet connectivity throughout the campus."
+    },
+    {
+        title: "Cafeteria",
+        img: cafeteriaImg,
+        desc: "Provides hygienic and nutritious food."
+    },
+    {
+        title: "Sports & Gym",
+        img: gymImg,
+        desc: "Indoor and outdoor sports facilities, gymnasium for fitness."
+    },
+    {
+        title: "Hostels",
+        img: hostelImg,
+        desc: "Separate hostels for boys and girls with mess facility and round-the-clock security."
+    },
+    {
+        title: "Transport",
+        img: transportImg,
+        desc: "Fleet of buses covering all major routes of the city."
+    }
+];
+
     return (
         <section className="py-5 campus-facilities-section"   style={{backgroundColor:"#f5f5f5"}} >
             <div className="container">

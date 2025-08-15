@@ -1,18 +1,21 @@
 import React from 'react'
 import '../../Components/Website/assets/css/academics-and-faculty.css'
-
-
+import facultyMember from '../../Components/Website/assets/img/faculty-members.png';
+import smartClassroom from '../../Components/Website/assets/img/smartClassroom.png';
+import seminar from '../../Components/Website/assets/img/seminar.png';
+import practical from '../../Components/Website/assets/img/practical.png';
+import agriculture from '../../Components/Website/assets/img/agriculture.png';
+import herbal from '../../Components/Website/assets/img/herbal.png';
+import presentation from '../../Components/Website/assets/img/presentation.png';
 
 const eventList = [
-    { img: '/website/img/faculty-members.png', link: "", name: "Over 850+ qualified faculty members" },
-    { img: '/website/img/smartClassroom.png', link: "", name: " Smart Classrooms & E-Content Delivery" },
-    { img: '/website/img/seminar.png', link: "", name: "National/International Seminars" },
-    { img: '/website/img/practical.png', link: "", name: "Internal Assessment + Practical Exposure" },
-    { img: '/website/img/agriculture.png', link: "", name: "Agriculture field research projects" },
-    { img: '/website/img/herbal.png', link: "", name: " Herbal medicine & pharmacy R&D" },
-    { img: '/website/img/presentation.png', link: "", name: "Interdisciplinary seminars and paper presentations" },
-
-
+    { img: facultyMember, link: "", name: "Over 850+ qualified faculty members" },
+    { img: smartClassroom, link: "", name: "Smart Classrooms & E-Content Delivery" },
+    { img: seminar, link: "", name: "National/International Seminars" },
+    { img: practical, link: "", name: "Internal Assessment + Practical Exposure" },
+    { img: agriculture, link: "", name: "Agriculture field research projects" },
+    { img: herbal, link: "", name: "Herbal medicine & pharmacy R&D" },
+    { img: presentation, link: "", name: "Interdisciplinary seminars and paper presentations" },
 ];
 
 const AcademicsAndFaculty = () => {

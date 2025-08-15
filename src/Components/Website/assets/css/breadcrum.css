@@ -1,14 +1,11 @@
 .breadcrum {
-
-background-image: url(/website/img/breadcrum.jpg);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+  background-image: url(../img/breadcrum.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
-  z-index: 1; 
+  z-index: 1;
 }
-
-
 
 .breadcrum::before {
   content: "";
@@ -17,14 +14,15 @@ background-size: cover;
   left: 0;
   height: 100%;
   width: 100%;
-
   background-color: rgba(0, 0, 0, 0.36);
-  z-index: -1; 
-  pointer-events: none; 
+  z-index: -1;
+  pointer-events: none;
 }
-.breadcrum-link-color{
-  color:#ffc50b;
+
+.breadcrum-link-color {
+  color: #ffc50b;
 }
-.breadcrum-link-text{
-  color:#ffffff;
+
+.breadcrum-link-text {
+  color: #ffffff;
 }
