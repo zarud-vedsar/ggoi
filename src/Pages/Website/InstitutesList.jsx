@@ -39,7 +39,7 @@ const InstitutesList = () => {
                                     />
                                     <div className="View-more-btn">
                                         <Link to={`/college/${logo?.id}`} className="am-f18" >View More
-                                        <img src="website/img/arrow.svg" alt="" className="view-more-btn-arrow" /></Link>
+                                        <img src="/website/img/arrow.svg" alt="" className="view-more-btn-arrow" /></Link>
                                     </div>
                                 </div></Link>
                                 <p className="mb-1 college-name text-start am-f17 text-dark m-0 px-4">{logo?.name}</p>

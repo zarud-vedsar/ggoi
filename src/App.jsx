@@ -13,7 +13,7 @@ function App() {
   return (
     // Wrap with Suspense to show fallback while lazy components load
     <Suspense fallback={<div>Loading...</div>}>
-      <Routes>
+      <Routes  >
         {/* Admin route (catch all nested under /admin/) */}
         <Route path="/admin/*" element={<PATHS.AdminRoute />} />
 

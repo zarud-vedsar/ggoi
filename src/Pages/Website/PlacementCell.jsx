@@ -25,12 +25,12 @@ const PlacementCell = () => {
                         <div className="highestPackage pillar pt-5">
                             <p className="text-center title am-f28 mb-0 text-white">8 LPA</p>
                             <p className="text-center label text-white">Highest Package</p>
-                            <img src="website/img/high-package.svg" alt="" className="mx-auto" />
+                            <img src="/website/img/high-package.svg" alt="" className="mx-auto" />
                         </div>
                         <div className="numberOfPlacement pillar pt-5">
                             <p className="text-center title am-f28 mb-0 text-white">2000+</p>
                             <p className="text-center label text-white">Campus Placement</p>
-                            <img src="website/img/campus-placement.svg" alt="" className="mx-auto" />
+                            <img src="/website/img/campus-placement.svg" alt="" className="mx-auto" />
                         </div>
                     </div>
                     <div className="col-md-6 swiper" data-aos="fade-up" data-aos-delay="300">
@@ -52,24 +52,24 @@ const PlacementCell = () => {
                                     <div className="row mb-4">
                                         <div className="col-6">
                                             <div className="am-card">
-                                                <img src="website/img/wipro.png" alt="" />
+                                                <img src="/website/img/wipro.png" alt="" />
                                             </div>
                                         </div>
                                         <div className="col-6">
                                             <div className="am-card">
-                                                <img src="website/img/infosys.png" alt="" />
+                                                <img src="/website/img/infosys.png" alt="" />
                                             </div>
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="col-6">
                                             <div className="am-card">
-                                                <img src="website/img/tcs.png" alt="" />
+                                                <img src="/website/img/tcs.png" alt="" />
                                             </div>
                                         </div>
                                         <div className="col-6">
                                             <div className="am-card">
-                                                <img src="website/img/landt.png" alt="" />
+                                                <img src="/website/img/landt.png" alt="" />
                                             </div>
                                         </div>
                                     </div>
@@ -78,24 +78,24 @@ const PlacementCell = () => {
                                     <div className="row mb-4">
                                         <div className="col-6">
                                             <div className="am-card">
-                                                <img src="website/img/glenmark.png" alt="" />
+                                                <img src="/website/img/glenmark.png" alt="" />
                                             </div>
                                         </div>
                                         <div className="col-6">
                                             <div className="am-card">
-                                                <img src="website/img/alkem.png" alt="" />
+                                                <img src="/website/img/alkem.png" alt="" />
                                             </div>
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="col-6">
                                             <div className="am-card">
-                                                <img src="website/img/lupin.png" alt="" />
+                                                <img src="/website/img/lupin.png" alt="" />
                                             </div>
                                         </div>
                                         <div className="col-6">
                                             <div className="am-card">
-                                                <img src="website/img/havells.png" alt="" />
+                                                <img src="/website/img/havells.png" alt="" />
                                             </div>
                                         </div>
                                     </div>
@@ -104,12 +104,12 @@ const PlacementCell = () => {
                                     <div className="row mb-4">
                                         <div className="col-6">
                                             <div className="am-card">
-                                                <img src="website/img/jio.png" alt="" />
+                                                <img src="/website/img/jio.png" alt="" />
                                             </div>
                                         </div>
                                         <div className="col-6">
                                             <div className="am-card">
-                                                <img src="website/img/indian-army.png" alt="" />
+                                                <img src="/website/img/indian-army.png" alt="" />
                                             </div>
                                         </div>
                                     </div>

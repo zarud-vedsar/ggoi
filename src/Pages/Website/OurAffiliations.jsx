@@ -4,20 +4,20 @@ const OurAffiliations = () => {
     const list = [
         {
             title: "Dr. A.P.J. Abdul Kalam Technical University",
-            img: "website/img/aktulogo.png",
+            img: "/website/img/aktulogo.png",
         },
         {
             title: "Government of Uttar Pradesh",
-            img: "website/img/govuplogo.svg",
+            img: "/website/img/govuplogo.svg",
         },
         {
             title: "Pharmacy Council of India",
-            img: "website/img/pcoilogo.png",
+            img: "/website/img/pcoilogo.png",
         },
       
         {
             title: "Prof. Rajendra Singh (Rajju Bhaiya) University",
-            img: "website/img/rsu.png",
+            img: "/website/img/rsu.png",
         },
       
         

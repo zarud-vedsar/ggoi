@@ -4,52 +4,52 @@ const CampusFacilities = () => {
     const list = [
         {
             title: "Classrooms",
-            img: "website/img/classroom.png",
+            img: "/website/img/classroom.png",
             desc: "Well-ventilated classrooms with modern teaching aids."
         },
         {
             title: "Laboratories",
-            img: "website/img/laboratory.png",
+            img: "/website/img/laboratory.png",
             desc: "Equipped with the latest machinery and software tools for practical learning."
         },
         {
             title: "Workshops",
-            img: "website/img/workshop.png",
+            img: "/website/img/workshop.png",
             desc: "Dedicated workshops for different engineering disciplines."
         },
         {
             title: "Library",
-            img: "website/img/library.png",
+            img: "/website/img/library.png",
             desc: "Rich in technical, management and pharmaceutical books with journals and digital content."
         },
         {
             title: "Computer Labs",
-            img: "website/img/computer-lab.png",
+            img: "/website/img/computer-lab.png",
             desc: "High-speed internet-enabled systems with updated software."
         },
         {
             title: "Wi-Fi Campus",
-            img: "website/img/wifi.png",
+            img: "/website/img/wifi.png",
             desc: "Internet connectivity throughout the campus."
         },
         {
             title: "Cafeteria",
-            img: "website/img/cafeteria.png",
+            img: "/website/img/cafeteria.png",
             desc: "Provides hygienic and nutritious food."
         },
         {
             title: "Sports & Gym",
-            img: "website/img/gym.png",
+            img: "/website/img/gym.png",
             desc: "Indoor and outdoor sports facilities, gymnasium for fitness."
         },
         {
             title: "Hostels",
-            img: "website/img/hostel.png",
+            img: "/website/img/hostel.png",
             desc: "Separate hostels for boys and girls with mess facility and round-the-clock security."
         },
         {
             title: "Transport",
-            img: "website/img/transport.png",
+            img: "/website/img/transport.png",
             desc: "Fleet of buses covering all major routes of the city."
         }
     ];

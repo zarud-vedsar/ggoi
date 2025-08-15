@@ -7,104 +7,104 @@ import MagicFadeCard from '../../Components/Website/MagicFadeCard';
 const eventList = [
     {
         images: [
-            'website/img/festImg.jpg',
-            'website/img/exibitionImg.jpg',
-            'website/img/industrialvisit.jpg',
-            'website/img/festImg.jpg',
-            'website/img/exibitionImg.jpg',
-            'website/img/festImg.jpg',
-            'website/img/industrialvisit.jpg'
+            '/website/img/festImg.jpg',
+            '/website/img/exibitionImg.jpg',
+            '/website/img/industrialvisit.jpg',
+            '/website/img/festImg.jpg',
+            '/website/img/exibitionImg.jpg',
+            '/website/img/festImg.jpg',
+            '/website/img/industrialvisit.jpg'
         ],
         link: "",
         name: "Annual Cultural Fest"
     },
     {
         images: [
-            'website/img/industrialvisit.jpg',
-            'website/img/festImg.jpg',
-            'website/img/exibitionImg.jpg',
-            'website/img/festImg.jpg',
-            'website/img/industrialvisit.jpg',
-            'website/img/exibitionImg.jpg',
-            'website/img/festImg.jpg'
+            '/website/img/industrialvisit.jpg',
+            '/website/img/festImg.jpg',
+            '/website/img/exibitionImg.jpg',
+            '/website/img/festImg.jpg',
+            '/website/img/industrialvisit.jpg',
+            '/website/img/exibitionImg.jpg',
+            '/website/img/festImg.jpg'
         ],
         link: "",
         name: "Science and Technical Exhibitions"
     },
     {
         images: [
-            'website/img/exibitionImg.jpg',
-            'website/img/festImg.jpg',
-            'website/img/festImg.jpg',
-            'website/img/industrialvisit.jpg',
-            'website/img/exibitionImg.jpg',
-            'website/img/festImg.jpg',
-            'website/img/industrialvisit.jpg'
+            '/website/img/exibitionImg.jpg',
+            '/website/img/festImg.jpg',
+            '/website/img/festImg.jpg',
+            '/website/img/industrialvisit.jpg',
+            '/website/img/exibitionImg.jpg',
+            '/website/img/festImg.jpg',
+            '/website/img/industrialvisit.jpg'
         ],
         link: "",
         name: "Industrial Visits"
     },
     {
         images: [
-            'website/img/festImg.jpg',
-            'website/img/industrialvisit.jpg',
-            'website/img/exibitionImg.jpg',
-            'website/img/festImg.jpg',
-            'website/img/festImg.jpg',
-            'website/img/industrialvisit.jpg',
-            'website/img/exibitionImg.jpg'
+            '/website/img/festImg.jpg',
+            '/website/img/industrialvisit.jpg',
+            '/website/img/exibitionImg.jpg',
+            '/website/img/festImg.jpg',
+            '/website/img/festImg.jpg',
+            '/website/img/industrialvisit.jpg',
+            '/website/img/exibitionImg.jpg'
         ],
         link: "",
         name: "Seminars and Workshops"
     },
     {
         images: [
-            'website/img/exibitionImg.jpg',
-            'website/img/festImg.jpg',
-            'website/img/industrialvisit.jpg',
-            'website/img/exibitionImg.jpg',
-            'website/img/industrialvisit.jpg',
-            'website/img/festImg.jpg',
-            'website/img/festImg.jpg'
+            '/website/img/exibitionImg.jpg',
+            '/website/img/festImg.jpg',
+            '/website/img/industrialvisit.jpg',
+            '/website/img/exibitionImg.jpg',
+            '/website/img/industrialvisit.jpg',
+            '/website/img/festImg.jpg',
+            '/website/img/festImg.jpg'
         ],
         link: "",
         name: "Guest Lectures by Industry Experts"
     },
     {
         images: [
-            'website/img/industrialvisit.jpg',
-            'website/img/exibitionImg.jpg',
-            'website/img/festImg.jpg',
-            'website/img/festImg.jpg',
-            'website/img/industrialvisit.jpg',
-            'website/img/festImg.jpg',
-            'website/img/exibitionImg.jpg'
+            '/website/img/industrialvisit.jpg',
+            '/website/img/exibitionImg.jpg',
+            '/website/img/festImg.jpg',
+            '/website/img/festImg.jpg',
+            '/website/img/industrialvisit.jpg',
+            '/website/img/festImg.jpg',
+            '/website/img/exibitionImg.jpg'
         ],
         link: "",
         name: "Celebration of National Days"
     },
     {
         images: [
-            'website/img/festImg.jpg',
-            'website/img/festImg.jpg',
-            'website/img/industrialvisit.jpg',
-            'website/img/exibitionImg.jpg',
-            'website/img/industrialvisit.jpg',
-            'website/img/exibitionImg.jpg',
-            'website/img/festImg.jpg'
+            '/website/img/festImg.jpg',
+            '/website/img/festImg.jpg',
+            '/website/img/industrialvisit.jpg',
+            '/website/img/exibitionImg.jpg',
+            '/website/img/industrialvisit.jpg',
+            '/website/img/exibitionImg.jpg',
+            '/website/img/festImg.jpg'
         ],
         link: "",
         name: "Blood Donation and Social Awareness Programs"
     },
     {
         images: [
-            'website/img/exibitionImg.jpg',
-            'website/img/festImg.jpg',
-            'website/img/festImg.jpg',
-            'website/img/industrialvisit.jpg',
-            'website/img/exibitionImg.jpg',
-            'website/img/festImg.jpg',
-            'website/img/industrialvisit.jpg'
+            '/website/img/exibitionImg.jpg',
+            '/website/img/festImg.jpg',
+            '/website/img/festImg.jpg',
+            '/website/img/industrialvisit.jpg',
+            '/website/img/exibitionImg.jpg',
+            '/website/img/festImg.jpg',
+            '/website/img/industrialvisit.jpg'
         ],
         link: "",
         name: "Industrial Visits"

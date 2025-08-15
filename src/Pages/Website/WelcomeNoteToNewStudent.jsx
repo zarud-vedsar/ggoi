@@ -27,7 +27,7 @@ import '../../Components/Website/assets/css/welcome-note-new-student.css'
                             </div>
                             <div className="col-lg-4 d-flex justify-content-center d-lg-block" data-aos="fade-up" data-aos-delay="300">
                                 <div className='apply-buttom-section '>
-                                    <img src="website/img/round-arrow.svg" alt="" />
+                                    <img src="/website/img/round-arrow.svg" alt="" />
                                     <div className="campus__link">
                                         <a href="campus-life.html" className="campus__link--btn">
                                             Apply Now
