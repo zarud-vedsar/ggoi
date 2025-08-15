@@ -6,6 +6,7 @@ import { MdHideImage } from "react-icons/md";
 import { IoAccessibility } from "react-icons/io5";
 import { FaFont } from "react-icons/fa";
 import angleDown from '../../Components/Website/assets/img/angles-down-solid-full.svg';
+import { HashLink } from "react-router-hash-link";
 const languages = [
   { code: "en", label: "English" },
   { code: "hi", label: "हिन्दी Hindi" },
@@ -99,9 +100,7 @@ export default function TopHeader() {
     setSelectedLang(langCode);
     localStorage.setItem("selectedLang", langCode);
     setDropdownOpen(false);
-    setTimeout(() => {
-      window.location.reload();
-    }, 800);
+    
   };
 
   const scaleFonts = (factor) => {
@@ -154,10 +153,10 @@ export default function TopHeader() {
     <header className="header-container p-1 top-header-section">
       <div className="topbar">
         <div className="d-flex justify-content-between  bg-top-section">
-          <a href="#main-content" className="btn skip-btn f14 f500 ">
+          <HashLink to="#main-content" className="btn skip-btn f14 f500 ">
             <img src={angleDown} className="me-0 me-md-2" alt="" style={{ width: "20px" }} />
             <span className=" text-white  d-none d-md-inline">  Skip to main content  </span>
-          </a>
+          </HashLink>
 
           <div className="d-flex align-items-center am-header-item">
             {/* Language Selector */}

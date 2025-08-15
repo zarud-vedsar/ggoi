@@ -17,9 +17,9 @@ const Footer = () => {
                     <div className="row pt-70 pb-70 justify-content-center">
                         <div className="col-lg-3 col-sm-6">
                             <div className="single-footer-widget bg-f9f5f1 p-0">
-                                <a href="index.php" className="logo">
+                                <Link to="/" className="logo">
                                     <img src={logo} alt="Image" className="bg-white rounded p-1" style={{ height: "100px" }} />
-                                </a>
+                                </Link>
 
                                 <p>Ghanshyam Urvashi Postgraduate College, Prayagraj, established in 2002, is a leading educational institution under Urvashi Ghanshyam Technological Research and Development Charitable Trust.</p>
 

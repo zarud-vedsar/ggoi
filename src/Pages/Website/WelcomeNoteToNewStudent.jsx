@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../Components/Website/assets/css/welcome-note-new-student.css'
 import roundArrow from '../../Components/Website/assets/img/round-arrow.svg';
+import { Link } from 'react-router-dom';
  const WelcomeNoteToNewStudent = () => {
     return (
         <section className='welcome-note-new-student-section'>
@@ -30,9 +31,9 @@ import roundArrow from '../../Components/Website/assets/img/round-arrow.svg';
                                 <div className='apply-buttom-section '>
                                     <img src={roundArrow} alt="" />
                                     <div className="campus__link">
-                                        <a href="campus-life.html" className="campus__link--btn">
+                                        <Link to="#" className="campus__link--btn">
                                             Apply Now
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

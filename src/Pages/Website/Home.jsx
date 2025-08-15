@@ -27,6 +27,8 @@ import WelcomeNoteToNewStudent from './WelcomeNoteToNewStudent';
 import Footer from '../../Components/Website/Footer';
 import OurAffiliations from './OurAffiliations';
 import ggoimg from '../../Components/Website/assets/images/logo/ggoi-image.jpg';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 function Home() {
   return (
@@ -73,15 +75,15 @@ function Home() {
                       <p className="banner__description__text">
                         Welcome to Ghanshyam Group of Institutions, Prayagraj – a leading educational trust dedicated to providing world-class education in rural and semi-urban regions of Uttar Pradesh. With over 10,000+ students, 9 campuses, and 850+ dedicated faculty, our mission is to nurture socially responsible and industry-ready professionals.
                       </p>
-                      <a
-                        href="/#main-content"
+                      <HashLink
+                        to="/#main-content"
                         className="rts-nbg-btn btn-arrow"
                       >
                         View Our Program
                         <span>
                           <FaArrowRight style={{ fontSize: "20px" }} />
                         </span>
-                      </a>
+                      </HashLink>
                     </div>
                   </div>
                   <div className="banner__content__bottom">
@@ -170,15 +172,15 @@ function Home() {
                                 to the group. Committed to quality learning and holistic growth, the Trust works toward building a democratic,
                                  pluralistic, and secular nation—transforming education into a movement for complete illumination.</p>
                                  <div>
-                                   <a
-                                    href="/about-us"
+                                   <Link
+                                    to="/about-us"
                                     className="rts-nbg-btn btn-arrow"
                                   >
                                     Read More
                                     <span>
                                       <FaArrowRight style={{ fontSize: "20px" }} />
                                     </span>
-                                  </a>
+                                  </Link>
                                  </div>
                          </div>
                          <div className="col-12 mb-3">
