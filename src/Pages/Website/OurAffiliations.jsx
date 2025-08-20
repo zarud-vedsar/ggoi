@@ -4,6 +4,9 @@ import aktuLogo from '../../Components/Website/assets/img/aktulogo.png';
 import govUpLogo from '../../Components/Website/assets/img/govuplogo.svg';
 import pciLogo from '../../Components/Website/assets/img/pcoilogo.png';
 import rsuLogo from '../../Components/Website/assets/img/rsu.png';
+import bciLogo from '../../Components/Website/assets/img/bci.png';
+import ncteLogo from '../../Components/Website/assets/img/ncte.png';
+import scertLogo from '../../Components/Website/assets/img/scert.png';
 const OurAffiliations = () => {
     const list = [
     {
@@ -21,6 +24,18 @@ const OurAffiliations = () => {
     {
         title: "Prof. Rajendra Singh (Rajju Bhaiya) University",
         img: rsuLogo,
+    },
+    {
+        title: "Bar Council of India",
+        img: bciLogo,
+    },
+    {
+        title: "National Council for Teacher Education",
+        img: ncteLogo,
+    },
+    {
+        title: "State Council of Educational Research and Training ",
+        img: scertLogo,
     },
 ];
 
