@@ -9,7 +9,7 @@
   FaSchool
 } from "react-icons/fa";
 
-function BCA() {
+function BEd() {
     return (
        <>
 
@@ -81,4 +81,4 @@ function BCA() {
        );
 }
 
-export default BCA;
+export default BEd;
