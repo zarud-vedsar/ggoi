@@ -30,7 +30,19 @@ const WebsitePaths = {
   BscAgriculture: lazy(() => import('../Pages/Website/UnderGraduation/BscAgriculture.jsx')),
   BCAApplications: lazy(() => import('../Pages/Website/UnderGraduation/BCAApplications.jsx')),
   BachelorOfLaws: lazy(() => import('../Pages/Website/UnderGraduation/BachelorOfLaws.jsx')),
-  BachelorOfEducation: lazy(() => import('../Pages/Website/UnderGraduation/BachelorOfEducation.jsx'))
+  BachelorOfEducation: lazy(() => import('../Pages/Website/UnderGraduation/BachelorOfEducation.jsx')),
+  BscBiotech: lazy(() => import('../Pages/Website/UnderGraduation/BscBiotech.jsx')),
+  BachelorOfBPED: lazy(() => import('../Pages/Website/UnderGraduation/BachelorOfBPED.jsx')),
+  BPharma: lazy(() => import('../Pages/Website/UnderGraduation/BPharma.jsx')),
+  MasterOfArts: lazy(() => import('../Pages/Website/UnderGraduation/MasterOfArts.jsx')),
+  MasterOfScience: lazy(() => import('../Pages/Website/UnderGraduation/MasterOfScience.jsx')),
+  MasterOfCommerce: lazy(() => import('../Pages/Website/UnderGraduation/MasterOfCommerce.jsx')),
+  MscAgriculture: lazy(() => import('../Pages/Website/UnderGraduation/MscAgriculture.jsx')),
+  BTCEducation: lazy(() => import('../Pages/Website/UnderGraduation/BTCEducation.jsx')),
+  DPharma: lazy(() => import('../Pages/Website/UnderGraduation/DPharma.jsx')),
+  ITIElectrician: lazy(() => import('../Pages/Website/UnderGraduation/ITIElectrician.jsx')),
+  ITIFitter: lazy(() => import('../Pages/Website/UnderGraduation/ITIFitter.jsx')),
+  ITIElectronicsMechanic: lazy(() => import('../Pages/Website/UnderGraduation/ITIElectronicsMechanic.jsx'))
 };
 
 function Website() {
@@ -86,6 +98,18 @@ function Website() {
         <Route path="/bca-applications" element={<WebsitePaths.BCAApplications />} />
         <Route path="/bachelor-of-laws" element={<WebsitePaths.BachelorOfLaws />} />
         <Route path="/bachelor-of-education" element={<WebsitePaths.BachelorOfEducation />} />
+        <Route path="/bsc-biotech" element={<WebsitePaths.BscBiotech />} />
+        <Route path="/bachelor-of-BPEd" element={<WebsitePaths.BachelorOfBPED />} />
+        <Route path="/b-pharma" element={<WebsitePaths.BPharma />} />
+        <Route path="/master-of-arts" element={<WebsitePaths.MasterOfArts />} />
+        <Route path="/master-of-science" element={<WebsitePaths.MasterOfScience />} />
+        <Route path="/master-of-commerce" element={<WebsitePaths.MasterOfCommerce />} />
+        <Route path="/msc-agriculture" element={<WebsitePaths.MscAgriculture />} />
+        <Route path="/BTC-education" element={<WebsitePaths.BTCEducation />} />
+        <Route path="/D-pharma" element={<WebsitePaths.DPharma />} />
+        <Route path="/ITI-electrician" element={<WebsitePaths.ITIElectrician />} />
+        <Route path="/ITI-fitter" element={<WebsitePaths.ITIFitter />} />
+        <Route path="/ITI-electronics-mechanic" element={<WebsitePaths.ITIElectronicsMechanic />} />
       </Routes>
       <ToastContainer />
     </Suspense>
