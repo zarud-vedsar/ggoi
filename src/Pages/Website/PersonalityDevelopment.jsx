@@ -11,7 +11,7 @@ const PersonalityDevelopment = () => {
             <div className="container">
                 <div className="row ">
                     <div className="col-md-12 mb-5" data-aos="fade-up" data-aos-delay="200">
-                        <h2 className=" text-white text-center"> Personality Development</h2>
+                        <h2 className=" text-white text-center section-heading "> Personality Development</h2>
                         <p className="am-f18 text-center text-white">To develop communication skills and confidence among students, the following are
                             conducted</p>
                     </div>

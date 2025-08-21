@@ -195,3 +195,10 @@
     }
 
 }
+
+.section-heading {
+    font-size: 32px;
+    font-weight: 700;
+    color: #05445e;
+    margin-bottom: 20px;
+}

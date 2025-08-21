@@ -24,24 +24,32 @@ const CollegeDetailPage = () => {
             <section className="py-5" >
                 <div className='container'>
                     <div className="row">
-                        <div className='col-12 col-md-8 mx-auto position-relative' data-aos="fade-up" data-aos-delay="200">
+                        <div className='col-12 col-md-8 mx-auto mb-5' data-aos="fade-up" data-aos-delay="200">
                             <img src={`${collegeDetail?.img}`} alt="" className='rounded img-fluid' style={{ width: "100%" }} />
-                            <a href={collegeDetail?.link} target="_blank" rel="noopener noreferrer" className='btn btn-primary visit-site-btn' style={{ fontSize: "12px" }}>View site <FaLocationArrow /></a>
 
                         </div>
-                        <div className="col-12 pt-5 px-5" data-aos="fade-up" data-aos-delay="300">
 
-                            <p className='am-f30 text-dark fw-bolder mb-0 text-center  lh-sm'>{collegeDetail?.name}</p>
-                            <div className='d-flex justify-content-center align-items-center '>
-                                <p className='text-center'><MdLocationOn className='me-1' />
-                                    {collegeDetail?.address}</p>
+                        <div className='col-12 col-md-8 mx-auto mb-5 d-block d-md-flex justify-content-md-between align-items-center'>
+                            <div>
+                                <p className='am-f30 text-dark fw-bolder mb-0  lh-sm'>{collegeDetail?.name}</p>
+                               
+                                    <p className='mb-md-0 mb-2'><MdLocationOn className='me-1 ' />
+                                        {collegeDetail?.address}</p>
+                               
                             </div>
+                            <div>
+                                <a href={collegeDetail?.link} target="_blank" rel="noopener noreferrer" className='btn btn-primary ' style={{ fontSize: "16px" }}>View site <FaLocationArrow /></a>
+                            </div>
+                        </div>
+
+                        <div className="col-12 col-md-10  mx-auto" data-aos="fade-up" data-aos-delay="300">
+
                             <div className='d-flex justify-content-end mb-4'>
                             </div>
 
 
                             <p className='text-justify '>{collegeDetail?.description}</p>
-                            <p className=' mb-2'> <span > <FaGraduationCap className='me-2 am-f30' /><strong>Courses Offered :</strong></span> {collegeDetail?.courses}</p>
+                            <p className='d-inline'> <FaGraduationCap className='me-3 am-f30' /></p> <p className=' mb-2 d-inline'><strong>Courses Offered :</strong> {collegeDetail?.courses}</p>
 
                         </div>
                     </div>
@@ -53,7 +61,7 @@ const CollegeDetailPage = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12" data-aos="fade-up" data-aos-delay="200">
-                            <h2 className="mb-5 text-center"> Affiliations</h2>
+                            <h2 className="mb-5 text-center"> Affiliations & Approvals</h2>
                         </div>
 
                     </div>

@@ -58,7 +58,7 @@ const EventsAndExtraCurriculars = () => {
             <div className="container-fluid">
                 <div className="row p-2">
                     <div className="col-md-12" data-aos="fade-up" data-aos-delay="200">
-                        <h2 className='text-center'>Events & Extra Curriculars</h2>
+                        <h2 className='text-center section-heading '>Events & Extra Curriculars</h2>
                     </div>
                     {eventList.map((event, index) => (
                         <div className="col-sm-6 col-md-4 col-lg-3 my-2 px-2 " key={index} data-aos="fade-up" data-aos-delay="300">

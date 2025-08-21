@@ -20,7 +20,7 @@ const CareerExcellence = () => {
             <div className='container-fluid'>
                 <div className="row">
                     <div className="col-md-12" data-aos="fade-up" data-aos-delay="200">
-                        <h2 className="mb-5 text-white text-center">Learning For Career Excellence</h2>
+                        <h2 className="mb-5 text-white text-center section-heading ">Learning For Career Excellence</h2>
                     </div>
                 </div>
                 <div className='row mt-4'>
