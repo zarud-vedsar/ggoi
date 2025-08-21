@@ -302,3 +302,11 @@ border-radius:0px;
 .doz-our-icon7{
    background-color: #9C27B0;
 }
+.nav-link .nav-icon {
+  margin-right: 2px;
+  font-size: 20px;
+  color: #26354d; 
+}
+.nav-link.active .nav-icon {
+  color: #942911; 
+}

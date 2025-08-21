@@ -21,28 +21,27 @@ function OurProgram() {
                      <div className="col-md-12">
                         <ul className="nav nav-pills doz-ul-sec mb-3" id="pills-tab" role="tablist">
                            <li className="nav-item mb-0 " role="presentation">
-                              <button className="nav-link active" id="pills-ug-tab" data-bs-toggle="pill" data-bs-target="#pills-ug" type="button"
-                                 role="tab" aria-controls="pills-ug" aria-selected="true">
-                                 <FaGraduationCap style={{ marginRight: '2px', color: '#26354D', fontSize: '20px' }} />
+                              <button className="nav-link active" id="pills-ug-tab" data-bs-toggle="pill" data-bs-target="#pills-ug" type="button" role="tab"
+                                 aria-controls="pills-ug" aria-selected="true" >
+                                 <FaGraduationCap className="nav-icon" />
                                  Undergraduate Programs
                               </button>
                            </li>
                            <li className="nav-item mb-0" role="presentation">
-                              <button className="nav-link" id="pills-pg-tab" data-bs-toggle="pill" data-bs-target="#pills-pg" type="button"
-                                 role="tab" aria-controls="pills-pg" aria-selected="false">
-                                 <FaUserGraduate style={{ marginRight: '2px', color: '#26354D', fontSize: '18px' }} />
+                              <button className="nav-link" id="pills-pg-tab" data-bs-toggle="pill" data-bs-target="#pills-pg" type="button" role="tab"
+                                 aria-controls="pills-pg" aria-selected="false">
+                                 <FaUserGraduate className="nav-icon" />
                                  Postgraduate Programs
                               </button>
                            </li>
                            <li className="nav-item mb-0" role="presentation">
                               <button className="nav-link" id="pills-diploma-tab" data-bs-toggle="pill" data-bs-target="#pills-diploma" type="button"
                                  role="tab" aria-controls="pills-diploma" aria-selected="false">
-                                 <HiOutlineDocumentText style={{ marginRight: '2px', color: '#26354D', fontSize: '20px' }} />
+                                 <HiOutlineDocumentText className="nav-icon" />
                                  Diploma Programs
                               </button>
                            </li>
-                        </ul>
-
+                           </ul>
                         <div className="tab-content" id="pills-tabContent">
                            <div className="tab-pane fade show active" id="pills-ug" role="tabpanel" aria-labelledby="pills-ug-tab" tabindex="0">
                               <div className="col-12">
