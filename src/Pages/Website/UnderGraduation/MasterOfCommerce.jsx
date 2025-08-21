@@ -20,7 +20,7 @@
             <div className="ba-hse-card1">
               <div className="card-body">
                 <div className="ba-hse-header">
-                  <h1 className="mb-0 text-center doz-arts">Master of Commerce (M.Com.)</h1>
+                  <h1 className="text-center doz-arts">Master of Commerce (M.Com.)</h1>
                   <h4 className="mb-0 doz-over">Overview:</h4>
                   <p className="ba-hse-para">
                     The Master of Commerce (M.Com.) is a <strong>two-year postgraduate degree</strong> designed to provide advanced insights into <strong>finance, taxation, business management, and economics</strong>. 

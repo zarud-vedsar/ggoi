@@ -14,7 +14,7 @@ function Bsc() {
         <div className="ba-hse-card1">
           <div className="card-body">
             <div className="ba-hse-header">
-              <h1 className="mb-0 text-center doz-arts">Bachelor of Science (B.Sc.)</h1>
+              <h1 className="mb-3 text-center doz-arts">Bachelor of Science (B.Sc.)</h1>
               <h4 className="mb-0 doz-over">Overview:</h4>
               <p className="ba-hse-para">
                 The Bachelor of Science (B.Sc.) is a <strong>three-year undergraduate program</strong> that provides a solid

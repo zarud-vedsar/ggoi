@@ -21,7 +21,7 @@
         <div className="ba-hse-card1">
           <div className="card-body">
             <div className="ba-hse-header">
-              <h1 className="mb-0 text-center doz-arts">Bachelor of Pharmacy (B.Pharm)</h1>
+              <h1 className="mb-3 text-center doz-arts">Bachelor of Pharmacy (B.Pharm)</h1>
               <h4 className="mb-0 doz-over">Overview:</h4>
               <p className="ba-hse-para">
                 The Bachelor of Pharmacy (B.Pharm) is a <strong>four-year undergraduate professional degree</strong> that provides in-depth knowledge of pharmaceutical sciences, drug development, healthcare, and clinical practices. At Ghanshyam Group of Institutions, the B.Pharm program blends <strong>theory, research, and industry exposure</strong>, preparing students for careers in pharmacy, biotechnology, clinical research, and healthcare management.

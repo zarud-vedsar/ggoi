@@ -15,7 +15,7 @@ export default function ItiDressMaking() {
             <div className="ba-hse-card1">
               <div className="card-body">
                 <div className="ba-hse-header">
-                  <h1 className="mb-0 text-center doz-arts">ITI – Dress Making (1 Year)</h1>
+                  <h1 className=" text-center doz-arts">ITI – Dress Making (1 Year)</h1>
 
                   <h4 className="mb-0 doz-over">Overview:</h4>
                   <p className="ba-hse-para">
