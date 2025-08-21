@@ -12,7 +12,7 @@ import { FaBalanceScale, FaGlobeAmericas, FaLandmark, FaLanguage, FaUserShield }
                     <div className="ba-hse-card1">
                          <div className="card-body">
                             <div className="ba-hse-header">
-                                 <h1 className="mb-3 text-center doz-arts">Bachelor of Arts (B.A.)</h1>
+                                 <h1 className=" mb-3text-center doz-arts">Bachelor of Arts (B.A.)</h1>
                                   <h4 className="mb-0 doz-over">Overview:</h4>
                                 <p className="ba-hse-para">The Bachelor of Arts (B.A.) is a <strong>three-year undergraduate program</strong> designed to cultivate 
                                         broad intellectual and cultural perspectives through the study of humanities and social 

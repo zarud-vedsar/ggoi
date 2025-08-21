@@ -20,7 +20,7 @@ export default function ItiFitter() {
             <div className="ba-hse-card1">
               <div className="card-body">
                 <div className="ba-hse-header">
-                  <h1 className="text-center doz-arts">ITI – Fitter (2 Years)</h1>
+                  <h1 className="mb-3 text-center doz-arts">ITI – Fitter (2 Years)</h1>
 
                   <h4 className="mb-0 doz-over">Overview:</h4>
                   <p className="ba-hse-para">
