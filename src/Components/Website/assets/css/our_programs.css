@@ -109,7 +109,7 @@ border-radius:0px;
 .our-program-section .nav-pills .show > .nav-link::after {
   content: "";
   position: absolute;
-  bottom: 0px; 
+  bottom: 3px; 
   left: 50%;
   transform: translateX(-50%);
   width: 0;
@@ -307,6 +307,7 @@ border-radius:0px;
   font-size: 20px;
   color: #26354d; 
 }
+
 .nav-link.active .nav-icon {
   color: #942911; 
 }
