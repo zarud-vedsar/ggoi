@@ -1,20 +1,13 @@
  import React from "react";
 import Footer from '../../../Components/Website/Footer';
 import '../../../Components/Website/assets/css/bachelor-of-arts.css';
-import { 
-  FaCut, 
-  FaRulerCombined, 
-  FaTshirt, 
-  FaSewingMachine, 
-  FaStar, 
-  FaCheckCircle, 
-  FaPaintBrush 
-} from "react-icons/fa";
+import { FaCheckCircle, FaCut, FaPaintBrush, FaRulerCombined, FaTshirt } from "react-icons/fa";
+import { GiAmpleDress } from "react-icons/gi";
 
 export default function ItiDressMaking() {
   return (
     <>
-    
+
     <section className="py-5" id="main-content" style={{ backgroundColor: "#f5f5f5" }}>
       <div className="container">
         <div className="row">
@@ -26,6 +19,7 @@ export default function ItiDressMaking() {
 
                   <h4 className="mb-0 doz-over">Overview:</h4>
                   <p className="ba-hse-para">
+                    
                     The Dress Making Trade is a <strong>one-year vocational program</strong> 
                     designed for students interested in <strong>tailoring, garment construction, and the fashion industry</strong>. 
                     At Ghanshyam Group, this program trains students in <strong>designing, cutting, and stitching garments</strong> 
@@ -42,7 +36,7 @@ export default function ItiDressMaking() {
                   <h6 className="doz-st-para mb-0"><FaRulerCombined size={22} color="#095287" />&nbsp; Cutting, Drafting & Pattern Making:</h6>
                   <p className="doz-hse-text">Techniques of garment measurement, drafting, and precision cutting.</p>
 
-                  <h6 className="doz-st-para mb-0"><FaSewingMachine size={22} color="#095287" />&nbsp; Sewing Machine Operation:</h6>
+                  <h6 className="doz-st-para mb-0"><GiAmpleDress  size={22} color="#095287" />&nbsp; Sewing Machine Operation:</h6>
                   <p className="doz-hse-text">Machine handling, stitching maintenance, and troubleshooting.</p>
 
                   <h6 className="doz-st-para mb-0"><FaPaintBrush size={22} color="#095287" />&nbsp; Embroidery & Decorative Stitching:</h6>
@@ -76,7 +70,8 @@ export default function ItiDressMaking() {
       </div>
     </section>
 
-     <Footer />
+    <Footer />
       </>
   );
 }
+
