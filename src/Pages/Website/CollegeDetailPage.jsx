@@ -29,7 +29,7 @@ const CollegeDetailPage = () => {
 
                         </div>
 
-                        <div className='col-12 col-md-8 mx-auto mb-5 d-block d-md-flex justify-content-md-between align-items-center'>
+                        <div className='col-12 col-md-8 mx-auto mb-5 d-block d-md-flex justify-content-md-between align-items-start'>
                             <div>
                                 <p className='am-f30 text-dark fw-bolder mb-0  lh-sm'>{collegeDetail?.name}</p>
                                
@@ -38,7 +38,7 @@ const CollegeDetailPage = () => {
                                
                             </div>
                             <div>
-                                <a href={collegeDetail?.link} target="_blank" rel="noopener noreferrer" className='btn btn-primary ' style={{ fontSize: "16px" }}>View site <FaLocationArrow /></a>
+                                <a href={collegeDetail?.link} target="_blank" rel="noopener noreferrer" className='btn btn-primary view-site-btn' style={{ fontSize: "16px" }}>View site <FaLocationArrow /></a>
                             </div>
                         </div>
 
