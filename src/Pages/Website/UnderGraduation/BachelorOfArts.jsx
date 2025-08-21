@@ -2,7 +2,7 @@
 import Footer from '../../../Components/Website/Footer';
 import '../../../Components/Website/assets/css/bachelor-of-arts.css';
 import { FaBalanceScale, FaGlobeAmericas, FaLandmark, FaLanguage, FaUserShield } from "react-icons/fa";
- function BaHSE() {
+ function BA() {
    return (
       <>
       <section className="py-5" id="main-content" style={{ backgroundColor: "#f5f5f5" }}> 
@@ -69,4 +69,4 @@ import { FaBalanceScale, FaGlobeAmericas, FaLandmark, FaLanguage, FaUserShield }
        );
 }
 
-export default BaHSE;
+export default BA;

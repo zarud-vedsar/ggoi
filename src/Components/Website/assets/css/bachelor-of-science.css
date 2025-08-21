@@ -1,0 +1,38 @@
+.doz-arts {
+  font-weight: 600;
+}
+
+.doz-over {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.doz-hse-para {
+  font-size: 16px;
+  font-weight: 400 !important;
+}
+
+.ba-hse-para {
+  color: #525151;
+  font-weight: 500;
+}
+
+.doz-hse-text {
+  font-size: 15px;
+  font-weight: 400 !important;
+  margin-bottom: 0px;
+}
+
+.ba-hse-card1 {
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.doz-st-para {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+  margin-top: 10px;
+}

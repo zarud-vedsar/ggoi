@@ -61,6 +61,7 @@ function OurProgram() {
                                        </Link>
                                     </div>
                                     <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                                      <Link to={'/bachelor-of-science'}>
                                        <div className="card doz-our-car">
                                           <div className="card-body">
                                              <div className="doz-our-ico-sec2">
@@ -70,8 +71,10 @@ function OurProgram() {
                                              <p>3 years </p>
                                           </div>
                                        </div>
+                                       </Link>
                                     </div>
                                     <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                                       <Link to={'/bachelor-of-commerce'}>
                                        <div className="card doz-our-car">
                                           <div className="card-body">
                                              <div className="doz-our-ico-sec3">
@@ -81,8 +84,10 @@ function OurProgram() {
                                              <p>3 years</p>
                                           </div>
                                        </div>
+                                       </Link>
                                     </div>
                                     <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                                      <Link to={'/bca-applications'}>
                                        <div className="card doz-our-car">
                                           <div className="card-body">
                                              <div className="doz-our-ico-sec4">
@@ -92,6 +97,7 @@ function OurProgram() {
                                              <p>3 years</p>
                                           </div>
                                        </div>
+                                       </Link>
                                     </div>
                                     <div className="col-lg-4 col-md-4 col-sm-12 col-12">
                                        <div className="card doz-our-car">
@@ -105,6 +111,7 @@ function OurProgram() {
                                        </div>
                                     </div>
                                     <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                                        <Link to={'/bsc-agriculture'}>
                                        <div className="card doz-our-car">
                                           <div className="card-body">
                                              <div className="doz-our-ico-sec6">
@@ -114,8 +121,10 @@ function OurProgram() {
                                              <p>4 years</p>
                                           </div>
                                        </div>
+                                       </Link>
                                     </div>
                                     <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                                       <Link to={'/bachelor-of-laws'}>
                                        <div className="card doz-our-car">
                                           <div className="card-body">
                                              <div className="doz-our-ico-sec7">
@@ -125,8 +134,10 @@ function OurProgram() {
                                              <p> 3 years</p>
                                           </div>
                                        </div>
+                                       </Link>
                                     </div>
                                     <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                                       <Link to={'/bachelor-of-education'}>
                                        <div className="card doz-our-car">
                                           <div className="card-body">
                                              <div className="doz-our-ico-sec8">
@@ -136,6 +147,7 @@ function OurProgram() {
                                              <p>2 years</p>
                                           </div>
                                        </div>
+                                       </Link>
                                     </div>
                                     <div className="col-lg-4 col-md-4 col-sm-12 col-12">
                                        <div className="card doz-our-car">
