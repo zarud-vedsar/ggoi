@@ -9,10 +9,12 @@ export const collegeData = {
     img: collegeImg,
     address: "Baudai, Phoolpur Prayagraj",
     link: "ghanshyam-urvashi-mahavidyalya",
-    courses:"B.A., B.Sc., B.Com., B.Sc., Biotech., B.C.A. (3 year), M.A., M.Sc., M.Com., M.Sc. (Ag). (2 year), B.Sc. (Ag) (4 year)",
-    affilated:["PRSU"]
+    courses: "B.A., B.Sc., B.Com., B.Sc., Biotech., B.C.A. (3 year), M.A., M.Sc., M.Com., M.Sc. (Ag). (2 year), B.Sc. (Ag) (4 year)",
+    affilated: ["PRSU"],
+    phone: ['8924057222'],
+    iframe: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.116842641385!2d82.09902639678957!3d25.534484599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399aadbd548d5c23%3A0xfb505181a0f3e020!2sGHANSHYAM%20URVASHI%20MAHAVIDYALAY!5e0!3m2!1sen!2sin!4v1755771882787!5m2!1sen!2sin"
   },
- 
+
   "ghanshyam-urvashi-vidhi-mahavidyalya": {
     id: "ghanshyam-urvashi-vidhi-mahavidyalya",
     name: "Ghanshyam Urvashi Vidhi Mahavidyalya",
@@ -21,9 +23,12 @@ export const collegeData = {
     address: "Baudai, Phoolpur Prayagraj ",
     link: "ghanshyam-urvashi-vidhi-mahavidyalya",
     courses: "LLB (3 years)",
-    affilated: ["BCI","PRSU"]
+    affilated: ["BCI", "PRSU"],
+    phone: ['8924057222'],
+    iframe: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.116842641385!2d82.09902639678957!3d25.534484599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399aadbd548d5c23%3A0xfb505181a0f3e020!2sGHANSHYAM%20URVASHI%20MAHAVIDYALAY!5e0!3m2!1sen!2sin!4v1755771882787!5m2!1sen!2sin"
+
   },
-   "ghanhyam-urvashi-audhyogik-prashikshan-kendra": {
+  "ghanhyam-urvashi-audhyogik-prashikshan-kendra": {
     id: "ghanhyam-urvashi-audhyogik-prashikshan-kendra",
     name: "Ghanhyam Urvashi Audhyogik Prashikshan Kendra (ITI)",
     description: "This ITI institute under Ghanshyam Group is dedicated to vocational and technical training,  providing job-oriented programs that directly connect students with industrial and technical  careers. Located in Baudai, Phoolpur, Prayagraj, the ITI center is equipped with modern  workshops, tools, and machines to ensure hands-on training.  The programs focus on developing practical skills in mechanical, electrical, and industrial  domains. By combining theory with intensive workshop practice, the institution prepares  students to meet the growing demand for skilled technicians in both government and private  industries. ",
@@ -31,9 +36,12 @@ export const collegeData = {
     address: "Baudai, Phoolpur Prayagraj",
     link: "ghanhyam-urvashi-audhyogik-prashikshan-kendra",
     courses: "Electrician (2 year), Fitter (2 year)",
-    affilated: ["NCVT","SCVT"]
+    affilated: ["NCVT", "SCVT"],
+    phone: ['8924057222'],
+    iframe: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.116842641385!2d82.09902639678957!3d25.534484599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399aadbd548d5c23%3A0xfb505181a0f3e020!2sGHANSHYAM%20URVASHI%20MAHAVIDYALAY!5e0!3m2!1sen!2sin!4v1755771882787!5m2!1sen!2sin"
+
   },
-   "sri-sai-ram-b-ed-College": {
+  "sri-sai-ram-b-ed-College": {
     id: "sri-sai-ram-b-ed-College",
     name: "Sri Sai Ram B.Ed. College",
     description: "Sri Sai Ram B.Ed. College is a reputed teacher training institution that aims to nurture the  next generation of educators. Located in Baudai, Phoolpur, Prayagraj, the college  emphasizes academic rigor combined with practical teaching experience.  The college provides modern teaching-learning facilities, including psychology labs,  language labs, and ICT-enabled classrooms. Students undergo intensive teaching practice  in schools to gain real-world classroom experience. The institution stresses values, ethics,  and leadership to prepare teachers who can contribute meaningfully to society. ",
@@ -41,9 +49,12 @@ export const collegeData = {
     address: "Baudai, Phoolpur Prayagraj",
     link: "sri-sai-ram-b-ed-College",
     courses: "B.Ed. (2 year)",
-    affilated: ["PRSU","NCTE"]
+    affilated: ["PRSU", "NCTE"],
+    phone: ['8924057222'],
+    iframe: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.1171494868163!2d82.10121497517515!3d25.534474377495375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399aac22e65bd3fb%3A0xdc158b07543e540d!2sSri%20Sai%20Ram%20Educational%20College!5e0!3m2!1sen!2sin!4v1755772292398!5m2!1sen!2sin"
+
   },
-   "sri-sai-ram-educational-college": {
+  "sri-sai-ram-educational-college": {
     id: "sri-sai-ram-educational-college",
     name: "Sri Sai Ram Educational College",
     description: "Sri Sai Ram Educational College specializes in elementary teacher education through the  D.El.Ed. program. The college aims to train teachers for primary and upper primary schools  with a focus on child psychology, inclusive education, and innovative pedagogy.  The institution ensures practical exposure through internships, workshops, and interactive  sessions. With a child-centered teaching philosophy, the college produces teachers who are  compassionate, skilled, and effective in shaping young learners. ",
@@ -51,9 +62,11 @@ export const collegeData = {
     address: "Baudai, Phoolpur Prayagraj",
     link: "sri-sai-ram-educational-college",
     courses: "D.El.Ed. (B.T.C.) (2 year)",
-    affilated: ["SCERT.","NCTE"]
+    affilated: ["SCERT.", "NCTE"],
+    phone: ['8924057222'],
+    iframe: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.1171494868163!2d82.10121497517515!3d25.534474377495375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399aac22e65bd3fb%3A0xdc158b07543e540d!2sSri%20Sai%20Ram%20Educational%20College!5e0!3m2!1sen!2sin!4v1755772292398!5m2!1sen!2sin"
   },
-   "ghanshyam-urvashi-prashikshan-kendra": {
+  "ghanshyam-urvashi-prashikshan-kendra": {
     id: "ghanshyam-urvashi-prashikshan-kendra",
     name: "Ghanshyam Urvashi Prashikshan Kendra ",
     description: "Ghanshyam Urvashi Prashikshan Kendra is another teacher training institute under the  group, focusing on elementary education. The aim is to provide specialized training to  prepare teachers for foundational and basic education in rural and semi-urban areas.  The institution maintains high academic standards with trained faculty, well-structured  curriculum, and continuous assessment methods. The college lays emphasis on ethics,  inclusivity, and child-centered pedagogy. ",
@@ -61,9 +74,11 @@ export const collegeData = {
     address: "Baudai, Phoolpur Prayagraj",
     link: "https://ghanshyamurvashicollegeofpharmacy.com/institute.php?institute_id=14",
     courses: "D.El.Ed. (B.T.C.) (2 year)",
-    affilated: ["SCERT", "NCTE"]
+    affilated: ["SCERT", "NCTE"],
+    phone: ['8924057222'],
+    iframe: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14398.479065971282!2d82.06931958715819!3d25.55103960000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399aaf348a149c85%3A0x370d672c60b203af!2sGhanshyam%20urvashi%20mahavidyalay%20baudai%20phulpur%20Prayagraj!5e0!3m2!1sen!2sin!4v1755772549703!5m2!1sen!2sin",
   },
-   "ghanshyam-urvashi-college-of-pharmacy": {
+  "ghanshyam-urvashi-college-of-pharmacy": {
     id: "ghanshyam-urvashi-college-of-pharmacy",
     name: "Ghanshyam Urvashi College of Pharmacy ",
     description: "Ghanshyam Urvashi College of Pharmacy is a leading institute in pharmaceutical education.  Located in Baudai, Phoolpur, Prayagraj, it provides students with excellent infrastructure  including modern laboratories, drug-testing facilities, and a resourceful library.  The college emphasizes practical training along with theoretical knowledge in  pharmaceutical sciences. Industrial visits, hospital training, and research activities give  students the required exposure for professional growth in the healthcare and pharmaceutical  sectors.",
@@ -71,9 +86,11 @@ export const collegeData = {
     address: "Baudai, Phoolpur Prayagraj",
     link: "https://ghanshyamurvashicollegeofpharmacy.com/",
     courses: "D. Pharm (2 year)",
-    affilated: ["PCI","BTE"]
+    affilated: ["PCI", "BTE"],
+    phone: ['8924057222'],
+    iframe: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.116842641385!2d82.09902639678957!3d25.534484599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399aadbd548d5c23%3A0xfb505181a0f3e020!2sGHANSHYAM%20URVASHI%20MAHAVIDYALAY!5e0!3m2!1sen!2sin!4v1755771882787!5m2!1sen!2sin"
   },
-   "degree-college-upardaha": {
+  "degree-college-upardaha": {
     id: "degree-college-upardaha",
     name: "Degree College Upardaha ",
     description: "Degree College Upardaha is a multi-disciplinary higher education institution under the  Ghanshyam Group, situated at Upardaha, Handia, Prayagraj. The college offers programs in  Arts, Science, Commerce, Education, and Physical Education, catering to diverse academic  interests.  With well-equipped laboratories, libraries, sports facilities, and dedicated faculty, the  institution promotes both academic excellence and co-curricular growth. Students are  encouraged to engage in research, cultural activities, and community service. ",
@@ -81,9 +98,11 @@ export const collegeData = {
     address: "Upardaha Baraut Handia, Prayagraj",
     link: "https://ghanshyamurvashicollegeofpharmacy.com/institute.php?institute_id=10",
     courses: "B.A., B.Sc., B.Com., B.C.A. (3 year), M.A., M.Sc., M.Com. (2 year), B.Ed., B.P.Ed. (2 year), D.EL.Ed. (BTC) (2 year) ",
-    affilated: ["PRSU", "SCERT", "NCTE"]
+    affilated: ["PRSU", "SCERT", "NCTE"],
+    phone: ['8924057222'],
+    iframe: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3605.705465612186!2d82.22660687516873!3d25.34766267761438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398ff8bba0ad17e3%3A0x4f035f550977845b!2sP.G.%20Degree%20College%20Upardaha!5e0!3m2!1sen!2sin!4v1755772701683!5m2!1sen!2sin",
   },
-   "sri-sai-ram-law-college": {
+  "sri-sai-ram-law-college": {
     id: "sri-sai-ram-law-college",
     name: "Sri Sai Ram Law College",
     description: "Sri Sai Ram Law College is a center of legal education that combines academic study with  practical training. Located in Upardaha, Handia, Prayagraj, the college is known for  producing competent and ethical legal professionals.  The institution provides moot court practices, legal aid clinics, seminars, and interactions  with senior advocates and judges. The goal is to instill legal knowledge along with values of  justice and social responsibility. ",
@@ -91,9 +110,12 @@ export const collegeData = {
     address: "Upardaha Baraut Handia, Prayagraj",
     link: "sri-sai-ram-law-college",
     courses: "LLB (3 year) ",
-    affilated: ["BCI", "PRSU"]
+    affilated: ["BCI", "PRSU"],
+    phone: ['8924057222'],
+    iframe: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3605.705465612186!2d82.22660687516873!3d25.34766267761438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398ff8bba0ad17e3%3A0x4f035f550977845b!2sP.G.%20Degree%20College%20Upardaha!5e0!3m2!1sen!2sin!4v1755772701683!5m2!1sen!2sin",
+
   },
-   "sri-sai-ram-audhyogik-prashikshan-kendra": {
+  "sri-sai-ram-audhyogik-prashikshan-kendra": {
     id: "sri-sai-ram-audhyogik-prashikshan-kendra",
     name: "Sri Sai Ram Audhyogik Prashikshan Kendra",
     description: "This ITI center focuses on providing skill-based, job-oriented vocational training programs. Located in Upardaha, Handia, Prayagraj, the institution is equipped with industry-standard workshops, machines, and tools to ensure practical exposure. The ITI programs here are aligned with industry needs, providing students with opportunities in technical and industrial sectors. The college places emphasis on employability, self-employment, and entrepreneurship.  ",
@@ -101,9 +123,12 @@ export const collegeData = {
     address: "Upardaha Baraut Handia, Prayagraj",
     link: "sri-sai-ram-audhyogik-prashikshan-kendra",
     courses: "Electrician (2 year), Fitter (2 year), Electronics (2 year), Dress Making (1 year), Diesel Mechanic (1 year)",
-    affilated: ["NCVT","SCVT"]
+    affilated: ["NCVT", "SCVT"],
+    phone: ['8924057222'],
+    iframe: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3605.705465612186!2d82.22660687516873!3d25.34766267761438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398ff8bba0ad17e3%3A0x4f035f550977845b!2sP.G.%20Degree%20College%20Upardaha!5e0!3m2!1sen!2sin!4v1755772701683!5m2!1sen!2sin",
+
   },
-   "sri-sai-ram-pharmacy": {
+  "sri-sai-ram-pharmacy": {
     id: "sri-sai-ram-pharmacy",
     name: "Sri Sai Ram Pharmacy",
     description: "Sri Sai Ram Pharmacy is a professional college dedicated to pharmaceutical education and  research. Situated at Upardaha, Handia, Prayagraj, the institution is recognized for its  excellent infrastructure and industry-relevant training.  The curriculum balances classroom teaching with practical sessions, industrial visits, and  hospital training. Students are equipped with the knowledge and skills required for careers in  the pharmaceutical and healthcare industries.",
@@ -111,9 +136,11 @@ export const collegeData = {
     address: "Upardaha Baraut Handia, Prayagraj",
     link: "https://www.sscop.co.in/",
     courses: "B.Pharm (4 year), D.Pharm (2 year) ",
-    affilated: ["PCI","AKTU","BTE"]
+    affilated: ["PCI", "AKTU", "BTE"],
+    phone: ['8924057222'],
+    iframe: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3605.705465612186!2d82.22660687516873!3d25.34766267761438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398ff8bba0ad17e3%3A0x4f035f550977845b!2sP.G.%20Degree%20College%20Upardaha!5e0!3m2!1sen!2sin!4v1755772701683!5m2!1sen!2sin",
   },
-   "ghanshyam-college-of-pharmacy": {
+  "ghanshyam-college-of-pharmacy": {
     id: "ghanshyam-college-of-pharmacy",
     name: "Ghanshyam College of Pharmacy",
     description: "Ghanshyam College of Pharmacy is a reputed institution located at Mungra Badshahpur,  Jaunpur, and is part of the Ghanshyam Group of Institutions. The college aims to provide  advanced pharmaceutical education through a combination of theory, practical exposure,  and research opportunities.  With modern labs, experienced faculty, and tie-ups with industries, the college prepares  students for professional success in the fields of pharmacy, healthcare, and research. The  focus is on innovation, ethics, and service to society. ",
@@ -121,6 +148,8 @@ export const collegeData = {
     address: "Mungra Badshahpur, Jaunpur",
     link: "https://ghanshyamcollegeofpharmacy.com/",
     courses: "B.Pharm (4 year), D.Pharm (2 year)",
-    affilated: ["PCI", "AKTU", "BTE"]
+    affilated: ["PCI", "AKTU", "BTE"],
+    phone: ['8924057222'],
+    iframe: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.3213865628127!2d82.15045137517848!3d25.627456877436444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399aa99d0ace04e7%3A0x9ac8e480261086a6!2sGhanshyam%20College%20of%20Pharmacy!5e0!3m2!1sen!2sin!4v1755773203816!5m2!1sen!2sin",
   },
 };

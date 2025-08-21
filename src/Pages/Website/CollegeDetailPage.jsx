@@ -6,9 +6,10 @@ import { useParams } from 'react-router-dom'
 import { MdLocationOn } from "react-icons/md";
 import { FaLocationArrow } from "react-icons/fa6";
 import { FaGraduationCap } from "react-icons/fa6";
-import { PiLinkBold } from "react-icons/pi";
 import '../../Components/Website/assets/css/college-page-details.css';
 import { affiliationData } from "../../Components/Website/AffilationData";
+import { Link } from 'react-router-dom'
+import { IoCall } from "react-icons/io5";
 
 const CollegeDetailPage = () => {
     const { collegeId } = useParams();
@@ -32,17 +33,24 @@ const CollegeDetailPage = () => {
                         <div className='col-12 col-md-8 mx-auto mb-5 d-block d-md-flex justify-content-md-between align-items-start'>
                             <div>
                                 <p className='am-f30 text-dark fw-bolder mb-0  lh-sm'>{collegeDetail?.name}</p>
-                               
-                                    <p className='mb-md-0 mb-2'><MdLocationOn className='me-1 ' />
-                                        {collegeDetail?.address}</p>
-                               
+                                <div className='d-flex gap-4'>
+                                    <p className="mb-md-0 mb-2 am-f16">
+                                        <MdLocationOn className="me-2" />
+                                        {collegeDetail?.address}
+                                    </p>
+                                    {collegeDetail?.phone?.[0] && (
+                                        <a href={`tel:+91${collegeDetail.phone[0]}`} className=' am-f16'>
+                                        <IoCall className='me-2'/>    {collegeDetail.phone[0]}
+                                        </a>
+                                    )}
+                                </div>
                             </div>
                             <div>
                                 <a href={collegeDetail?.link} target="_blank" rel="noopener noreferrer" className='btn btn-primary view-site-btn' style={{ fontSize: "16px" }}>View site <FaLocationArrow /></a>
                             </div>
                         </div>
 
-                        <div className="col-12 col-md-10  mx-auto" data-aos="fade-up" data-aos-delay="300">
+                        <div className="col-12 col-md-10  mx-auto" data-aos="fade-up" data-aos-delay="200">
 
                             <div className='d-flex justify-content-end mb-4'>
                             </div>
@@ -61,24 +69,24 @@ const CollegeDetailPage = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12" data-aos="fade-up" data-aos-delay="200">
-                            <h2 className="mb-5 text-center"> Affiliations & Approvals</h2>
+                            <h2 className="mb-5 text-center section-heading"> Affiliations & Approvals</h2>
                         </div>
 
                     </div>
-                    <div className="d-flex flex-wrap justify-content-evenly">
+                    <div className="d-flex flex-wrap justify-content-evenly" data-aos="fade-up"
+                        data-aos-delay="200">
                         {affiliationData?.map((item, index) => (
                             collegeDetail?.affilated.includes(item.id) && (
-
-                                <div className="card text-center mb-4" key={index}
-                                    data-aos="fade-up"
-                                    data-aos-delay="300">
-                                    <div className='card-body align-items-center d-flex flex-column justify-content-center'>
-                                        <img src={item.img} alt={item.title} className="mb-4 img" />
-                                        <p className="title am-f18 mb-2">{item.title}</p>
-                                        <p className="para am-f16">{item.desc}</p>
+                                <Link to={item?.link} target="_blank" >
+                                    <div className="card text-center mb-4 border-0" key={index}
+                                    >
+                                        <div className='card-body align-items-center d-flex flex-column justify-content-center'>
+                                            <img src={item.img} alt={item.title} className="mb-4 img" />
+                                            <p className="title am-f18 mb-2">{item.title}</p>
+                                            <p className="para am-f16">{item.desc}</p>
+                                        </div>
                                     </div>
-                                </div>
-
+                                </Link>
                             )
                         ))}
                     </div>
@@ -86,7 +94,15 @@ const CollegeDetailPage = () => {
                 </div>
 
             </section>
-
+            <section>
+                <div className="container">
+                    <div className='row' data-aos="fade-up" data-aos-delay="200">
+                        <div className='col-12'>
+                            <iframe src={collegeDetail?.iframe} width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <Footer />
         </>
     )
