@@ -1,14 +1,16 @@
- .doz-hse-head{
-    font-size: 30px;
-    font-weight: 500 !important;
-    margin-bottom: 7px;
+  .doz-arts{
+   font-weight: 600;
+ }
+ .doz-over{
+   font-weight: 600;
+   font-size: 22px;
  }
  .doz-hse-para{
     font-size: 16px;
     font-weight: 400 !important;
  }
  .ba-hse-para{
-    color: #404040;
+    color: #525151;
     font-weight: 500;
  }
  .doz-hse-text{
@@ -22,12 +24,9 @@
     border-radius: 20px;
     padding: 20px;
  }
- .doz-what-head{
-   font-size: 25px;
-   font-weight: 500;
- }
  .doz-st-para{
-   font-size: 18px;
+   font-size: 20px;
    font-weight: 500;
    color: #000;
+   margin-top: 10px;
  }
