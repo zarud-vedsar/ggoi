@@ -115,7 +115,7 @@
 @media screen and (min-width: 768px) and (max-width: 949px) {
     .doz-pre-banner{
     position: absolute;
-    bottom: 0;
+    bottom: -12px;
     left: 42%;
     z-index: 50;
     border: 1px solid #890C25;
@@ -125,7 +125,7 @@
  }
   .doz-next-banner{
     position: absolute;
-    bottom: 0;
+    bottom: -12px;
     right: 42%;
     z-index: 50;
     border: 1px solid #890C25;
@@ -137,7 +137,7 @@
 @media screen and (min-width: 0px) and (max-width: 767px) {
     .doz-pre-banner{
     position: absolute;
-    bottom: 0;
+    bottom: -10px;
     left: 36%;
     z-index: 50;
     border: 1px solid #890C25;
@@ -147,7 +147,7 @@
  }
   .doz-next-banner{
     position: absolute;
-    bottom: 0;
+    bottom: -10px;
     right: 36%;
     z-index: 50;
     border: 1px solid #890C25;
