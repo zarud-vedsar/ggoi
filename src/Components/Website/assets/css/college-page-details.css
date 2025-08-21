@@ -17,3 +17,35 @@
 .our-affiliation-section .card .title {
     color: #000;
 }
+
+
+@media only screen and (max-width:552px) {
+    .contact-detail-inline-block {
+        display: block;
+        gap: 0px;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width:552px) and (max-width:768px) {
+    .contact-detail-inline-block {
+        display: flex;
+        gap: 20px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:860px) {
+    .contact-detail-inline-block {
+        display: block;
+        gap: 0px;
+        margin-bottom: 15px;
+
+    }
+}
+
+@media only screen and (min-width:860px) {
+    .contact-detail-inline-block {
+        display: flex;
+        gap: 20px;
+    }
+}

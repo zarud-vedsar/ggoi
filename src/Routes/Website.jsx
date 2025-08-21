@@ -19,6 +19,8 @@ import Loader from '../Components/common/Loader.jsx';
 const WebsitePaths = {
   Home: lazy(() => import('../Pages/Website/Home')),
   CollegeDetailPage: lazy(() => import('../Pages/Website/CollegeDetailPage')),
+  PrivacyPolicy: lazy(() => import('../Pages/Website/PrivacyPolicy')),
+  TermsConditions: lazy(() => import('../Pages/Website/TermsConditions')),
 
   About: lazy(() => import('../Pages/Website/AboutUs.jsx')),
   ContactUs: lazy(() => import('../Pages/Website/ContactUs.jsx')),
@@ -82,7 +84,7 @@ function Website() {
     });
   }, []);
   return (
-    <Suspense fallback={<div><Loader/></div>}>
+    <Suspense fallback={<div><Loader /></div>}>
       <Navbar />
 
       <Routes>
@@ -90,7 +92,6 @@ function Website() {
         <Route path="/college/:collegeId" element={<WebsitePaths.CollegeDetailPage />} />
         <Route path="/about-us" element={<WebsitePaths.About />} />
         <Route path="/contact-us" element={<WebsitePaths.ContactUs />} />
-        <Route path="*" element={<Navigate to='/page-not-found' />} />
         <Route path="/vision-mission" element={<WebsitePaths.VisionAndMission />} />
         <Route path="/messages" element={<WebsitePaths.Messages />} />
         <Route path="/bachelor-of-arts" element={<WebsitePaths.BachelorOfArts />} />
@@ -114,6 +115,10 @@ function Website() {
         <Route path="/ITI-electronics-mechanic" element={<WebsitePaths.ITIElectronicsMechanic />} />
         <Route path="/ITI-dress-making" element={<WebsitePaths.ITIDressMaking />} />
         <Route path="/ITI-diesel-mechanic" element={<WebsitePaths.ITIDieselMechanic />} />
+        <Route path="/terms-and-conditions" element={<WebsitePaths.TermsConditions />} />
+        <Route path="/privacy-policy" element={<WebsitePaths.PrivacyPolicy />} />
+
+        <Route path="*" element={<Navigate to='/page-not-found' />} />
       </Routes>
       <ToastContainer />
     </Suspense>

@@ -33,8 +33,8 @@ const CollegeDetailPage = () => {
                         <div className='col-12 col-md-8 mx-auto mb-5 d-block d-md-flex justify-content-md-between align-items-start'>
                             <div>
                                 <p className='am-f30 text-dark fw-bolder mb-0  lh-sm'>{collegeDetail?.name}</p>
-                                <div className='d-flex gap-4'>
-                                    <p className="mb-md-0 mb-2 am-f16">
+                                <div className='contact-detail-inline-block'>
+                                    <p className="am-f16 mb-1">
                                         <MdLocationOn className="me-2" />
                                         {collegeDetail?.address}
                                     </p>
