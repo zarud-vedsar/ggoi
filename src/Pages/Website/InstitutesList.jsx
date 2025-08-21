@@ -34,7 +34,7 @@ const InstitutesList = () => {
                     </div>
 
                     {Object.values(collegeData).map((logo, index) => (
-                        <div className="col-12 col-md-6 col-lg-4 mb-5" key={index} data-aos="fade-up" data-aos-delay="200">
+                        <div className="col-12 col-sm-6 col-lg-4 mb-5" key={index} data-aos="fade-up" data-aos-delay="200">
                             <Link to={`/college/${logo?.id}`}>
 
                                 <div className="am-card h-100 pb-4">

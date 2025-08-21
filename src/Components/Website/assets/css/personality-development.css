@@ -1,5 +1,5 @@
 .personality-development-section .list .am-circle {
-    width: 230px;
+    width: 200px;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
     display: grid;
@@ -7,6 +7,7 @@
     padding: 20px;
 
 }
+
 
 .personality-development-section .am-circle1 {
     background-color: #ff5858;
@@ -56,6 +57,7 @@
     top: 4px;
 
 }
+
 .personality-development-section .am-icon-container {
 
     background-color: #fff;
@@ -92,5 +94,11 @@
 @media only screen and (max-width:670px) {
     .personality-development-section .am-circle-container {
         row-gap: 20px;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .personality-development-section .list .am-circle {
+        width: 230px;
     }
 }
