@@ -25,6 +25,12 @@ const WebsitePaths = {
   VisionAndMission: lazy(() => import('../Pages/Website/VisionMission.jsx')),
   Messages: lazy(() => import('../Pages/Website/Messages.jsx')),
   BachelorOfArts: lazy(() => import('../Pages/Website/UnderGraduation/BachelorOfArts.jsx')),
+  BachelorOfScience: lazy(() => import('../Pages/Website/UnderGraduation/BachelorOfScience.jsx')),
+  BachelorOfCommerce: lazy(() => import('../Pages/Website/UnderGraduation/BachelorOfCommerce.jsx')),
+  BscAgriculture: lazy(() => import('../Pages/Website/UnderGraduation/BscAgriculture.jsx')),
+  BCAApplications: lazy(() => import('../Pages/Website/UnderGraduation/BCAApplications.jsx')),
+  BachelorOfLaws: lazy(() => import('../Pages/Website/UnderGraduation/BachelorOfLaws.jsx')),
+  BachelorOfEducation: lazy(() => import('../Pages/Website/UnderGraduation/BachelorOfEducation.jsx'))
 };
 
 function Website() {
@@ -74,6 +80,12 @@ function Website() {
         <Route path="/vision-mission" element={<WebsitePaths.VisionAndMission />} />
         <Route path="/messages" element={<WebsitePaths.Messages />} />
         <Route path="/bachelor-of-arts" element={<WebsitePaths.BachelorOfArts />} />
+        <Route path="/bachelor-of-science" element={<WebsitePaths.BachelorOfScience />} />
+        <Route path="/bachelor-of-commerce" element={<WebsitePaths.BachelorOfCommerce />} />
+        <Route path="/bsc-agriculture" element={<WebsitePaths.BscAgriculture />} />
+        <Route path="/bca-applications" element={<WebsitePaths.BCAApplications />} />
+        <Route path="/bachelor-of-laws" element={<WebsitePaths.BachelorOfLaws />} />
+        <Route path="/bachelor-of-education" element={<WebsitePaths.BachelorOfEducation />} />
       </Routes>
       <ToastContainer />
     </Suspense>
