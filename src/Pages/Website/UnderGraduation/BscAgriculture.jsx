@@ -15,7 +15,7 @@ import { GiFarmTractor, GiGroundSprout, GiFlowerPot, GiBugNet } from "react-icon
         <div className="ba-hse-card1">
           <div className="card-body">
             <div className="ba-hse-header">
-              <h1 className="mb-0 text-center doz-arts">Bachelor of Science in Agriculture (B.Sc. Agri)</h1>
+              <h1 className="mb-5 text-center doz-arts">Bachelor of Science in Agriculture (B.Sc. Agri)</h1>
               <h4 className="mb-0 doz-over">Overview:</h4>
               <p className="ba-hse-para">
                 The Bachelor of Science in Agriculture (B.Sc. Agri) is a <strong>four-year undergraduate program</strong> that combines agricultural sciences with modern technology. The course provides deep knowledge of <strong>crop production, soil science, irrigation, pest control, horticulture, and agri-business management</strong>. At Ghanshyam Group, the program is designed to address challenges such as <strong>food security, sustainability, and rural development</strong>.

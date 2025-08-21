@@ -20,7 +20,7 @@
             <div className="ba-hse-card1">
               <div className="card-body">
                 <div className="ba-hse-header">
-                  <h1 className="mb-0 text-center doz-arts">Master of Arts (M.A.)</h1>
+                  <h1 className="mb-5 text-center doz-arts">Master of Arts (M.A.)</h1>
                   <h4 className="mb-0 doz-over">Overview:</h4>
                   <p className="ba-hse-para">
                     The Master of Arts (M.A.) is a <strong>two-year postgraduate degree</strong> in the humanities and social sciences that develops advanced understanding of literature, language, history, politics, and philosophy. 

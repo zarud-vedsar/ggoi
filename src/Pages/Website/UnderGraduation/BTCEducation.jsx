@@ -20,7 +20,7 @@
             <div className="ba-hse-card1">
               <div className="card-body">
                 <div className="ba-hse-header">
-                  <h1 className="mb-0 text-center doz-arts">Diploma in Elementary Education (D.El.Ed. / BTC)</h1>
+                  <h1 className="mb-5 text-center doz-arts">Diploma in Elementary Education (D.El.Ed. / BTC)</h1>
                   <h4 className="mb-0 doz-over">Overview:</h4>
                   <p className="ba-hse-para">
                     The Diploma in Elementary Education (D.El.Ed.), popularly known as BTC, is a 

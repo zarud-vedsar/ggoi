@@ -42,7 +42,9 @@ const WebsitePaths = {
   DPharma: lazy(() => import('../Pages/Website/UnderGraduation/DPharma.jsx')),
   ITIElectrician: lazy(() => import('../Pages/Website/UnderGraduation/ITIElectrician.jsx')),
   ITIFitter: lazy(() => import('../Pages/Website/UnderGraduation/ITIFitter.jsx')),
-  ITIElectronicsMechanic: lazy(() => import('../Pages/Website/UnderGraduation/ITIElectronicsMechanic.jsx'))
+  ITIElectronicsMechanic: lazy(() => import('../Pages/Website/UnderGraduation/ITIElectronicsMechanic.jsx')),
+  ITIDressMaking: lazy(() => import('../Pages/Website/UnderGraduation/ITIDressMaking.jsx')),
+  ITIDieselMechanic: lazy(() => import('../Pages/Website/UnderGraduation/ITIDieselMechanic.jsx'))
 };
 
 function Website() {
@@ -110,6 +112,8 @@ function Website() {
         <Route path="/ITI-electrician" element={<WebsitePaths.ITIElectrician />} />
         <Route path="/ITI-fitter" element={<WebsitePaths.ITIFitter />} />
         <Route path="/ITI-electronics-mechanic" element={<WebsitePaths.ITIElectronicsMechanic />} />
+        <Route path="/ITI-dress-making" element={<WebsitePaths.ITIDressMaking />} />
+        <Route path="/ITI-diesel-mechanic" element={<WebsitePaths.ITIDieselMechanic />} />
       </Routes>
       <ToastContainer />
     </Suspense>
