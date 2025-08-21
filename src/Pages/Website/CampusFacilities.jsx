@@ -73,7 +73,7 @@ const CampusFacilities = () => {
                     </div>
 
                 </div>
-                <div className='row'>
+                <div className='row d-flex flex-wrap justify-content-center'>
                     {list?.map((item, index) => (
                         <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4" key={index}  data-aos="fade-up" data-aos-delay="300">
                             <div className="am-card text-center">

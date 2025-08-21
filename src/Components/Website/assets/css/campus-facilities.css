@@ -1,13 +1,19 @@
-.campus-facilities-section .am-card{
+.campus-facilities-section .am-card img {
+    height: 70px;
+    width: auto;
+}
+
+.campus-facilities-section .am-card .title {
+    color: #000;
+}
+
+.campus-facilities-section .am-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.campus-facilities-section .am-card img{
-    height: 70px;
-    width: auto;
-}
-.campus-facilities-section .am-card .title{
-    color: #000;
+    background: #fff;
+    padding: 15px;
+    min-height: 238px;
+    border-radius: 33px;
 }

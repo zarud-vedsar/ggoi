@@ -1,14 +1,14 @@
 .our-affiliation-section .am-card {
-
-
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background: #fff;
     padding: 10px;
     height: 100%;
     border-radius: 8px;
+}
+.our-affiliation-section .am-card p{
+    font-weight: 500;
 }
 
 .our-affiliation-section .am-card img {
