@@ -18,8 +18,7 @@ const OurAffiliations = () => {
                         <div className="col-lg-3 col-md-4 col-6  mb-4" key={index}  data-aos="fade-up" data-aos-delay="300">
                             <div className="am-card text-center">
                                 <img src={item.img} alt={item.title} className="mb-4" />
-                                <p className="title am-f18 mb-2">{item.title}</p>
-                                <p className="para am-f16">{item.desc}</p>
+                                <p className="title am-f16 mb-2">{item.title}</p>
                             </div>
                         </div>
                     ))}
