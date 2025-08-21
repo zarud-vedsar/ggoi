@@ -1,15 +1,12 @@
-
-
 .our-affiliation-section .card {
-
-
-   
     width: 300px;
     height: 200px;
 }
- .view-site-btn{
-width: 120px;
 
+.view-site-btn {
+    width: 120px;
+    background-color: #25376e;
+    border-color: #25376e;
 }
 
 .our-affiliation-section .card img {
