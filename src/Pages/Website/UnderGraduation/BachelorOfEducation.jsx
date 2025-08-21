@@ -20,7 +20,7 @@ function BEd() {
         <div className="ba-hse-card1">
           <div className="card-body">
             <div className="ba-hse-header">
-              <h1 className="mb-3 text-center doz-arts">Bachelor of Education (B.Ed.)</h1>
+              <h1 className="mb-5 text-center doz-arts">Bachelor of Education (B.Ed.)</h1>
               <h4 className="mb-0 doz-over">Overview:</h4>
               <p className="ba-hse-para">
                 The Bachelor of Education (B.Ed.) is a <strong>two-year professional program</strong> designed to prepare students for teaching and educational leadership roles. At Ghanshyam Group of Institutions, the B.Ed. course integrates <strong>pedagogical theories, educational psychology, curriculum planning, and practical teaching experience</strong>, enabling aspiring teachers to shape the future of young learners.

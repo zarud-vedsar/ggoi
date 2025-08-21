@@ -21,7 +21,7 @@ import {
         <div className="ba-hse-card1">
           <div className="card-body">
             <div className="ba-hse-header">
-              <h1 className="mb-3 text-center doz-arts">Bachelor of Computer Applications (B.C.A.)</h1>
+              <h1 className="mb-5 text-center doz-arts">Bachelor of Computer Applications (B.C.A.)</h1>
               <h4 className="mb-0 doz-over">Overview:</h4>
               <p className="ba-hse-para">
                 The Bachelor of Computer Applications (B.C.A.) is a <strong>three-year undergraduate program</strong> designed for students who want to build a career in computer science, software development, and information technology. At Ghanshyam Group of Institutions, the B.C.A. program blends <strong>theory with practice</strong>, ensuring that students not only learn programming concepts but also apply them in real-world scenarios. With the growing demand for IT professionals in India and abroad, this program prepares students to be <strong>future-ready</strong>.

@@ -21,7 +21,7 @@ import {
         <div className="ba-hse-card1">
           <div className="card-body">
             <div className="ba-hse-header">
-              <h1 className="mb-3 text-center doz-arts">Bachelor of Science in Biotechnology (B.Sc. Biotech)</h1>
+              <h1 className="mb-5 text-center doz-arts">Bachelor of Science in Biotechnology (B.Sc. Biotech)</h1>
               <h4 className="mb-0 doz-over">Overview:</h4>
               <p className="ba-hse-para">
                 The Bachelor of Science in Biotechnology (B.Sc. Biotech) is a <strong>three-year undergraduate program</strong> that blends biology and technology to create solutions for healthcare, agriculture, environment, and industry. At Ghanshyam Group of Institutions, this program is designed to provide students with <strong>in-depth theoretical knowledge and practical skills</strong> in molecular biology, genetics, biochemistry, and applied biotechnology. It prepares students for <strong>advanced research, higher education, or professional careers</strong> in diverse and fast-growing biotech sectors.

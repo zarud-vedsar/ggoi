@@ -19,7 +19,7 @@
         <div className="ba-hse-card1">
           <div className="card-body">
             <div className="ba-hse-header">
-              <h1 className="mb-3 text-center doz-arts">Bachelor of Physical Education (B.P.Ed.)</h1>
+              <h1 className="mb-5 text-center doz-arts">Bachelor of Physical Education (B.P.Ed.)</h1>
               <h4 className="mb-0 doz-over">Overview:</h4>
               <p className="ba-hse-para">
                 The Bachelor of Physical Education (B.P.Ed.) is a <strong>two-year undergraduate professional program</strong> that trains students in sports sciences, fitness, and education. At Ghanshyam Group, the course blends <strong>theory, physical training, and practical coaching</strong>, preparing students for careers in physical education, sports management, and health sciences.

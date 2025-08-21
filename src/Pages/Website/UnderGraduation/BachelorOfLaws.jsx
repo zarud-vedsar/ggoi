@@ -20,7 +20,7 @@ import {
         <div className="ba-hse-card1">
           <div className="card-body">
             <div className="ba-hse-header">
-              <h1 className="mb-3 text-center doz-arts">Bachelor of Laws (LLB)</h1>
+              <h1 className="mb-5 text-center doz-arts">Bachelor of Laws (LLB)</h1>
               <h4 className="mb-0 doz-over">Overview:</h4>
               <p className="ba-hse-para">
                 The Bachelor of Laws (LLB) is a <strong>three-year professional degree program</strong> that equips students with a comprehensive understanding of the legal system, judicial processes, and the role of law in society. At Ghanshyam Group of Institutions, the LLB program blends <strong>rigorous theoretical learning with hands-on training</strong>, ensuring students become competent legal professionals. The course covers diverse areas of law including <strong>constitutional law, criminal law, civil law, family law, property law, and international law</strong>, along with opportunities to practice through moot courts, internships, and legal aid clinics.
