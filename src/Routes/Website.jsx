@@ -14,6 +14,7 @@ import '../Components/Website/assets/css/am-style.css';
 import Navbar from '../Components/Website/Navbar.jsx';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Loader from '../Components/common/Loader.jsx';
 // Lazy load website pages
 const WebsitePaths = {
   Home: lazy(() => import('../Pages/Website/Home')),
@@ -60,7 +61,7 @@ function Website() {
     });
   }, []);
   return (
-    <Suspense fallback={<div>Loading Website...</div>}>
+    <Suspense fallback={<div><Loader/></div>}>
       <Navbar />
 
       <Routes>

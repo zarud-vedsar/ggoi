@@ -8,16 +8,16 @@ import arrowIcon from '../../Components/Website/assets/img/arrow.svg';
 import { FaArrowRight } from "react-icons/fa6";
 
 const InstitutesList = () => {
-    const [modifyCursor, setModifyCursor] = useState(false);
-    const [pos, setPos] = useState({ x: 0, y: 0 });
+    // const [modifyCursor, setModifyCursor] = useState(false);
+    // const [pos, setPos] = useState({ x: 0, y: 0 });
 
-    useEffect(() => {
-        const moveHandler = e => {
-            setPos({ x: e.clientX, y: e.clientY });
-        };
-        window.addEventListener("mousemove", moveHandler);
-        return () => window.removeEventListener("mousemove", moveHandler);
-    }, []);
+    // useEffect(() => {
+    //     const moveHandler = e => {
+    //         setPos({ x: e.clientX, y: e.clientY });
+    //     };
+    //     window.addEventListener("mousemove", moveHandler);
+    //     return () => window.removeEventListener("mousemove", moveHandler);
+    // }, []);
 
     return (
         <section
@@ -61,7 +61,7 @@ const InstitutesList = () => {
                 </div>
             </div>
 
-            {modifyCursor && (
+            {/* {modifyCursor && (
                 <div
                     className="cursor-circle d-none d-md-block"
                     style={{
@@ -69,7 +69,7 @@ const InstitutesList = () => {
                         top: `${pos.y}px`
                     }}
                 />
-            )}
+            )} */}
         </section>
     );
 };

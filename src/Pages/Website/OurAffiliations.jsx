@@ -1,43 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../../Components/Website/assets/css/our-affiliation.css';
-import aktuLogo from '../../Components/Website/assets/img/aktulogo.png';
-import govUpLogo from '../../Components/Website/assets/img/govuplogo.svg';
-import pciLogo from '../../Components/Website/assets/img/pcoilogo.png';
-import rsuLogo from '../../Components/Website/assets/img/rsu.png';
-import bciLogo from '../../Components/Website/assets/img/bci.png';
-import ncteLogo from '../../Components/Website/assets/img/ncte.png';
-import scertLogo from '../../Components/Website/assets/img/scert.png';
+import { affiliationData } from "../../Components/Website/AffilationData";
 const OurAffiliations = () => {
-    const list = [
-    {
-        title: "Dr. A.P.J. Abdul Kalam Technical University",
-        img: aktuLogo,
-    },
-    {
-        title: "Government of Uttar Pradesh",
-        img: govUpLogo,
-    },
-    {
-        title: "Pharmacy Council of India",
-        img: pciLogo,
-    },
-    {
-        title: "Prof. Rajendra Singh (Rajju Bhaiya) University",
-        img: rsuLogo,
-    },
-    {
-        title: "Bar Council of India",
-        img: bciLogo,
-    },
-    {
-        title: "National Council for Teacher Education",
-        img: ncteLogo,
-    },
-    {
-        title: "State Council of Educational Research and Training ",
-        img: scertLogo,
-    },
-];
 
     
     return (
@@ -50,7 +14,7 @@ const OurAffiliations = () => {
 
                 </div>
                 <div className='row'>
-                    {list?.map((item, index) => (
+                    {affiliationData?.map((item, index) => (
                         <div className="col-lg-3 col-md-4 col-6  mb-4" key={index}  data-aos="fade-up" data-aos-delay="300">
                             <div className="am-card text-center">
                                 <img src={item.img} alt={item.title} className="mb-4" />

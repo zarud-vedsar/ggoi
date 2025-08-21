@@ -1,0 +1,27 @@
+.visit-site-btn {
+    position: absolute;
+    right: 7.5px;
+    bottom: -60px;
+}
+@media only screen and (max-width: 768px) {
+    .visit-site-btn {
+        bottom: -31px;
+    }
+}
+
+.our-affiliation-section .card {
+
+
+   
+    width: 300px;
+    height: 200px;
+}
+
+.our-affiliation-section .card img {
+    height: 90px;
+    width: auto;
+}
+
+.our-affiliation-section .card .title {
+    color: #000;
+}

@@ -1,5 +1,6 @@
 import React, { lazy, Suspense } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
+import Loader from './Components/common/Loader.jsx';
 
 // Lazy load main route components
 const PATHS = {
@@ -12,7 +13,7 @@ function App() {
    
   return (
     // Wrap with Suspense to show fallback while lazy components load
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<div><Loader/></div>}>
       <Routes  >
         {/* Admin route (catch all nested under /admin/) */}
         <Route path="/admin/*" element={<PATHS.AdminRoute />} />
