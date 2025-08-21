@@ -34,7 +34,7 @@ const CollegeDetailPage = () => {
                             <div>
                                 <p className='am-f30 text-dark fw-bolder mb-0  lh-sm'>{collegeDetail?.name}</p>
                                 <div className='contact-detail-inline-block'>
-                                    <p className="am-f16 mb-1">
+                                    <p className="am-f16 mb-1 mx-0">
                                         <MdLocationOn className="me-2" />
                                         {collegeDetail?.address}
                                     </p>
@@ -94,7 +94,7 @@ const CollegeDetailPage = () => {
                 </div>
 
             </section>
-            <section>
+            <section className='py-5'>
                 <div className="container">
                     <div className='row' data-aos="fade-up" data-aos-delay="200">
                         <div className='col-12'>
