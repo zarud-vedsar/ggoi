@@ -112,7 +112,7 @@ const ContactUs = () => {
         <div className="container">
           <div className="row">
             <div className="col-12" data-aos="fade-up" data-aos-delay="200">
-              <h2 className="text-center mb-5">General Contact Information</h2>
+              <h2 className="text-center mb-5 section-heading"> Contact Information</h2>
             </div>
           </div>
 

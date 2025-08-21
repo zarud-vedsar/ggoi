@@ -1,11 +1,11 @@
-import collegeImg from '../../Components/Website/assets/img/collegeImg.jpg';
-
+import collegeImg from './assets/img/collegeImg.jpg';
+import upardahaDegreeCollege from './assets/img/upardaha-degree-college.avif';
 export const collegeData = {
 
   "ghanshyam-urvashi-mahavidyalya": {
     id: "ghanshyam-urvashi-mahavidyalya",
     name: "Ghanshyam Urvashi Mahavidyalya",
-    description: "",
+    description: "Ghanshyam Urvashi Mahavidyalya is one of the flagship institutions of Ghanshyam Group  of Institutions, committed to academic excellence and holistic development. Located in  Baudai, Phoolpur, Prayagraj, the college provides quality higher education in Arts, Science,  Commerce, Computer Science, and Agriculture. With modern infrastructure, ICT-enabled  classrooms, science and computer laboratories, and a resource-rich library, the institution  creates an environment conducive to learning and innovation.  The college emphasizes both traditional and modern learning methods. Seminars,  workshops, cultural events, and career counseling sessions are regularly organized to  promote intellectual and personal growth. A strong alumni base, active placement support,  and focus on competitive exam preparation make it a hub for aspiring professionals and  researchers.",
     img: collegeImg,
     address: "Baudai, Phoolpur Prayagraj",
     link: "ghanshyam-urvashi-mahavidyalya",
@@ -16,7 +16,7 @@ export const collegeData = {
   "ghanshyam-urvashi-vidhi-mahavidyalya": {
     id: "ghanshyam-urvashi-vidhi-mahavidyalya",
     name: "Ghanshyam Urvashi Vidhi Mahavidyalya",
-    description: "",
+    description: "Ghanshyam Urvashi Vidhi Mahavidyalya was founded with the mission of producing  competent legal professionals who can serve society with justice and integrity. Situated in  Baudai, Phoolpur, Prayagraj, the college provides excellent facilities for law education,  including a moot court hall, legal aid clinics, and experienced faculty with practical expertise.  The curriculum is designed to equip students with knowledge of constitutional law, criminal  law, civil law, and international law while also instilling advocacy and research skills. Regular  moot courts, guest lectures by judges and advocates, and internships in law firms and NGOs  provide practical exposure. ",
     img: collegeImg,
     address: "Baudai, Phoolpur Prayagraj ",
     link: "ghanshyam-urvashi-vidhi-mahavidyalya",
@@ -26,7 +26,7 @@ export const collegeData = {
    "ghanhyam-urvashi-audhyogik-prashikshan-kendra": {
     id: "ghanhyam-urvashi-audhyogik-prashikshan-kendra",
     name: "Ghanhyam Urvashi Audhyogik Prashikshan Kendra (ITI)",
-    description: "",
+    description: "This ITI institute under Ghanshyam Group is dedicated to vocational and technical training,  providing job-oriented programs that directly connect students with industrial and technical  careers. Located in Baudai, Phoolpur, Prayagraj, the ITI center is equipped with modern  workshops, tools, and machines to ensure hands-on training.  The programs focus on developing practical skills in mechanical, electrical, and industrial  domains. By combining theory with intensive workshop practice, the institution prepares  students to meet the growing demand for skilled technicians in both government and private  industries. ",
     img: collegeImg,
     address: "Baudai, Phoolpur Prayagraj",
     link: "ghanhyam-urvashi-audhyogik-prashikshan-kendra",
@@ -36,7 +36,7 @@ export const collegeData = {
    "sri-sai-ram-b-ed-College": {
     id: "sri-sai-ram-b-ed-College",
     name: "Sri Sai Ram B.Ed. College",
-    description: "",
+    description: "Sri Sai Ram B.Ed. College is a reputed teacher training institution that aims to nurture the  next generation of educators. Located in Baudai, Phoolpur, Prayagraj, the college  emphasizes academic rigor combined with practical teaching experience.  The college provides modern teaching-learning facilities, including psychology labs,  language labs, and ICT-enabled classrooms. Students undergo intensive teaching practice  in schools to gain real-world classroom experience. The institution stresses values, ethics,  and leadership to prepare teachers who can contribute meaningfully to society. ",
     img: collegeImg,
     address: "Baudai, Phoolpur Prayagraj",
     link: "sri-sai-ram-b-ed-College",
@@ -46,7 +46,7 @@ export const collegeData = {
    "sri-sai-ram-educational-college": {
     id: "sri-sai-ram-educational-college",
     name: "Sri Sai Ram Educational College",
-    description: "",
+    description: "Sri Sai Ram Educational College specializes in elementary teacher education through the  D.El.Ed. program. The college aims to train teachers for primary and upper primary schools  with a focus on child psychology, inclusive education, and innovative pedagogy.  The institution ensures practical exposure through internships, workshops, and interactive  sessions. With a child-centered teaching philosophy, the college produces teachers who are  compassionate, skilled, and effective in shaping young learners. ",
     img: collegeImg,
     address: "Baudai, Phoolpur Prayagraj",
     link: "sri-sai-ram-educational-college",
@@ -56,7 +56,7 @@ export const collegeData = {
    "ghanshyam-urvashi-prashikshan-kendra": {
     id: "ghanshyam-urvashi-prashikshan-kendra",
     name: "Ghanshyam Urvashi Prashikshan Kendra ",
-    description: "",
+    description: "Ghanshyam Urvashi Prashikshan Kendra is another teacher training institute under the  group, focusing on elementary education. The aim is to provide specialized training to  prepare teachers for foundational and basic education in rural and semi-urban areas.  The institution maintains high academic standards with trained faculty, well-structured  curriculum, and continuous assessment methods. The college lays emphasis on ethics,  inclusivity, and child-centered pedagogy. ",
     img: collegeImg,
     address: "Baudai, Phoolpur Prayagraj",
     link: "https://ghanshyamurvashicollegeofpharmacy.com/institute.php?institute_id=14",
@@ -66,7 +66,7 @@ export const collegeData = {
    "ghanshyam-urvashi-college-of-pharmacy": {
     id: "ghanshyam-urvashi-college-of-pharmacy",
     name: "Ghanshyam Urvashi College of Pharmacy ",
-    description: "",
+    description: "Ghanshyam Urvashi College of Pharmacy is a leading institute in pharmaceutical education.  Located in Baudai, Phoolpur, Prayagraj, it provides students with excellent infrastructure  including modern laboratories, drug-testing facilities, and a resourceful library.  The college emphasizes practical training along with theoretical knowledge in  pharmaceutical sciences. Industrial visits, hospital training, and research activities give  students the required exposure for professional growth in the healthcare and pharmaceutical  sectors.",
     img: collegeImg,
     address: "Baudai, Phoolpur Prayagraj",
     link: "https://ghanshyamurvashicollegeofpharmacy.com/",
@@ -76,8 +76,8 @@ export const collegeData = {
    "degree-college-upardaha": {
     id: "degree-college-upardaha",
     name: "Degree College Upardaha ",
-    description: "",
-    img: collegeImg,
+    description: "Degree College Upardaha is a multi-disciplinary higher education institution under the  Ghanshyam Group, situated at Upardaha, Handia, Prayagraj. The college offers programs in  Arts, Science, Commerce, Education, and Physical Education, catering to diverse academic  interests.  With well-equipped laboratories, libraries, sports facilities, and dedicated faculty, the  institution promotes both academic excellence and co-curricular growth. Students are  encouraged to engage in research, cultural activities, and community service. ",
+    img: upardahaDegreeCollege,
     address: "Upardaha Baraut Handia, Prayagraj",
     link: "https://ghanshyamurvashicollegeofpharmacy.com/institute.php?institute_id=10",
     courses: "B.A., B.Sc., B.Com., B.C.A. (3 year), M.A., M.Sc., M.Com. (2 year), B.Ed., B.P.Ed. (2 year), D.EL.Ed. (BTC) (2 year) ",
@@ -86,7 +86,7 @@ export const collegeData = {
    "sri-sai-ram-law-college": {
     id: "sri-sai-ram-law-college",
     name: "Sri Sai Ram Law College",
-    description: "",
+    description: "Sri Sai Ram Law College is a center of legal education that combines academic study with  practical training. Located in Upardaha, Handia, Prayagraj, the college is known for  producing competent and ethical legal professionals.  The institution provides moot court practices, legal aid clinics, seminars, and interactions  with senior advocates and judges. The goal is to instill legal knowledge along with values of  justice and social responsibility. ",
     img: collegeImg,
     address: "Upardaha Baraut Handia, Prayagraj",
     link: "sri-sai-ram-law-college",
@@ -96,7 +96,7 @@ export const collegeData = {
    "sri-sai-ram-audhyogik-prashikshan-kendra": {
     id: "sri-sai-ram-audhyogik-prashikshan-kendra",
     name: "Sri Sai Ram Audhyogik Prashikshan Kendra",
-    description: "",
+    description: "This ITI center focuses on providing skill-based, job-oriented vocational training programs. Located in Upardaha, Handia, Prayagraj, the institution is equipped with industry-standard workshops, machines, and tools to ensure practical exposure. The ITI programs here are aligned with industry needs, providing students with opportunities in technical and industrial sectors. The college places emphasis on employability, self-employment, and entrepreneurship.  ",
     img: collegeImg,
     address: "Upardaha Baraut Handia, Prayagraj",
     link: "sri-sai-ram-audhyogik-prashikshan-kendra",
@@ -106,7 +106,7 @@ export const collegeData = {
    "sri-sai-ram-pharmacy": {
     id: "sri-sai-ram-pharmacy",
     name: "Sri Sai Ram Pharmacy",
-    description: "",
+    description: "Sri Sai Ram Pharmacy is a professional college dedicated to pharmaceutical education and  research. Situated at Upardaha, Handia, Prayagraj, the institution is recognized for its  excellent infrastructure and industry-relevant training.  The curriculum balances classroom teaching with practical sessions, industrial visits, and  hospital training. Students are equipped with the knowledge and skills required for careers in  the pharmaceutical and healthcare industries.",
     img: collegeImg,
     address: "Upardaha Baraut Handia, Prayagraj",
     link: "https://www.sscop.co.in/",
@@ -116,7 +116,7 @@ export const collegeData = {
    "ghanshyam-college-of-pharmacy": {
     id: "ghanshyam-college-of-pharmacy",
     name: "Ghanshyam College of Pharmacy",
-    description: "Specializes in pharmaceutical education, offering Diploma and Degree programs in Pharmacy approved by PCI. The college emphasizes practical learning in state-of-the-art laboratories, research initiatives, and industrial exposure to meet healthcare and pharmaceutical industry demands.",
+    description: "Ghanshyam College of Pharmacy is a reputed institution located at Mungra Badshahpur,  Jaunpur, and is part of the Ghanshyam Group of Institutions. The college aims to provide  advanced pharmaceutical education through a combination of theory, practical exposure,  and research opportunities.  With modern labs, experienced faculty, and tie-ups with industries, the college prepares  students for professional success in the fields of pharmacy, healthcare, and research. The  focus is on innovation, ethics, and service to society. ",
     img: collegeImg,
     address: "Mungra Badshahpur, Jaunpur",
     link: "https://ghanshyamcollegeofpharmacy.com/",

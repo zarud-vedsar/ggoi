@@ -30,7 +30,7 @@ const InstitutesList = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12" data-aos="fade-up" data-aos-delay="200">
-                        <h2 className="mb-5 text-dark text-center">Institutes Under Ghanshyam Group</h2>
+                        <h2 className="mb-5  text-center section-heading">Our Institutes</h2>
                     </div>
 
                     {Object.values(collegeData).map((logo, index) => (
@@ -43,6 +43,7 @@ const InstitutesList = () => {
                                             src={logo.img}
                                             alt={`Logo ${index + 1}`}
                                             className="object-contain mx-auto m-0 p-0"
+                                            style={{height:"200px"}}
                                         />
                                         <div className="view-more-btn d-flex align-items-center justify-content-center">
                                             
