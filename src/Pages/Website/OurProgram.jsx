@@ -320,7 +320,7 @@ function OurProgram() {
                                        </Link>
                                     </div>
                                     <div className="col-lg-4 col-md-4 col-sm-12 col-12">
-                                       <Link to={'/ITI-diesel-mechanic'}>
+                                       <Link to={'/ITI-diesel-mechanic  '}>
                                        <div className="card doz-our-car">
                                           <div className="card-body">
                                              <div className="doz-our-icon7 doz-PG">
