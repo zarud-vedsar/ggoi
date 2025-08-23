@@ -7,9 +7,24 @@ import { MdLocationOn } from "react-icons/md";
 import { FaLocationArrow } from "react-icons/fa6";
 import { FaGraduationCap } from "react-icons/fa6";
 import '../../Components/Website/assets/css/college-page-details.css';
+import "../../Components/Website/assets/css/our_programs.css";
+
 import { affiliationData } from "../../Components/Website/AffilationData";
+import { courses } from "../../Components/Website/CoursesData";
 import { Link } from 'react-router-dom'
 import { IoCall } from "react-icons/io5";
+import * as FaIcons from "react-icons/fa";
+import * as MdIcons from "react-icons/md";
+import * as GiIcons from "react-icons/gi";
+
+const getIconComponent = (iconName) => {
+    return (
+        FaIcons[iconName] ||
+        MdIcons[iconName] ||
+        GiIcons[iconName] ||
+        FaIcons.FaBookOpen
+    );
+};
 
 const CollegeDetailPage = () => {
     const { collegeId } = useParams();
@@ -40,7 +55,7 @@ const CollegeDetailPage = () => {
                                     </p>
                                     {collegeDetail?.phone?.[0] && (
                                         <a href={`tel:+91${collegeDetail.phone[0]}`} className=' am-f16'>
-                                        <IoCall className='me-2'/>    +91 {collegeDetail.phone[0]}
+                                            <IoCall className='me-2' />    +91 {collegeDetail.phone[0]}
                                         </a>
                                     )}
                                 </div>
@@ -65,6 +80,42 @@ const CollegeDetailPage = () => {
                 </div>
             </section>
 
+            <section className="py-5 " style={{ backgroundColor: "#f5f5f5" }}>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12" data-aos="fade-up" data-aos-delay="200">
+                            <h2 className="mb-5 text-center section-heading"> Courses Offered</h2>
+                        </div>
+                    </div>
+                    <div className="row d-flex flex-wrap justify-content-center" data-aos="fade-up"
+                        data-aos-delay="200">
+                        {courses?.map((item, index) => (
+                            collegeDetail?.courses.includes(item.id) && (
+                                <div className="col-12 col-sm-6 col-md-4" key={index}>
+                                    <Link to={item?.link}>
+                                        <div className="card doz-our-car">
+                                            <div className="card-body">
+                                                <div className="doz-our-ico-sec2" style={{ backgroundColor: item?.iconBgColor }}>
+                                                    {
+                                                        (() => {
+                                                            const Icon = getIconComponent(item.icon);
+                                                            return <Icon style={{ fontSize: "20px", color: item?.iconColor, flexShrink: "0" }} />;
+                                                        })()
+                                                    }
+                                                </div>
+                                                <h5 className="doz-our-head">{item.name}</h5>
+                                                <p>{item.year}</p>
+                                            </div>
+                                        </div>
+                                    </Link>
+                                </div>
+                            )
+                        ))}
+                    </div>
+
+                </div>
+
+            </section>
             <section className="py-5 our-affiliation-section bg-light">
                 <div className="container">
                     <div className="row">
@@ -83,7 +134,6 @@ const CollegeDetailPage = () => {
                                         <div className='card-body align-items-center d-flex flex-column justify-content-center'>
                                             <img src={item.img} alt={item.title} className="mb-4 img" />
                                             <p className="title am-f18 mb-2">{item.title}</p>
-                                            <p className="para am-f16">{item.desc}</p>
                                         </div>
                                     </div>
                                 </Link>
