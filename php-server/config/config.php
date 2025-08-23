@@ -410,16 +410,16 @@ class Database
     public function getEmailHost()
     {
 
-        $emailsetting = $this->sql("SELECT * FROM " . $this->getTable(4));
+        // $emailsetting = $this->sql("SELECT * FROM " . $this->getTable(4));
 
         return [
-            'email' => @$emailsetting[0]['email'],
-            'password' => @$emailsetting[0]['password'],
-            'host' => @$emailsetting[0]['mail_host'],
-            'port' => @$emailsetting[0]['port_no'],
-            'encryption' => @$emailsetting[0]['encryption'],
-            'sender' => @$emailsetting[0]['sender_email'],
-            'senderName' => @$emailsetting[0]['sender_name'],
+            'email' => "shubhamkushwaha.vedsar@gmail.com",
+            'password' => 'nsilrszvsuhtgupz',
+            'host' => 'smtp.gmail.com',
+            'port' => '587',
+            'encryption' => 'tls',
+            'sender' => 'shubhamkushwaha.vedsar@gmail.com',
+            'senderName' => 'Ghanshyam Group of Institutions',
         ];
     }
 
