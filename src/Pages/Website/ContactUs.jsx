@@ -98,7 +98,6 @@ const ContactUs = () => {
       toast.success("Form submitted successfully!");
       setFormData({ ...initializeFormData });
     } catch (e) {
-      console.log(e)
       toast.error("Submission failed. Please check your connection.");
     } finally {
       setIsSubmit(false);
