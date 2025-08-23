@@ -1,6 +1,6 @@
 <?php
 
-require_once("../config/proxy.php");
+require_once("../config/Proxy.php");
 
 
 function contact_submit($mail)
@@ -45,7 +45,7 @@ function contact_submit($mail)
     try {
         $emailsent = $action->custom->send_mail(
             $mail,
-            "sbmksh@gmail.com",
+            "ghanshyamurvashi@gmail.com",
             $description,
             $subject,
             $emailConfig['email'],
