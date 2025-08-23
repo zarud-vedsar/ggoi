@@ -40,7 +40,7 @@ const CollegeDetailPage = () => {
                                     </p>
                                     {collegeDetail?.phone?.[0] && (
                                         <a href={`tel:+91${collegeDetail.phone[0]}`} className=' am-f16'>
-                                        <IoCall className='me-2'/>    {collegeDetail.phone[0]}
+                                        <IoCall className='me-2'/>    +91 {collegeDetail.phone[0]}
                                         </a>
                                     )}
                                 </div>
