@@ -87,26 +87,17 @@ const ContactUs = () => {
     try {
       const response = await fetch(`${PHP_API_URL}/webrequest.php`, {
         method: 'POST',
-         headers: {
-          'Content-Type': 'multipart/form-data'
-        },
         body: sendFormData,
       });
-
-      console.log(`${PHP_API_URL}/webrequest.php`, response);
-
       if (!response.ok) {
         const errorData = await response.json();
-        console.error("Server error:", errorData);
         setIsSubmit(false);
         return toast.error("Submission failed. Please try again.");
       }
-
       const result = await response.json();
       toast.success("Form submitted successfully!");
       setFormData({ ...initializeFormData });
     } catch (e) {
-      console.error(e);
       toast.error("Submission failed. Please check your connection.");
     } finally {
       setIsSubmit(false);
