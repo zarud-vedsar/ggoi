@@ -72,7 +72,6 @@ const CollegeDetailPage = () => {
 
 
                             <p className='text-justify '>{collegeDetail?.description}</p>
-                            <p className='d-inline'> <FaGraduationCap className='me-3 am-f30' /></p> <p className=' mb-2 d-inline'><strong>Courses Offered :</strong> {collegeDetail?.courses}</p>
 
                         </div>
                     </div>
