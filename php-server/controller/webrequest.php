@@ -6,55 +6,68 @@ require_once("../config/proxy.php");
 function contact_submit($mail)
 {
     global $action;
+    $name = $action->db->setPostRequiredField('name',"Name is required");
     $email = $action->db->setPostRequiredField('email',"Email is required");
+    $subject = $action->db->setPostRequiredField('subject',"Subject is required");
+    $message = $action->db->setPostRequiredField('message',"Message is required");
+    $phone = $action->db->setPostRequiredField('phone',"Phone Number is required");
     
-    $user = $action->adminGet->get_table_data(1, ['email' => $email], null, " `email`, `id` ");
-    if ($user) {
-        $otp = mt_rand(100000, 999999);
-        $description = "OTP To varify your Mail is  " . $otp;
-        $subject = "OTP For Reset Your Password";
+        
+    $description = "
+        <h2>New Contact Form Submission</h2>
+        <table style='border-collapse:collapse; width:100%;'>
+            <tr>
+                <td style='padding:8px; border:1px solid #ddd;'><strong>Name:</strong></td>
+                <td style='padding:8px; border:1px solid #ddd;'>$name</td>
+            </tr>
+            <tr>
+                <td style='padding:8px; border:1px solid #ddd;'><strong>Email:</strong></td>
+                <td style='padding:8px; border:1px solid #ddd;'>$email</td>
+            </tr>
+            <tr>
+                <td style='padding:8px; border:1px solid #ddd;'><strong>Phone:</strong></td>
+                <td style='padding:8px; border:1px solid #ddd;'>$phone</td>
+            </tr>
+            <tr>
+                <td style='padding:8px; border:1px solid #ddd;'><strong>Subject:</strong></td>
+                <td style='padding:8px; border:1px solid #ddd;'>$subject</td>
+            </tr>
+            <tr>
+                <td style='padding:8px; border:1px solid #ddd;'><strong>Message:</strong></td>
+                <td style='padding:8px; border:1px solid #ddd;'>".nl2br(htmlspecialchars($message))."</td>
+            </tr>
+        </table>
+        <p style='color:#888; font-size:12px;'>This message was sent from the website contact form.</p>
+    ";
+    $subject = "Contact Form Submission";
 
-        $emailConfig = $action->db->getEmailHost();
-        try {
-            $emailsent = $action->custom->send_mail(
-                $mail,
-                $email,
-                $description,
-                $subject,
-                $emailConfig['email'],
-                $emailConfig['password'],
-                $emailConfig['host'],
-                $emailConfig['port'],
-                $emailConfig['senderName']
-            );
-            if ($emailsent) {
-                $log = [
-                    'userid' => $user[0]['id'],
-                    'user_type' => "Admin",
-                    'table_name' => $action->db->getTable(1),
-                    'row_id' => $user[0]['id'],
-                    'log_type' => "Update",
-                    'log_details' => "Password reset initiated",
-                ];
-                $logset = $action->db->insert($action->db->getTable(11), $log);
-                $currentTime = new DateTime();
-                $currentTime->modify('+5 minutes');
-                $timeFiveMinutesAhead = $currentTime->format('Y-m-d H:i:s');
-                $setotp = $action->db->update($action->db->getTable(1), " id= " . $user[0]['id'], ['otp' => $otp, 'otp_expiry' => $timeFiveMinutesAhead]);
-            }
-            if (($emailsent || $logset) && $setotp) {
-                echo $action->db->json(201, "OTP Sent to Your Email");
-                http_response_code(201);
-                return;
-            }
-        } catch (Exception $e) {
-            echo $action->db->json(400, "Email sending failed: " . $e->getMessage());
+    $emailConfig = $action->db->getEmailHost();
+    try {
+        $emailsent = $action->custom->send_mail(
+            $mail,
+            "sbmksh@gmail.com",
+            $description,
+            $subject,
+            $emailConfig['email'],
+            $emailConfig['password'],
+            $emailConfig['host'],
+            $emailConfig['port'],
+            $emailConfig['senderName']
+        );
+        if ($emailsent) {
+            
+            echo $action->db->json(200, "Your message has been sent successfully.");
             return;
         }
-    } else {
-        echo $action->db->json(400, "Invalid Email is Provided");
-        http_response_code(400);
+        else{
+            echo $action->db->json(500, "Internal Server Error" );
+        return;
+        }
+        
+    } catch (Exception $e) {
+        echo $action->db->json(400, "Email sending failed: " . $e->getMessage());
         return;
     }
+    
 }
 
