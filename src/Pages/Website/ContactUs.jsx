@@ -5,6 +5,8 @@ import { FaMapLocationDot } from "react-icons/fa6";
 import { IoCall } from "react-icons/io5";
 import { IoMdMail } from "react-icons/io";
 import { toast } from 'react-toastify';
+//  const PHP_API_URL = "https://www.ghanshyamgroup.in/php-server/controller";
+const PHP_API_URL = "http://localhost/ggoi/php-server/controller";
 
 const ContactUs = () => {
   const initializeFormData = {
@@ -74,33 +76,42 @@ const ContactUs = () => {
       return setIsSubmit(false);
     }
     setError({ name: "", msg: "" })
+
+    const sendFormData = new FormData();
+    sendFormData.append('name', name);
+    sendFormData.append('email', email);
+    sendFormData.append('subject', subject);
+    sendFormData.append('message', message);
+    sendFormData.append('phone', phone);
+    sendFormData.append('data', 'contact_submit');
     try {
-      const response = await fetch('https://example.com/api/contact', {
+      const response = await fetch(`${PHP_API_URL}/webrequest.php`, {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
+         headers: {
+          'Content-Type': 'multipart/form-data'
         },
-        body: JSON.stringify({ name, email, subject, message, phone }),
+        body: sendFormData,
       });
+
+      console.log(`${PHP_API_URL}/webrequest.php`, response);
 
       if (!response.ok) {
         const errorData = await response.json();
         console.error("Server error:", errorData);
-        return setIsSubmit(false);
+        setIsSubmit(false);
+        return toast.error("Submission failed. Please try again.");
       }
 
       const result = await response.json();
-      toast.error("Form submitted successfully:");
+      toast.success("Form submitted successfully!");
       setFormData({ ...initializeFormData });
+    } catch (e) {
+      console.error(e);
+      toast.error("Submission failed. Please check your connection.");
+    } finally {
       setIsSubmit(false);
     }
-    catch (e) {
-      toast.error("Submission failed")
-    }
-    finally {
 
-      setIsSubmit(false);
-    }
   }
   return (
     <>
