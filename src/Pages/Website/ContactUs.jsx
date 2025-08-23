@@ -5,7 +5,7 @@ import { FaMapLocationDot } from "react-icons/fa6";
 import { IoCall } from "react-icons/io5";
 import { IoMdMail } from "react-icons/io";
 import { toast } from 'react-toastify';
- const PHP_API_URL = "https://www.ghanshyamgroup.in/ggoi/php-server/controller";
+ const PHP_API_URL = "https://www.ghanshyamgroup.in/php-server/controller";
 // const PHP_API_URL = "http://localhost/ggoi/php-server/controller";
 
 const ContactUs = () => {

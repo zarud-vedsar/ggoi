@@ -45,7 +45,7 @@ function contact_submit($mail)
     try {
         $emailsent = $action->custom->send_mail(
             $mail,
-            "sbmksh@gmail.com",
+            "",
             $description,
             $subject,
             $emailConfig['email'],
