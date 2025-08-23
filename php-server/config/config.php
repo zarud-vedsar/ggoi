@@ -413,12 +413,12 @@ class Database
         // $emailsetting = $this->sql("SELECT * FROM " . $this->getTable(4));
 
         return [
-            'email' => "",
-            'password' => '',
+            'email' => "shubhamkushwaha.vedsar@gmail.com",
+            'password' => 'nsilrszvsuhtgupz',
             'host' => 'smtp.gmail.com',
             'port' => '587',
             'encryption' => 'tls',
-            'sender' => '',
+            'sender' => 'shubhamkushwaha.vedsar@gmail.com',
             'senderName' => 'Ghanshyam Group of Institutions',
         ];
     }
